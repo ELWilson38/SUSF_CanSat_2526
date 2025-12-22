@@ -1,0 +1,6 @@
+Default	False	2.0	3
+PWR	False	2.0	3
+QSPI	True	2.0	3
+RS485	False	2.0	3
+USB	False	2.0	3
+False	True	False

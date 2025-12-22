@@ -1,0 +1,235 @@
+(footprint "STS4LAD1BR3"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "4-DFN (1.5x1.5)_2025")
+	(tags "Integrated Circuit")
+	(property "Reference" "REF**"
+		(at 0 -1.9 0)
+		(layer "F.SilkS")
+		(uuid "30d055a2-ffbb-42a4-9a88-04ad2e310c91")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.125)
+			)
+		)
+	)
+	(property "Value" "STS4L-AD1B-R3"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "4bc01d63-7fad-4464-991a-408ff9b36500")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://sensirion.com/media/documents/D2D0B4A9/667AC1F4/HT_DS_Datasheet_STS4x.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1cd01c5f-f093-40ac-9297-f0d1d9d18ff5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Board Mount Temperature Sensor"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3e9afc76-22bd-4d19-89a1-64c2cd79ceb6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" "STS4L-AD1B-R3"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "af339e2e-2b2d-4c2a-bc01-66ca0acaddbb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier Link" "https://uk.farnell.com/sensirion/sts4l-ad1b-r3/temperature-sensor-0-4deg-c-dfn/dp/4551122"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b0a13fc0-4def-40d9-87f2-a3afbd709503")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center -1.3 -0.4)
+		(end -1.3 -0.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "8590fbfc-42f7-4feb-b7d6-3de59f3566b2")
+	)
+	(fp_line
+		(start -1.95 -1.75)
+		(end 1.95 -1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9d81bcc2-c4c7-4a1a-a6e1-d0dbf55e8193")
+	)
+	(fp_line
+		(start -1.95 1.75)
+		(end -1.95 -1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "01117a0a-a6d4-4b67-88f8-a227717e95c0")
+	)
+	(fp_line
+		(start 1.95 -1.75)
+		(end 1.95 1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "15c1db2b-ccda-4342-8029-14b4cf013baf")
+	)
+	(fp_line
+		(start 1.95 1.75)
+		(end -1.95 1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "098e5deb-623c-485d-a619-8e31ddb77238")
+	)
+	(fp_line
+		(start -0.7 -0.7)
+		(end 0.7 -0.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4e8d7f8c-53f6-4737-9705-3657dc8e56c9")
+	)
+	(fp_line
+		(start -0.7 0.7)
+		(end -0.7 -0.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fdffd552-410b-4f0c-9997-058c7716ab04")
+	)
+	(fp_line
+		(start 0.7 -0.7)
+		(end 0.7 0.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "80237f87-63b2-4fec-9b75-10448117694b")
+	)
+	(fp_line
+		(start 0.7 0.7)
+		(end -0.7 0.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "dc18357a-7ec4-4915-97e4-3d7bfe473283")
+	)
+	(fp_circle
+		(center -1.3 -0.4)
+		(end -1.3 -0.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "111805d7-e90b-47fd-8e0a-7370f532d4b7")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "ea18e342-1bec-4017-90f3-c2f55ba1d6c3")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.0625)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.7 -0.4 90)
+		(size 0.3 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "c2eee0b3-fd57-4667-9c14-1e059d8b1ba3")
+	)
+	(pad "2" smd roundrect
+		(at -0.7 0.4 90)
+		(size 0.3 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "3c410549-cb3d-4d83-8c53-deb7a34eca8e")
+	)
+	(pad "3" smd roundrect
+		(at 0.7 0.4 90)
+		(size 0.3 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "4548cbec-611f-44fb-b617-8e50d1e15767")
+	)
+	(pad "4" smd roundrect
+		(at 0.7 -0.4 90)
+		(size 0.3 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "5989c51d-75ca-4b77-a108-3d072ea79c13")
+	)
+	(embedded_fonts no)
+	(model "C:\\Users\\ethan\\OneDrive - University of Southampton\\KiCad_Lib\\SamacSys_Parts.3dshapes\\STS4L-AD1B-R3.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

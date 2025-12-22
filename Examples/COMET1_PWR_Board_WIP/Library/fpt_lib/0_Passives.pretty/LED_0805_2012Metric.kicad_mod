@@ -1,0 +1,251 @@
+(footprint "LED_0805_2012Metric"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
+	(tags "LED")
+	(property "Reference" "REF**"
+		(at 0.0025 -1.65 0)
+		(layer "F.SilkS")
+		(uuid "72b49bc3-c878-4f86-a2c0-211b2292502a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "~"
+		(at 0.0025 1.65 0)
+		(layer "F.Fab")
+		(uuid "53095b0b-bcd1-40e7-b87d-3278df882cbb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "~"
+		(at 0.0025 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1710d67e-7d8c-4cef-a7b9-bfe98034cf28")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0.0025 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8d2bd14c-3c09-4dc5-9841-33e2e98ca69c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" ""
+		(at 0.0025 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b845c7ae-9711-4fed-b8fa-e3ab0c2085d2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier" ""
+		(at 0.0025 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "733cf0db-1910-4b01-b288-477770811600")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier Link" ""
+		(at 0.0025 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ecd04c7c-bc84-4bd3-9589-1bb04eecabda")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.6825 -0.96)
+		(end -1.6825 0.96)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2c4e4619-99df-4f55-9dbe-98713f527d30")
+	)
+	(fp_line
+		(start -1.6825 0.96)
+		(end 1.0025 0.96)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "45278939-f999-46ca-b39b-db748c8c5ba0")
+	)
+	(fp_line
+		(start 1.0025 -0.96)
+		(end -1.6825 -0.96)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6e19ffe6-b1f3-4698-8ade-c77af86a7de0")
+	)
+	(fp_line
+		(start -1.6775 -0.95)
+		(end 1.6825 -0.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fb207108-04a1-469c-98f4-1b60bb9d2519")
+	)
+	(fp_line
+		(start -1.6775 0.95)
+		(end -1.6775 -0.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "50e43f90-adc8-4341-b847-4ce8e14fa805")
+	)
+	(fp_line
+		(start 1.6825 -0.95)
+		(end 1.6825 0.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c0f168b3-6248-4e6c-a0c9-633dcea1eb73")
+	)
+	(fp_line
+		(start 1.6825 0.95)
+		(end -1.6775 0.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "71ea5743-ada0-42bf-89d0-6d94e5c22157")
+	)
+	(fp_line
+		(start -0.9975 -0.3)
+		(end -0.9975 0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d8ff536b-f255-479f-9db8-8ac6ed70b2d1")
+	)
+	(fp_line
+		(start -0.9975 0.6)
+		(end 1.0025 0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ddf1425c-9b47-4011-be38-08b21dc2ff26")
+	)
+	(fp_line
+		(start -0.6975 -0.6)
+		(end -0.9975 -0.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b192cab4-21c8-4dba-81f9-43817be89a43")
+	)
+	(fp_line
+		(start 1.0025 -0.6)
+		(end -0.6975 -0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fff89b68-2e8a-420b-91db-8f6dd503cea5")
+	)
+	(fp_line
+		(start 1.0025 0.6)
+		(end 1.0025 -0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "17e204e3-3330-4207-ae24-23b693e2cd4c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.0025 0 0)
+		(layer "F.Fab")
+		(uuid "74e1a222-f388-4303-90bc-cc212537a290")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.08)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.935 0)
+		(size 0.975 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "599aec3c-5431-4be2-9b8c-7484ddb148d7")
+	)
+	(pad "2" smd roundrect
+		(at 0.94 0)
+		(size 0.975 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "a2a9529c-b32d-4148-8b13-f10f80604a9c")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0805_2012Metric.step"
+		(offset
+			(xyz 0.0025 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

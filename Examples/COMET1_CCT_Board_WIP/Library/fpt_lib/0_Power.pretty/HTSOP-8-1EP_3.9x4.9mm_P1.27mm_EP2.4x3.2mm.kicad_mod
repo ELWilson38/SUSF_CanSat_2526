@@ -1,0 +1,384 @@
+(footprint "HTSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.4x3.2mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "HTSOP, 8 Pin (https://media.digikey.com/pdf/Data%20Sheets/Rohm%20PDFs/BD9G341EFJ.pdf), Alternate KiCad Library")
+	(tags "HTSOP SO")
+	(property "Reference" "REF**"
+		(at -0.05 -4.105 0)
+		(layer "F.SilkS")
+		(uuid "0fb01043-d090-4718-83df-77632a714d29")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "BV1HB180EFJ-CE2"
+		(at 0 3.4 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "751f0257-8385-4f96-a7b5-9591857b261f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.farnell.com/datasheets/4549763.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ef3fb1bf-de77-43db-8604-2b58eba4494b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Power Distribution Switch"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4da47c4f-726e-4fde-9b5a-b7e4d2f72f57")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" "BV1HB180EFJ-CE2"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "56648504-4f47-4253-9466-22c88b556278")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier Link" "https://uk.farnell.com/rohm/bv1hb180efj-ce2/power-load-sw-high-side-28v-htsop/dp/4721182"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ce8c200c-6ec6-486a-b20d-7081512f2a6f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Farnell Part Number" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0c8aab4b-7a43-499e-a87a-9e91bbe5384a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Farnell Price/Stock" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0a451407-f546-4012-9c8d-f072c02ec1ab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "ROHM"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a1b34631-8442-4ebb-bbc7-5be72fa25a29")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "BV1HB180EFJ-CE2"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8f2ee81b-bbfb-4c46-94cd-7ee55582b67d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier_Link" "https://uk.farnell.com/rohm/bv1hb180efj-ce2/power-load-sw-high-side-28v-htsop/dp/4721182"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c0cbebf5-d3f3-4400-a635-8f76aebfdaf7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.15 -2.705)
+		(end 2.15 -2.705)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "054db250-a72a-49a4-b6b3-62affee62d1d")
+	)
+	(fp_line
+		(start -2.15 -2.505)
+		(end -2.15 -2.705)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "541735a3-6dd8-443b-91b0-6dca45e06200")
+	)
+	(fp_line
+		(start -2.15 2.695)
+		(end -2.15 2.495)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "63c3ba62-c2ab-4a95-8159-f03e9de5f291")
+	)
+	(fp_line
+		(start 2.15 -2.705)
+		(end 2.15 -2.505)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5aea17c9-a783-4836-a4d0-f97f20bd1966")
+	)
+	(fp_line
+		(start 2.15 2.495)
+		(end 2.15 2.695)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ff2c6577-11b8-4cdd-9dff-18303fffb577")
+	)
+	(fp_line
+		(start 2.15 2.695)
+		(end -2.15 2.695)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6af58c29-60f7-488d-9786-180afb53c430")
+	)
+	(fp_circle
+		(center -2.65 -2.705)
+		(end -2.65 -2.605)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "d2d4858d-afae-4332-be91-aefe4af31ad4")
+	)
+	(fp_line
+		(start -3.7 -2.7)
+		(end -3.7 2.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7380a52d-9efe-46f2-a2dd-c84f19f31fb0")
+	)
+	(fp_line
+		(start -3.7 2.7)
+		(end 3.7 2.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a16f51bd-8759-4a01-945c-3f751f4604ba")
+	)
+	(fp_line
+		(start 3.7 -2.7)
+		(end -3.7 -2.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c94bfdf7-6aa4-4cc9-bba8-5458aedd29a1")
+	)
+	(fp_line
+		(start 3.7 2.7)
+		(end 3.7 -2.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "82c99e74-1cef-4984-a43c-9bf57f5a7f34")
+	)
+	(fp_poly
+		(pts
+			(xy -2.15 -1.905) (xy -2.15 2.695) (xy 2.15 2.695) (xy 2.15 -2.705) (xy -1.35 -2.705)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "8fdddf69-a764-4a61-9e3d-9e275715f79d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(uuid "edabf816-b8bd-4209-a1ca-559058e73261")
+		(effects
+			(font
+				(size 0.98 0.98)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" smd roundrect
+		(at -0.6 -0.8)
+		(size 0.97 1.29)
+		(layers "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "b1d98b06-c300-48e4-9d18-f2445d6e40d0")
+	)
+	(pad "" smd roundrect
+		(at -0.6 0.8)
+		(size 0.97 1.29)
+		(layers "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "eae06b2a-a732-4fde-8855-8667236d129c")
+	)
+	(pad "" smd roundrect
+		(at 0.6 -0.8)
+		(size 0.97 1.29)
+		(layers "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "791e7233-274e-41ca-ad97-3abc1b2b7f38")
+	)
+	(pad "" smd roundrect
+		(at 0.6 0.8)
+		(size 0.97 1.29)
+		(layers "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "4ef6669e-39ef-439a-86cf-3d4c5f47eb15")
+	)
+	(pad "1" smd roundrect
+		(at -2.65 -1.905)
+		(size 1.6 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "6e57b637-7da3-4495-9e34-ef4033b8b254")
+	)
+	(pad "2" smd roundrect
+		(at -2.65 -0.635)
+		(size 1.6 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "82088fbe-b5e1-4409-8d94-6ea9f6a6a085")
+	)
+	(pad "3" smd roundrect
+		(at -2.65 0.635)
+		(size 1.6 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "0a5fa717-af2f-4c00-8562-8119bc71edf3")
+	)
+	(pad "4" smd roundrect
+		(at -2.65 1.905)
+		(size 1.6 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "14e60326-f364-4257-b3a5-ccc14344077e")
+	)
+	(pad "5" smd roundrect
+		(at 2.65 1.905)
+		(size 1.6 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "83477203-ffd7-4c02-9dfe-eeedb5973e5e")
+	)
+	(pad "6" smd roundrect
+		(at 2.65 0.635)
+		(size 1.6 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "fcd25ed6-a92b-421a-9a5d-f061cd5132e5")
+	)
+	(pad "7" smd roundrect
+		(at 2.65 -0.635)
+		(size 1.6 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "a9a707b3-80c0-4ba8-8faf-7cd7fbeff114")
+	)
+	(pad "8" smd roundrect
+		(at 2.65 -1.905)
+		(size 1.6 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "42c472ac-3165-4573-b881-7ac6d2f56aa1")
+	)
+	(pad "9" smd roundrect
+		(at 0 0)
+		(size 2.4 3.2)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.1041666667)
+		(uuid "2a9a98a5-6b34-4358-9d43-01e1f9b64e46")
+	)
+	(embedded_fonts no)
+	(model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/HTSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.4x3.2mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

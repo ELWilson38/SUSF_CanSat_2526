@@ -1,0 +1,233 @@
+(footprint "502352_0201"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "502352-0201-1")
+	(tags "Connector")
+	(property "Reference" "J**"
+		(at 0 0.525 0)
+		(layer "F.SilkS")
+		(uuid "59205fd3-3528-40d8-b546-9faf287feadb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "502352_0201"
+		(at 0 0.525 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "1b8840df-dae2-4308-87c2-00625bfdf9f6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2fa6c095-2fb5-4df3-ad3a-92aa81e0e8f7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9f265a13-5c02-4955-bb23-d71a338390e4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -4 -4)
+		(end -2.5 -4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ec6a1916-3480-482d-999b-893646a22326")
+	)
+	(fp_line
+		(start -4 -0.5)
+		(end -4 -4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f9e26099-eef5-4c77-98e9-59423cec7d09")
+	)
+	(fp_line
+		(start -2 5.2)
+		(end 2 5.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cb830e14-5fc9-47c3-b269-84f0b47a4a05")
+	)
+	(fp_line
+		(start 4 -4)
+		(end 2.5 -4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "078c55a7-404f-47a3-addf-6e8a82eda826")
+	)
+	(fp_line
+		(start 4 -0.5)
+		(end 4 -4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0095d7b3-28d4-4bb9-b08c-99781013d9d9")
+	)
+	(fp_line
+		(start -5.4 -5.34)
+		(end 5.4 -5.34)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9d624914-0885-4875-87e8-cde09a341116")
+	)
+	(fp_line
+		(start -5.4 6)
+		(end -5.4 -5.34)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "73c4717e-0076-4408-8da1-694b6161d54d")
+	)
+	(fp_line
+		(start 5.4 -5.34)
+		(end 5.4 6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "656b9a0f-8a1e-403e-8962-1cd6398fc0eb")
+	)
+	(fp_line
+		(start 5.4 6)
+		(end -5.4 6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5bcea800-59b0-4107-96ba-fce50ae09342")
+	)
+	(fp_line
+		(start -4 -4)
+		(end 4 -4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ac17130d-7911-45ef-be52-6ee6bd9d5c51")
+	)
+	(fp_line
+		(start -4 5.2)
+		(end -4 -4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "71f3c58d-5972-4f3a-8ee8-1420b7292572")
+	)
+	(fp_line
+		(start 4 -4)
+		(end 4 5.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0d953415-5490-4dd5-afa0-bcc2b055397c")
+	)
+	(fp_line
+		(start 4 5.2)
+		(end -4 5.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1a8713fa-67cf-4429-9d45-51132865b9e6")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0.525 0)
+		(layer "F.Fab")
+		(uuid "c445b9a0-5231-41ad-8aaf-be718944def9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1 -2.74)
+		(size 1.2 3.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d0f881ec-e0fc-4d23-a8ad-160e44801a71")
+	)
+	(pad "2" smd rect
+		(at 1 -2.74)
+		(size 1.2 3.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7dcfbdfd-f622-440e-9766-e08616259227")
+	)
+	(pad "MP1" smd rect
+		(at -3.55 2.74)
+		(size 1.7 5.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "65e6261b-c890-49c7-9cd1-ebc85587940c")
+	)
+	(pad "MP2" smd rect
+		(at 3.55 2.74)
+		(size 1.7 5.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "aaa00aa6-41dd-42b4-842d-7125c3272844")
+	)
+	(embedded_fonts no)
+	(model "C:\\Users\\ethan\\OneDrive - University of Southampton\\KiCad_Lib\\SamacSys_Parts.3dshapes\\502352-0201.stp"
+		(offset
+			(xyz 0 -0.319999988 3.140000058)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -180)
+		)
+	)
+)

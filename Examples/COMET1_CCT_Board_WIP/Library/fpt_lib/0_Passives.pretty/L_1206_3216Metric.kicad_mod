@@ -1,0 +1,192 @@
+(footprint "L_1206_3216Metric"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Inductor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 80, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+	(tags "inductor")
+	(property "Reference" "REF**"
+		(at 0 -1.9 0)
+		(layer "F.SilkS")
+		(uuid "cf167606-3e7a-433b-8ac0-d2ac688dd705")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "12uH"
+		(at 0 1.9 0)
+		(layer "F.Fab")
+		(uuid "ec167ac9-1b64-4f92-8cc9-79bef2ce0c73")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d7d6db52-84fa-465d-b6d6-29abef98b005")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Inductors for Power Circuits, Wound Ferrite, for Automotive"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f50f3b6e-137a-44d2-bd04-f8a44ffccbf4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.835242 -0.91)
+		(end 0.835242 -0.91)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "65a828d5-e09b-4fba-a15b-744273d966d8")
+	)
+	(fp_line
+		(start -0.835242 0.91)
+		(end 0.835242 0.91)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8d763d63-e6f3-45eb-badb-2fdcc7545c83")
+	)
+	(fp_line
+		(start -2.35 -1.2)
+		(end 2.35 -1.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "955331ad-3a7b-4698-ba01-ddff372ea783")
+	)
+	(fp_line
+		(start -2.35 1.2)
+		(end -2.35 -1.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "aa52dbea-1d89-4ebe-8a2e-8033a27279ac")
+	)
+	(fp_line
+		(start 2.35 -1.2)
+		(end 2.35 1.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "106cf859-aff9-447d-bf8a-937e16ae3f13")
+	)
+	(fp_line
+		(start 2.35 1.2)
+		(end -2.35 1.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c21852e5-407c-4220-ad80-7fc2f55b34a8")
+	)
+	(fp_line
+		(start -1.6 -0.8)
+		(end 1.6 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8a17c2c7-be95-420b-b8e9-508df5f27cbd")
+	)
+	(fp_line
+		(start -1.6 0.8)
+		(end -1.6 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8c07d448-e570-49b3-a417-49dfb53c1bea")
+	)
+	(fp_line
+		(start 1.6 -0.8)
+		(end 1.6 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "23a05036-1c2d-46fc-a349-400ecd15c523")
+	)
+	(fp_line
+		(start 1.6 0.8)
+		(end -1.6 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d12979aa-42dd-40f1-ad7f-b4577199204a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "3e4bb2fd-9eb3-4628-a875-80033005b011")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.575 0)
+		(size 1.05 1.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.238095)
+		(uuid "bdf7f6ae-3030-4e8c-b1f5-301d712a66c1")
+	)
+	(pad "2" smd roundrect
+		(at 1.575 0)
+		(size 1.05 1.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.238095)
+		(uuid "abb45b55-8cb6-449c-b752-7d2a26a0eaf6")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_1206_3216Metric.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
