@@ -1779,7 +1779,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Sensor Board Schematic.kicad_sch"
+		(property "Sheetfile" "SubSchematics/Sensor Board Schematic.kicad_sch"
 			(at 299.72 318.0846 0)
 			(effects
 				(font

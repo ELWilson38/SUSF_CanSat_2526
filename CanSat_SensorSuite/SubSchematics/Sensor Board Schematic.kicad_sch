@@ -272,13 +272,23 @@
 	)
 	(bus
 		(pts
-			(xy 175.26 137.16) (xy 213.36 137.16)
+			(xy 175.26 107.95) (xy 213.36 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "765d18a8-e53d-4d53-b518-b8643fdceee5")
+	)
+	(wire
+		(pts
+			(xy 243.84 81.28) (xy 264.16 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8c74dca-7abe-4d50-b568-a2aa5ca6b885")
 	)
 	(bus
 		(pts
@@ -2067,8 +2077,8 @@
 		)
 	)
 	(sheet
-		(at 139.7 125.73)
-		(size 26.67 15.24)
+		(at 157.48 102.87)
+		(size 17.78 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2083,7 +2093,7 @@
 		)
 		(uuid "00146b2c-c60c-46a7-ac1e-e6968021f9cb")
 		(property "Sheetname" "Sensors"
-			(at 139.7 125.0184 0)
+			(at 157.48 102.1584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2092,12 +2102,22 @@
 			)
 		)
 		(property "Sheetfile" "Sensors.kicad_sch"
-			(at 139.7 141.5546 0)
+			(at 157.48 113.6146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "{I2C}" bidirectional
+			(at 175.26 107.95 0)
+			(uuid "e97a3b86-9d32-4861-befd-23a42f4c5cd2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -2132,7 +2152,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Sheetfile" "SubSchematics/USBC.kicad_sch"
+		(property "Sheetfile" "USBC.kicad_sch"
 			(at 166.37 90.17 0)
 			(effects
 				(font
@@ -2184,7 +2204,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Sheetfile" "SubSchematics/MCU & Peripherals.kicad_sch"
+		(property "Sheetfile" "MCU & Peripherals.kicad_sch"
 			(at 228.6 148.59 0)
 			(effects
 				(font
@@ -2194,7 +2214,7 @@
 			)
 		)
 		(pin "{I2C}" bidirectional
-			(at 213.36 137.16 180)
+			(at 213.36 107.95 180)
 			(uuid "e7bb90be-2fd9-48f1-9d30-f7b55fe8a92a")
 			(effects
 				(font
@@ -2235,8 +2255,8 @@
 		)
 	)
 	(sheet
-		(at 57.15 48.26)
-		(size 31.75 17.78)
+		(at 264.16 76.2)
+		(size 20.32 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2251,7 +2271,7 @@
 		)
 		(uuid "982efe7d-f5a1-469a-a12e-4fb13ad93078")
 		(property "Sheetname" "Battery Supply"
-			(at 57.15 47.5484 0)
+			(at 264.16 75.4884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2260,7 +2280,7 @@
 			)
 		)
 		(property "Sheetfile" "Battery Supply.kicad_sch"
-			(at 57.15 66.6246 0)
+			(at 264.16 86.9446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2269,13 +2289,13 @@
 			)
 		)
 		(pin "VBAT_sense" output
-			(at 88.9 57.15 0)
+			(at 264.16 81.28 180)
 			(uuid "854af9af-6d2d-444c-8905-7e0be7ac7980")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(instances
