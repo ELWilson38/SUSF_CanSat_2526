@@ -8,7 +8,7 @@
 	(property "Reference" "REF**"
 		(at -4.95 -6.75 0)
 		(layer "F.SilkS")
-		(uuid "d0e2c8dc-b6ff-4b0f-8f4b-7980877b024a")
+		(uuid "616b9f18-79e5-459f-be26-aa7f313b163a")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20,7 +20,7 @@
 		(at 0 0 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "90f87044-26e4-4365-9eab-0169e1f8d177")
+		(uuid "86470439-0e02-4822-bba8-6f1bb65d0ab7")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -32,7 +32,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "4eadd4ff-09e8-423f-8539-8bc5da4dfe3a")
+		(uuid "a667a7e5-62cd-476a-b291-93f7c7393e90")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -44,7 +44,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "e1cea2c8-f96d-4635-8524-a616fe0a961c")
+		(uuid "13e23537-4ec1-4e1a-af02-6abfbecb564c")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -52,7 +52,53 @@
 			)
 		)
 	)
-	(attr smd)
+	(solder_mask_margin 0.05)
+	(clearance 0.1)
+	(attr smd allow_soldermask_bridges)
+	(fp_rect
+		(start -5.375 -3.9)
+		(end -4.525 3.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "05d8a294-b1d6-4983-a785-a3bf0d55999c")
+	)
+	(fp_rect
+		(start -3.9 -5.375)
+		(end 3.9 -4.525)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "13c9d0df-937c-4383-b82e-4d73aed95066")
+	)
+	(fp_rect
+		(start -3.9 4.525)
+		(end 3.9 5.375)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "e9d19442-eef6-463b-ac61-4a5832be27f0")
+	)
+	(fp_rect
+		(start 4.525 -3.9)
+		(end 5.375 3.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "de87c245-1cb0-4a2c-aa79-b796d59c41df")
+	)
 	(fp_circle
 		(center -5.375 -4.4)
 		(end -5.375 -4.3)
@@ -654,7 +700,7 @@
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/lib/3d_models/RP2350B.stp"
 		(offset
-			(xyz 0 0 0)
+			(xyz 0 0.0000000000000004 0)
 		)
 		(scale
 			(xyz 1 1 1)

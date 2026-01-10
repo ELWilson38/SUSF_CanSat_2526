@@ -6,9 +6,10 @@
 	(paper "A3")
 	(title_block
 		(title "Block Diagram")
-		(date "Last Modified Date")
+		(date "2026-01-04")
 		(rev "${REVISION}")
 		(company "${COMPANY}")
+		(comment 1 "GRID - mil (1.27mm, 2.54mm)")
 	)
 	(lib_symbols)
 	(rectangle

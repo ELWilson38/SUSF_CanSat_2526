@@ -6,7 +6,7 @@
 	(descr "Diode SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 	(tags "diode")
 	(property "Reference" "REF**"
-		(at -0.0025 -1.7 0)
+		(at 0 -1.9 0)
 		(layer "F.SilkS")
 		(uuid "e9bf0403-9c34-4b0a-be2a-34bcd8a9db65")
 		(effects
@@ -19,6 +19,7 @@
 	(property "Value" "~"
 		(at -0.0025 1.6 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "a314f33b-22b5-44af-a201-02d7c22c04f0")
 		(effects
 			(font
@@ -123,8 +124,8 @@
 		(uuid "66506643-d6f9-4b42-aa61-4c2352b0dc1b")
 	)
 	(fp_line
-		(start -1.0025 -0.35)
-		(end -1.0025 0.55)
+		(start -1.4 -0.2)
+		(end -1.4 0.6)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -133,8 +134,8 @@
 		(uuid "3905d9a9-ef4b-440d-adfc-4a8ee68c02d7")
 	)
 	(fp_line
-		(start -1.0025 0.55)
-		(end 0.9975 0.55)
+		(start -1.4 0.6)
+		(end 1.4 0.6)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -143,18 +144,18 @@
 		(uuid "7179f0ec-2c66-4150-bfca-67f4dff05f69")
 	)
 	(fp_line
-		(start -0.7025 -0.65)
-		(end -1.0025 -0.35)
+		(start -0.9 -0.7)
+		(end -1.4 -0.2)
 		(stroke
 			(width 0.1)
-			(type solid)
+			(type default)
 		)
 		(layer "F.Fab")
-		(uuid "dd8fb0c0-7af9-4b8e-91dc-5dfd60969db6")
+		(uuid "e9b3cb67-fbb4-4a78-8656-4796baebb1f6")
 	)
 	(fp_line
-		(start 0.9975 -0.65)
-		(end -0.7025 -0.65)
+		(start 1.4 -0.7)
+		(end -0.9 -0.7)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -163,8 +164,8 @@
 		(uuid "a1c9b7fd-ec08-4dbe-8e00-73d2b90abe35")
 	)
 	(fp_line
-		(start 0.9975 0.55)
-		(end 0.9975 -0.65)
+		(start 1.4 0.6)
+		(end 1.4 -0.7)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -173,7 +174,7 @@
 		(uuid "4efa47c1-3594-4bad-91aa-386c7073ac90")
 	)
 	(fp_text user "${REFERENCE}"
-		(at -0.0025 -0.05 0)
+		(at -0.0025 0 0)
 		(layer "F.Fab")
 		(uuid "922db66e-cdff-4a92-9678-d357a7515a6b")
 		(effects

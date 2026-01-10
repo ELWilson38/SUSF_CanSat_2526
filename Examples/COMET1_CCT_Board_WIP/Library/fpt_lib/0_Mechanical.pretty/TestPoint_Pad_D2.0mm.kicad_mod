@@ -19,6 +19,7 @@
 	(property "Value" "TestPoint"
 		(at 0 2.05 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "39675576-84a0-4d60-bc61-0728062ef039")
 		(effects
 			(font
@@ -75,6 +76,17 @@
 		(fill no)
 		(layer "F.CrtYd")
 		(uuid "9b462e87-2654-4659-a4a8-5163874a9a68")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -1.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "4b768cc3-7adc-4f1c-a7b3-e702893e6bf2")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 -2 0)

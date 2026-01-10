@@ -3,7 +3,6 @@
   (lib (name "0_Connectors")(type "KiCad")(uri "${KIPRJMOD}/Library/fpt_lib/0_Connectors.pretty")(options "")(descr ""))
   (lib (name "0_MCU")(type "KiCad")(uri "${KIPRJMOD}/Library/fpt_lib/0_MCU.pretty")(options "")(descr ""))
   (lib (name "0_Passives")(type "KiCad")(uri "${KIPRJMOD}/Library/fpt_lib/0_Passives.pretty")(options "")(descr ""))
-  (lib (name "0_Peripherals")(type "KiCad")(uri "${KIPRJMOD}/Library/fpt_lib/0_Peripherals.pretty")(options "")(descr ""))
   (lib (name "0_Mechanical")(type "KiCad")(uri "${KIPRJMOD}/Library/fpt_lib/0_Mechanical.pretty")(options "")(descr ""))
   (lib (name "0_Power")(type "KiCad")(uri "${KIPRJMOD}/Library/fpt_lib/0_Power.pretty")(options "")(descr ""))
   (lib (name "0_Sensors")(type "KiCad")(uri "${KIPRJMOD}/Library/fpt_lib/0_Sensors.pretty")(options "")(descr ""))

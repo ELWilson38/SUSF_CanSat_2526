@@ -3,10 +3,9 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 	(tags "LED")
 	(property "Reference" "REF**"
-		(at 0.0025 -1.65 0)
+		(at 0 -1.8 0)
 		(layer "F.SilkS")
 		(uuid "72b49bc3-c878-4f86-a2c0-211b2292502a")
 		(effects
@@ -16,9 +15,10 @@
 			)
 		)
 	)
-	(property "Value" "~"
+	(property "Value" ""
 		(at 0.0025 1.65 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "53095b0b-bcd1-40e7-b87d-3278df882cbb")
 		(effects
 			(font
@@ -27,7 +27,7 @@
 			)
 		)
 	)
-	(property "Datasheet" "~"
+	(property "Datasheet" ""
 		(at 0.0025 0 0)
 		(layer "F.Fab")
 		(hide yes)
@@ -162,8 +162,8 @@
 		(uuid "71ea5743-ada0-42bf-89d0-6d94e5c22157")
 	)
 	(fp_line
-		(start -0.9975 -0.3)
-		(end -0.9975 0.6)
+		(start -1.4 -0.2)
+		(end -1.4 0.7)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -172,8 +172,8 @@
 		(uuid "d8ff536b-f255-479f-9db8-8ac6ed70b2d1")
 	)
 	(fp_line
-		(start -0.9975 0.6)
-		(end 1.0025 0.6)
+		(start -1.4 0.7)
+		(end 1.4 0.7)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -182,18 +182,18 @@
 		(uuid "ddf1425c-9b47-4011-be38-08b21dc2ff26")
 	)
 	(fp_line
-		(start -0.6975 -0.6)
-		(end -0.9975 -0.3)
+		(start -0.9 -0.7)
+		(end -1.4 -0.2)
 		(stroke
 			(width 0.1)
-			(type solid)
+			(type default)
 		)
 		(layer "F.Fab")
-		(uuid "b192cab4-21c8-4dba-81f9-43817be89a43")
+		(uuid "db369cb4-f1e6-467f-be6a-85198f873057")
 	)
 	(fp_line
-		(start 1.0025 -0.6)
-		(end -0.6975 -0.6)
+		(start 1.4 -0.7)
+		(end -0.9 -0.7)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -202,8 +202,8 @@
 		(uuid "fff89b68-2e8a-420b-91db-8f6dd503cea5")
 	)
 	(fp_line
-		(start 1.0025 0.6)
-		(end 1.0025 -0.6)
+		(start 1.4 0.7)
+		(end 1.4 -0.7)
 		(stroke
 			(width 0.1)
 			(type solid)

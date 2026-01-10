@@ -19,6 +19,7 @@
 	(property "Value" "Pin_01x02"
 		(at 0 4.92 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "ce2d62f8-cdba-4cde-be3d-ed4613839dc0")
 		(effects
 			(font

@@ -1,0 +1,314 @@
+(footprint "SOT-23-5"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "LM27313")
+	(tags "Integrated Circuit")
+	(property "Reference" "REF**"
+		(at 0 -4.3 0)
+		(layer "F.SilkS")
+		(uuid "a5ee2c12-8179-457b-80c2-49d8c0333134")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "LM27313"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "ac61b71e-cc99-425c-9c95-d41bbc42f694")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm27313.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "737d33cc-107c-491b-81bc-d4e08c81ed84")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Dc/DC Boost converter"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a1322fad-827b-42b3-8c63-0a0e6db9e3e6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" "LM27313XMFX/NOPB"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0c73d8ab-46b8-49d4-a10d-e904920bd6b7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier Link" "https://uk.farnell.com/texas-instruments/lm27313xmfx-nopb/dc-dc-conv-buck-1-6mhz-sot-23/dp/3121547"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ec71cc8c-0fa0-49aa-92ba-31a0c6d7a816")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "JLC_PART" "C341750"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "94e02c04-ba51-4166-9c3e-5cc30c543dc1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(solder_mask_margin 0.05)
+	(attr smd)
+	(fp_line
+		(start -0.85 -1.55)
+		(end 0.85 -1.55)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "32a660be-a327-47f5-822f-fc85c697c7ce")
+	)
+	(fp_line
+		(start -0.85 -1.45)
+		(end -0.85 -1.55)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3e7b40c2-0eda-4694-a699-3fef6645cd5c")
+	)
+	(fp_line
+		(start -0.85 1.55)
+		(end -0.85 1.45)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cfd1ff06-935a-45e4-bf47-c73a80888047")
+	)
+	(fp_line
+		(start 0.85 -1.55)
+		(end 0.85 -1.45)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b043d233-a55f-42be-9f31-20e17315cb3c")
+	)
+	(fp_line
+		(start 0.85 1.45)
+		(end 0.85 1.55)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "065f5177-75b4-462d-9f0b-ffb76707bd4d")
+	)
+	(fp_line
+		(start 0.85 1.55)
+		(end -0.85 1.55)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "09b8f100-39d9-4a53-a74c-00a2edd654c7")
+	)
+	(fp_circle
+		(center -1.25 -1.55)
+		(end -1.25 -1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "4a23bc63-a3a1-49d4-9446-ff97b2c340f8")
+	)
+	(fp_line
+		(start -2.1 -1.775)
+		(end 2.1 -1.775)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "deff8a99-6aa3-429b-b76e-c740a556744f")
+	)
+	(fp_line
+		(start -2.1 1.775)
+		(end -2.1 -1.775)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "90e18490-8b77-4e48-9fb9-e7d0a9a47a55")
+	)
+	(fp_line
+		(start 2.1 -1.775)
+		(end 2.1 1.775)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "00d44052-3df6-48f9-a64f-25c30508cc7d")
+	)
+	(fp_line
+		(start 2.1 1.775)
+		(end -2.1 1.775)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "80448b83-a664-44ca-94bd-d031db53505d")
+	)
+	(fp_line
+		(start -0.8 -0.95)
+		(end -0.3 -1.45)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "0f584cde-0f48-4e87-ac4f-c2cc870a22c6")
+	)
+	(fp_line
+		(start -0.8 1.45)
+		(end -0.8 -0.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d3f9fc97-60bf-4388-85cf-810b1871da49")
+	)
+	(fp_line
+		(start -0.3 -1.45)
+		(end 0.8 -1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "00c6731a-9121-42bf-9e23-5f24423f09d5")
+	)
+	(fp_line
+		(start 0.8 -1.45)
+		(end 0.8 1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cffc9a41-43b6-4185-9f7c-d757f72e1c2a")
+	)
+	(fp_line
+		(start 0.8 1.45)
+		(end -0.8 1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9b8564a5-5582-409b-9f1d-1cfe6c70fb17")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.05 0.05 90)
+		(layer "F.Fab")
+		(uuid "7e049d24-f960-4fb4-a995-ba15e58312df")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.18)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.25 -0.95 90)
+		(size 0.6 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "adbae132-3856-4834-b9df-7a5b021848b4")
+	)
+	(pad "2" smd roundrect
+		(at -1.25 0 90)
+		(size 0.6 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "281a5458-0c48-4a52-b044-be68540ca933")
+	)
+	(pad "3" smd roundrect
+		(at -1.25 0.95 90)
+		(size 0.6 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "611ac291-8f6a-449b-92dd-80fb43ca4585")
+	)
+	(pad "4" smd roundrect
+		(at 1.25 0.95 90)
+		(size 0.6 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "efbc11fb-5eb1-4e99-b551-ce9e6956ed34")
+	)
+	(pad "5" smd roundrect
+		(at 1.25 -0.95 90)
+		(size 0.6 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "59a7fb5e-a5eb-4cb1-ac78-1a6c79b678c8")
+	)
+	(embedded_fonts no)
+	(model "C:\\Users\\ethan\\OneDrive - University of Southampton\\KiCad_Lib\\SamacSys_Parts.3dshapes\\LM27313XMFX_NOPB.stp"
+		(offset
+			(xyz 0 0.0000000000000001 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

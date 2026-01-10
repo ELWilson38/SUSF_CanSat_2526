@@ -213,11 +213,11 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "MAX490ESA+T"
+	(symbol "ISL83488"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "U5"
+		(property "Reference" "U*"
 			(at 11.684 9.652 0)
 			(effects
 				(font
@@ -226,7 +226,7 @@
 				(justify top)
 			)
 		)
-		(property "Value" "MAX490ESA+T"
+		(property "Value" "ISL83488"
 			(at 11.684 7.112 0)
 			(effects
 				(font
@@ -235,7 +235,7 @@
 				(justify top)
 			)
 		)
-		(property "Footprint" "SOIC127P600X175-8N"
+		(property "Footprint" "0_Sensors:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 19.05 -94.92 0)
 			(effects
 				(font
@@ -245,7 +245,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheets.maximintegrated.com/en/ds/MAX1487-MAX491.pdf"
+		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/RNCC/RNCC-S-A0010774810/RNCC-S-A0010813056-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0"
 			(at 19.05 -194.92 0)
 			(effects
 				(font
@@ -263,77 +263,7 @@
 				)
 			)
 		)
-		(property "Height" "1.75"
-			(at 19.05 -394.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Analog Devices"
-			(at 19.05 -494.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "MAX490ESA+T"
-			(at 19.05 -594.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "700-MAX490ESAT"
-			(at 19.05 -694.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Analog-Devices-Maxim-Integrated/MAX490ESA%2bT?qs=LHmEVA8xxfaInokU6cLT8g%3D%3D"
-			(at 19.05 -794.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "MAX490ESA+T"
-			(at 19.05 -894.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/max490esat/analog-devices?utm_currency=USD&region=nac"
-			(at 19.05 -994.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Field5" ""
+		(property "MPN" "ISL83488IBZ-T"
 			(at 0 0 0)
 			(effects
 				(font
@@ -342,34 +272,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Link" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "MAX490ESA+T_1_1"
+		(symbol "ISL83488_1_1"
 			(rectangle
 				(start 5.08 2.54)
 				(end 17.78 -10.16)

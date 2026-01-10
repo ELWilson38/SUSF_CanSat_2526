@@ -4,8 +4,8 @@
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Inductor with Polarity Marking 2016")
-	(property "Reference" "L1"
-		(at 0.2 -1.8 0)
+	(property "Reference" "L**"
+		(at 0 -2.25 0)
 		(layer "F.SilkS")
 		(uuid "596020f4-e69e-43aa-b3d9-70b931dda9ec")
 		(effects

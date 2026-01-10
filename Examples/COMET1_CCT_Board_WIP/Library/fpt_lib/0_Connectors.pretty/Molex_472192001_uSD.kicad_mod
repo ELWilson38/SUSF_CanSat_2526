@@ -6,7 +6,7 @@
 	(descr "47219-2001")
 	(tags "Connector")
 	(property "Reference" "J**"
-		(at 0 0 0)
+		(at 0 -9.4 0)
 		(layer "F.SilkS")
 		(uuid "a8e63e0e-5fdb-4e6d-af50-f569cd839e76")
 		(effects
@@ -114,26 +114,6 @@
 		(uuid "f8d1f87c-d162-4713-8222-1a2aa77f981f")
 	)
 	(fp_line
-		(start 3.2 7.45)
-		(end 3.2 7.45)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "f8a33f9d-ef04-4e9b-8f46-b4d2e6ed9769")
-	)
-	(fp_line
-		(start 3.4 7.45)
-		(end 3.4 7.45)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "e7b5cb65-9b6c-48b4-aae0-1508032ce436")
-	)
-	(fp_line
 		(start 6.8 -7.55)
 		(end 6.8 -6.05)
 		(stroke
@@ -173,27 +153,28 @@
 		(layer "F.SilkS")
 		(uuid "b10d01d3-ae6f-409b-9ec2-e6008d6df6b5")
 	)
-	(fp_arc
-		(start 3.2 7.45)
-		(mid 3.3 7.35)
-		(end 3.4 7.45)
+	(fp_circle
+		(center 3.2 3.2)
+		(end 3 3.2)
 		(stroke
-			(width 0.2)
-			(type solid)
+			(width 0.1)
+			(type default)
 		)
+		(fill yes)
 		(layer "F.SilkS")
-		(uuid "48225cbc-850a-4d85-93eb-0a0d073ff861")
+		(uuid "2d9772e7-0bb5-447e-b72c-d00fdf3853e1")
 	)
-	(fp_arc
-		(start 3.4 7.45)
-		(mid 3.3 7.55)
-		(end 3.2 7.45)
+	(fp_poly
+		(pts
+			(xy 0 6.2) (xy -0.3 6.7) (xy 0.3 6.7)
+		)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type solid)
 		)
+		(fill yes)
 		(layer "F.SilkS")
-		(uuid "3af4dc0f-06f0-4ac9-813d-5dff32fb3e23")
+		(uuid "e1179daa-fb86-4584-96ec-dc8ef790e5e5")
 	)
 	(fp_line
 		(start -8.6 -8.55)
@@ -274,6 +255,29 @@
 		)
 		(layer "F.Fab")
 		(uuid "431ba21e-1a5e-4080-ae6f-7302d32244e1")
+	)
+	(fp_circle
+		(center 3.2 3.2)
+		(end 3 3.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "a34510c4-86c4-42ae-a522-83bbbd26891c")
+	)
+	(fp_poly
+		(pts
+			(xy 0 6.2) (xy -0.3 6.7) (xy 0.3 6.7)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "426e36ce-dd96-41f3-809e-b8b9d4baad48")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)

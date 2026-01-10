@@ -6,9 +6,10 @@
 	(paper "A3")
 	(title_block
 		(title "Cover Page")
-		(date "Last Modified Date")
+		(date "2026-01-04")
 		(rev "${REVISION}")
 		(company "${COMPANY}")
+		(comment 1 "GRID - mil (1.27mm, 2.54mm)")
 	)
 	(lib_symbols)
 	(text "9"
@@ -39,20 +40,6 @@
 		)
 		(uuid "041ff709-0f5e-466e-adab-d03afffd90b7")
 	)
-	(text "..........................................."
-		(exclude_from_sim no)
-		(at 243.84 99.06 0)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 4 4)
-				(color 0 0 0 1)
-			)
-			(justify left bottom)
-			(href "#23")
-		)
-		(uuid "0647f622-b644-4538-802a-42edf8cdccc5")
-	)
 	(text "13"
 		(exclude_from_sim no)
 		(at 134.62 99.06 0)
@@ -66,6 +53,18 @@
 			(href "#13")
 		)
 		(uuid "09a9f005-609a-4854-9ba5-f5a5e7b8d7c7")
+	)
+	(text "To Do:"
+		(exclude_from_sim no)
+		(at 247.65 64.77 0)
+		(effects
+			(font
+				(size 6 6)
+				(thickness 1.2)
+				(bold yes)
+			)
+		)
+		(uuid "0ca39049-ba2f-4c86-a17f-c37d0e7db2ce")
 	)
 	(text "RELEASED - A board with this schematic has been sent to production."
 		(exclude_from_sim no)
@@ -81,20 +80,6 @@
 			(justify left bottom)
 		)
 		(uuid "10cbc67f-d688-44d7-9e2b-bee41b99ad5c")
-	)
-	(text "Page"
-		(exclude_from_sim no)
-		(at 332.74 71.12 0)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 4 4)
-				(bold yes)
-				(color 0 0 0 1)
-			)
-			(justify right bottom)
-		)
-		(uuid "1b60c0cc-bf04-4615-8796-1ecc890b346a")
 	)
 	(text "TOP VIEW"
 		(exclude_from_sim no)
@@ -124,19 +109,16 @@
 		)
 		(uuid "1dd16a1b-b3b8-42a1-b678-3a7b261e7284")
 	)
-	(text "38"
+	(text "Add/confirm Atmo Sensors"
 		(exclude_from_sim no)
-		(at 332.74 137.16 0)
+		(at 232.41 105.41 0)
 		(effects
 			(font
-				(face "Times New Roman")
-				(size 4 4)
-				(color 0 0 0 1)
+				(size 3 3)
 			)
-			(justify right bottom)
-			(href "#38")
+			(justify left)
 		)
-		(uuid "2d20025d-61e4-451d-b51e-153fedc44d68")
+		(uuid "2338727b-1b67-4740-93b8-f89a8792163b")
 	)
 	(text "..........................................."
 		(exclude_from_sim no)
@@ -166,7 +148,7 @@
 		)
 		(uuid "319dfe95-cf7d-4b95-aa65-2f948d7bd6bc")
 	)
-	(text "..........................................."
+	(text "Positioning Sensors"
 		(exclude_from_sim no)
 		(at 45.72 137.16 0)
 		(effects
@@ -221,19 +203,16 @@
 		)
 		(uuid "3e121d9b-11e9-4895-9779-ade93d5b2a88")
 	)
-	(text "..........................................."
+	(text "Add extra bright LED for visibility through body tube?"
 		(exclude_from_sim no)
-		(at 243.84 152.4 0)
+		(at 233.68 95.25 0)
 		(effects
 			(font
-				(face "Times New Roman")
-				(size 4 4)
-				(color 0 0 0 1)
+				(size 3 3)
 			)
-			(justify left bottom)
-			(href "#30")
+			(justify left)
 		)
-		(uuid "41bb0f90-1135-4d50-9d44-9fb04444ecf6")
+		(uuid "3e6ec3f8-df6a-42fe-b1e0-7e2f7e602d8f")
 	)
 	(text "Index"
 		(exclude_from_sim no)
@@ -276,20 +255,6 @@
 			(justify left bottom)
 		)
 		(uuid "4773b195-e777-483d-bd5a-5b18be14b485")
-	)
-	(text "27"
-		(exclude_from_sim no)
-		(at 233.68 129.54 0)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 4 4)
-				(color 0 0 0 1)
-			)
-			(justify right bottom)
-			(href "#27")
-		)
-		(uuid "47e5ef3a-a936-4417-8e04-a70df1a04676")
 	)
 	(text "15"
 		(exclude_from_sim no)
@@ -334,20 +299,6 @@
 		)
 		(uuid "4b75d6be-e2b4-4862-a5fd-f3239bff6734")
 	)
-	(text "24"
-		(exclude_from_sim no)
-		(at 233.68 106.68 0)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 4 4)
-				(color 0 0 0 1)
-			)
-			(justify right bottom)
-			(href "#24")
-		)
-		(uuid "4d10b8f7-ee9d-4539-987e-2871a213b2d6")
-	)
 	(text "${VARIANT} ${RELEASE_DATE}"
 		(exclude_from_sim no)
 		(at 220.98 237.49 0)
@@ -391,20 +342,6 @@
 		)
 		(uuid "547bb3ec-bec4-4b68-a38e-2ac56be29bd3")
 	)
-	(text "..........................................."
-		(exclude_from_sim no)
-		(at 243.84 129.54 0)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 4 4)
-				(color 0 0 0 1)
-			)
-			(justify left bottom)
-			(href "#27")
-		)
-		(uuid "598c6218-39d7-40a8-878a-842531c6a754")
-	)
 	(text "8"
 		(exclude_from_sim no)
 		(at 35.56 137.16 0)
@@ -432,76 +369,6 @@
 			(href "#14")
 		)
 		(uuid "5e529423-56be-4ad0-9794-38b960fa0634")
-	)
-	(text "..........................................."
-		(exclude_from_sim no)
-		(at 342.9 137.16 0)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 4 4)
-				(color 0 0 0 1)
-			)
-			(justify left bottom)
-			(href "#38")
-		)
-		(uuid "5ec61f31-3c66-4623-97e5-d26d3b9bb1be")
-	)
-	(text "..........................................."
-		(exclude_from_sim no)
-		(at 342.9 152.4 0)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 4 4)
-				(color 0 0 0 1)
-			)
-			(justify left bottom)
-			(href "#40")
-		)
-		(uuid "65f25bf1-cc7d-4807-9afa-0a0ac612f9b3")
-	)
-	(text "23"
-		(exclude_from_sim no)
-		(at 233.68 99.06 0)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 4 4)
-				(color 0 0 0 1)
-			)
-			(justify right bottom)
-			(href "#23")
-		)
-		(uuid "68aaa364-f788-45fb-b731-7b1eda7a6c6c")
-	)
-	(text "Index"
-		(exclude_from_sim no)
-		(at 243.84 71.12 0)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 4 4)
-				(bold yes)
-				(color 0 0 0 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "6eee427d-5608-4f64-99d8-6d8e4391a6b0")
-	)
-	(text "..........................................."
-		(exclude_from_sim no)
-		(at 342.9 91.44 0)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 4 4)
-				(color 0 0 0 1)
-			)
-			(justify left bottom)
-			(href "#32")
-		)
-		(uuid "71058a62-023a-4e0a-b0c4-c0fb8bf95cc8")
 	)
 	(text "5"
 		(exclude_from_sim no)
@@ -532,20 +399,6 @@
 		)
 		(uuid "752b8016-2b6c-433a-9e5a-755eac1f800d")
 	)
-	(text "26"
-		(exclude_from_sim no)
-		(at 233.68 121.92 0)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 4 4)
-				(color 0 0 0 1)
-			)
-			(justify right bottom)
-			(href "#26")
-		)
-		(uuid "78da4ba2-8c96-4e51-9a03-b14367dceea0")
-	)
 	(text "16"
 		(exclude_from_sim no)
 		(at 134.62 121.92 0)
@@ -574,20 +427,6 @@
 		)
 		(uuid "7caa34f0-df91-4ed4-bb8e-ff81315f8c93")
 	)
-	(text "35"
-		(exclude_from_sim no)
-		(at 332.74 114.3 0)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 4 4)
-				(color 0 0 0 1)
-			)
-			(justify right bottom)
-			(href "#35")
-		)
-		(uuid "7d4a16f6-fc91-424a-bffd-707dc25afa40")
-	)
 	(text "18"
 		(exclude_from_sim no)
 		(at 134.62 137.16 0)
@@ -601,20 +440,6 @@
 			(href "#18")
 		)
 		(uuid "7d4de17d-b484-45d2-95af-1050fc297950")
-	)
-	(text "33"
-		(exclude_from_sim no)
-		(at 332.74 99.06 0)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 4 4)
-				(color 0 0 0 1)
-			)
-			(justify right bottom)
-			(href "#33")
-		)
-		(uuid "7fd97343-03c5-4f22-a59e-bc2d9fd9af23")
 	)
 	(text "Variant: ${VARIANT}"
 		(exclude_from_sim no)
@@ -674,76 +499,6 @@
 		)
 		(uuid "9008c96f-82fa-4b3f-88a3-9ae35f59090b")
 	)
-	(text "..........................................."
-		(exclude_from_sim no)
-		(at 243.84 106.68 0)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 4 4)
-				(color 0 0 0 1)
-			)
-			(justify left bottom)
-			(href "#24")
-		)
-		(uuid "91ef4a1a-faaf-4d16-b090-6e6451092c3a")
-	)
-	(text "28"
-		(exclude_from_sim no)
-		(at 233.68 137.16 0)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 4 4)
-				(color 0 0 0 1)
-			)
-			(justify right bottom)
-			(href "#28")
-		)
-		(uuid "9310b062-10e2-49af-a22c-1c9854a7f3f0")
-	)
-	(text "..........................................."
-		(exclude_from_sim no)
-		(at 243.84 144.78 0)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 4 4)
-				(color 0 0 0 1)
-			)
-			(justify left bottom)
-			(href "#29")
-		)
-		(uuid "93713c73-3aba-4b0b-9f3c-b37ab3721f94")
-	)
-	(text "..........................................."
-		(exclude_from_sim no)
-		(at 243.84 91.44 0)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 4 4)
-				(color 0 0 0 1)
-			)
-			(justify left bottom)
-			(href "#22")
-		)
-		(uuid "93b242cb-0b6a-48cc-a920-659ba5a2d4b9")
-	)
-	(text "..........................................."
-		(exclude_from_sim no)
-		(at 342.9 144.78 0)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 4 4)
-				(color 0 0 0 1)
-			)
-			(justify left bottom)
-			(href "#39")
-		)
-		(uuid "9413d17b-fd74-4a56-8014-ec2904184d8a")
-	)
 	(text "USBC Interface"
 		(exclude_from_sim no)
 		(at 45.72 114.3 0)
@@ -758,20 +513,6 @@
 		)
 		(uuid "9413d28a-c2b4-4d73-ae2d-68b4717d1b67")
 	)
-	(text "Page"
-		(exclude_from_sim no)
-		(at 233.68 71.12 0)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 4 4)
-				(bold yes)
-				(color 0 0 0 1)
-			)
-			(justify right bottom)
-		)
-		(uuid "959ea2a5-595d-4c64-a44e-f0c1c6497852")
-	)
 	(text "..........................................."
 		(exclude_from_sim no)
 		(at 144.78 144.78 0)
@@ -785,6 +526,19 @@
 			(href "#19")
 		)
 		(uuid "9d747571-2a3a-41dd-b7ab-0c07afaa5df1")
+	)
+	(text "Make block diagram"
+		(exclude_from_sim no)
+		(at 232.41 80.01 0)
+		(effects
+			(font
+				(size 4 4)
+				(thickness 0.6)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "9d941150-c114-4c18-853f-4d8b60c40066")
 	)
 	(text "..........................................."
 		(exclude_from_sim no)
@@ -814,62 +568,6 @@
 		)
 		(uuid "a2bb1bed-8e4e-4038-8b4e-99f9457f4c30")
 	)
-	(text "31"
-		(exclude_from_sim no)
-		(at 332.74 83.82 0)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 4 4)
-				(color 0 0 0 1)
-			)
-			(justify right bottom)
-			(href "#31")
-		)
-		(uuid "a8eb70a2-f43e-480c-afdf-7e91507527a7")
-	)
-	(text "36"
-		(exclude_from_sim no)
-		(at 332.74 121.92 0)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 4 4)
-				(color 0 0 0 1)
-			)
-			(justify right bottom)
-			(href "#36")
-		)
-		(uuid "a95a57c3-0ec4-4b96-8edf-d46ee18a4a8e")
-	)
-	(text "..........................................."
-		(exclude_from_sim no)
-		(at 243.84 137.16 0)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 4 4)
-				(color 0 0 0 1)
-			)
-			(justify left bottom)
-			(href "#28")
-		)
-		(uuid "ad40278e-f3e6-4c25-8fa4-1f4e3918f822")
-	)
-	(text "22"
-		(exclude_from_sim no)
-		(at 233.68 91.44 0)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 4 4)
-				(color 0 0 0 1)
-			)
-			(justify right bottom)
-			(href "#22")
-		)
-		(uuid "ada746a9-1ac8-4ba5-b1f0-e040d6c0fa14")
-	)
 	(text "..........................................."
 		(exclude_from_sim no)
 		(at 144.78 114.3 0)
@@ -883,34 +581,6 @@
 			(href "#15")
 		)
 		(uuid "ae6c0242-f9a8-4717-86dd-2d27e5dc9018")
-	)
-	(text "..........................................."
-		(exclude_from_sim no)
-		(at 342.9 83.82 0)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 4 4)
-				(color 0 0 0 1)
-			)
-			(justify left bottom)
-			(href "#31")
-		)
-		(uuid "b39085c9-1ebe-4dab-a6c1-54ab08707fbf")
-	)
-	(text "25"
-		(exclude_from_sim no)
-		(at 233.68 114.3 0)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 4 4)
-				(color 0 0 0 1)
-			)
-			(justify right bottom)
-			(href "#25")
-		)
-		(uuid "b3f10ccd-dd30-4e1a-9a39-191e590211cc")
 	)
 	(text "${BOARD_NAME}"
 		(exclude_from_sim no)
@@ -927,47 +597,16 @@
 		)
 		(uuid "b5491481-138f-4748-8f60-dc51e3284b98")
 	)
-	(text "..........................................."
+	(text "Add/confirm Position Sensors"
 		(exclude_from_sim no)
-		(at 243.84 121.92 0)
+		(at 233.68 115.57 0)
 		(effects
 			(font
-				(face "Times New Roman")
-				(size 4 4)
-				(color 0 0 0 1)
+				(size 3 3)
 			)
-			(justify left bottom)
-			(href "#26")
+			(justify left)
 		)
-		(uuid "b55022f1-bde3-45d1-ab63-474a18aef763")
-	)
-	(text "..........................................."
-		(exclude_from_sim no)
-		(at 342.9 106.68 0)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 4 4)
-				(color 0 0 0 1)
-			)
-			(justify left bottom)
-			(href "#34")
-		)
-		(uuid "b5c8bc07-6a7e-4ec3-955b-9e6a13622c4e")
-	)
-	(text "37"
-		(exclude_from_sim no)
-		(at 332.74 129.54 0)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 4 4)
-				(color 0 0 0 1)
-			)
-			(justify right bottom)
-			(href "#37")
-		)
-		(uuid "baff535e-40df-4979-8ad1-9d6e8282e1a0")
+		(uuid "b9b1d611-2995-4eb3-8e5a-a10966a2b567")
 	)
 	(text "Page"
 		(exclude_from_sim no)
@@ -1012,20 +651,6 @@
 		)
 		(uuid "c492727f-a5a2-4efb-9f13-b55fb4c5125a")
 	)
-	(text "Index"
-		(exclude_from_sim no)
-		(at 342.9 71.12 0)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 4 4)
-				(bold yes)
-				(color 0 0 0 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "c52bc9e5-2c42-41e6-ae08-fabef868928a")
-	)
 	(text "Battery Supply"
 		(exclude_from_sim no)
 		(at 45.72 121.92 0)
@@ -1039,34 +664,6 @@
 			(href "#6")
 		)
 		(uuid "c787ff5d-5d58-4a12-8967-dc99673505b9")
-	)
-	(text "..........................................."
-		(exclude_from_sim no)
-		(at 342.9 121.92 0)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 4 4)
-				(color 0 0 0 1)
-			)
-			(justify left bottom)
-			(href "#36")
-		)
-		(uuid "c8a13f8e-6347-4971-97e9-3bbacc8fb0b5")
-	)
-	(text "..........................................."
-		(exclude_from_sim no)
-		(at 342.9 114.3 0)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 4 4)
-				(color 0 0 0 1)
-			)
-			(justify left bottom)
-			(href "#35")
-		)
-		(uuid "c932f64b-e011-46ca-8efc-bb2f186e8b13")
 	)
 	(text "Block Diagram"
 		(exclude_from_sim no)
@@ -1096,20 +693,6 @@
 		)
 		(uuid "cbf7eaea-8009-4ccd-9079-9d687b9a3603")
 	)
-	(text "30"
-		(exclude_from_sim no)
-		(at 233.68 152.4 0)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 4 4)
-				(color 0 0 0 1)
-			)
-			(justify right bottom)
-			(href "#30")
-		)
-		(uuid "cea38a57-40f7-465f-b054-ff626e3218d0")
-	)
 	(text "7"
 		(exclude_from_sim no)
 		(at 35.56 129.54 0)
@@ -1124,20 +707,6 @@
 		)
 		(uuid "cf9779c0-4a62-4a6f-9127-07f6919e9e8d")
 	)
-	(text "..........................................."
-		(exclude_from_sim no)
-		(at 243.84 114.3 0)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 4 4)
-				(color 0 0 0 1)
-			)
-			(justify left bottom)
-			(href "#25")
-		)
-		(uuid "d06fb69a-43a5-466c-8174-3edde239a7c0")
-	)
 	(text "12"
 		(exclude_from_sim no)
 		(at 134.62 91.44 0)
@@ -1151,20 +720,6 @@
 			(href "#12")
 		)
 		(uuid "d450aa41-7115-44ab-9cc7-2fa118545b00")
-	)
-	(text "21"
-		(exclude_from_sim no)
-		(at 233.68 83.82 0)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 4 4)
-				(color 0 0 0 1)
-			)
-			(justify right bottom)
-			(href "#21")
-		)
-		(uuid "d7ac5948-93ba-4038-95c3-cb73c27df74a")
 	)
 	(text "Add a comment here"
 		(exclude_from_sim no)
@@ -1193,20 +748,6 @@
 		)
 		(uuid "dca5e168-6a76-4eb2-b335-e6c030ded824")
 	)
-	(text "39"
-		(exclude_from_sim no)
-		(at 332.74 144.78 0)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 4 4)
-				(color 0 0 0 1)
-			)
-			(justify right bottom)
-			(href "#39")
-		)
-		(uuid "e216870b-45fe-49b3-8e55-d9668eb9df44")
-	)
 	(text "..........................................."
 		(exclude_from_sim no)
 		(at 144.78 137.16 0)
@@ -1223,20 +764,6 @@
 	)
 	(text "..........................................."
 		(exclude_from_sim no)
-		(at 342.9 99.06 0)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 4 4)
-				(color 0 0 0 1)
-			)
-			(justify left bottom)
-			(href "#33")
-		)
-		(uuid "e5564811-ffd2-4bd9-9644-ff1dc80ebf87")
-	)
-	(text "..........................................."
-		(exclude_from_sim no)
 		(at 144.78 152.4 0)
 		(effects
 			(font
@@ -1248,34 +775,6 @@
 			(href "#20")
 		)
 		(uuid "e58de9a8-7551-4002-91cc-eb758bb6876c")
-	)
-	(text "34"
-		(exclude_from_sim no)
-		(at 332.74 106.68 0)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 4 4)
-				(color 0 0 0 1)
-			)
-			(justify right bottom)
-			(href "#34")
-		)
-		(uuid "e60ef77b-a7db-4a46-901f-5793e4acc58b")
-	)
-	(text "29"
-		(exclude_from_sim no)
-		(at 233.68 144.78 0)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 4 4)
-				(color 0 0 0 1)
-			)
-			(justify right bottom)
-			(href "#29")
-		)
-		(uuid "e83f0c3e-ac1d-4432-a8de-ba5a2be8aa4a")
 	)
 	(text "Cover Page"
 		(exclude_from_sim no)
@@ -1348,20 +847,6 @@
 		)
 		(uuid "ee4bfbd2-ceac-40c9-847b-b15b18b07c08")
 	)
-	(text "..........................................."
-		(exclude_from_sim no)
-		(at 243.84 83.82 0)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 4 4)
-				(color 0 0 0 1)
-			)
-			(justify left bottom)
-			(href "#21")
-		)
-		(uuid "f14c049f-0636-49aa-a70f-0262bf1a57bc")
-	)
 	(text "20"
 		(exclude_from_sim no)
 		(at 134.62 152.4 0)
@@ -1375,34 +860,6 @@
 			(href "#20")
 		)
 		(uuid "f17fa600-4ea0-4482-a965-d781b27fd052")
-	)
-	(text "32"
-		(exclude_from_sim no)
-		(at 332.74 91.44 0)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 4 4)
-				(color 0 0 0 1)
-			)
-			(justify right bottom)
-			(href "#32")
-		)
-		(uuid "f7f416e4-86a9-4d8f-ac0d-80443c165632")
-	)
-	(text "..........................................."
-		(exclude_from_sim no)
-		(at 342.9 129.54 0)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 4 4)
-				(color 0 0 0 1)
-			)
-			(justify left bottom)
-			(href "#37")
-		)
-		(uuid "f8fd86d8-ca92-4fd2-9536-487e6832d844")
 	)
 	(text "DESIGN CONSIDERATIONS"
 		(exclude_from_sim no)
@@ -1418,21 +875,7 @@
 		)
 		(uuid "fb09f930-25b6-4039-89ae-42d9d443b49d")
 	)
-	(text "40"
-		(exclude_from_sim no)
-		(at 332.74 152.4 0)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 4 4)
-				(color 0 0 0 1)
-			)
-			(justify right bottom)
-			(href "#40")
-		)
-		(uuid "fe1f4464-8466-41a3-95c1-bacdc38614fb")
-	)
-	(text "..........................................."
+	(text "Atmospheric Sensors"
 		(exclude_from_sim no)
 		(at 45.72 129.54 0)
 		(effects
@@ -1646,17 +1089,6 @@
 	)
 	(polyline
 		(pts
-			(xy 215.9 73.66) (xy 233.68 73.66)
-		)
-		(stroke
-			(width 1)
-			(type dot)
-			(color 0 0 0 1)
-		)
-		(uuid "024689d9-b8ca-41ae-b55d-6ff207f6e101")
-	)
-	(polyline
-		(pts
 			(xy 297.18 181.61) (xy 294.64 187.96)
 		)
 		(stroke
@@ -1676,28 +1108,6 @@
 			(color 0 0 0 1)
 		)
 		(uuid "594379bc-c052-4d2e-996b-8b5c1a0857fd")
-	)
-	(polyline
-		(pts
-			(xy 342.9 73.66) (xy 403.86 73.66)
-		)
-		(stroke
-			(width 1)
-			(type dot)
-			(color 0 0 0 1)
-		)
-		(uuid "8ca04e4f-914f-46ae-b7bb-c241f34f0be3")
-	)
-	(polyline
-		(pts
-			(xy 243.84 73.66) (xy 304.8 73.66)
-		)
-		(stroke
-			(width 1)
-			(type dot)
-			(color 0 0 0 1)
-		)
-		(uuid "90aedf20-3619-4eea-9142-e5201cfa9329")
 	)
 	(polyline
 		(pts
@@ -1743,17 +1153,6 @@
 		)
 		(uuid "d03f8f3f-5543-483d-a054-040e77e06c0e")
 	)
-	(polyline
-		(pts
-			(xy 314.96 73.66) (xy 332.74 73.66)
-		)
-		(stroke
-			(width 1)
-			(type dot)
-			(color 0 0 0 1)
-		)
-		(uuid "f1ab5a98-3d21-4c83-b2d8-cfe1793d64cb")
-	)
 	(sheet
 		(at 299.72 311.15)
 		(size 35.56 6.35)
@@ -1792,6 +1191,48 @@
 			(project "CanSat_SensorSuite"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 340.36 302.26)
+		(size 35.56 6.35)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a08d8c18-b3ff-4e6c-afba-583c12250e6f")
+		(property "Sheetname" "Block DiagramSULREexample"
+			(at 340.36 301.5484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Block DiagramSULREexample.kicad_sch"
+			(at 340.36 309.1946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "CanSat_SensorSuite"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c"
+					(page "9")
 				)
 			)
 		)

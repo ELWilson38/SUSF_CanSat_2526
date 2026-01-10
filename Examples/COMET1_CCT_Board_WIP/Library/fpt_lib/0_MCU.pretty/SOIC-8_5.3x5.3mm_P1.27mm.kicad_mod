@@ -190,20 +190,9 @@
 		(layer "F.CrtYd")
 		(uuid "afcdf3e1-9225-4bd7-aaae-4b16203fd68f")
 	)
-	(fp_rect
-		(start -2.975 -2.8)
-		(end 3.025 2.8)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(fill no)
-		(layer "F.Fab")
-		(uuid "10684473-fb80-4d82-a7f1-7b14c7c2ff7d")
-	)
 	(fp_poly
 		(pts
-			(xy -2.975 -1.9) (xy -2.975 2.7) (xy 3.025 2.7) (xy 3.025 -2.8) (xy -2.075 -2.8)
+			(xy -2.975 -1.9) (xy -2.975 2.8) (xy 3.025 2.8) (xy 3.025 -2.8) (xy -2.075 -2.8)
 		)
 		(stroke
 			(width 0.1)

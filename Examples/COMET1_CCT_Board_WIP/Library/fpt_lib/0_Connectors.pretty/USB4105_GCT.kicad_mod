@@ -5,7 +5,7 @@
 	(layer "F.Cu")
 	(tags "USB4105-GF-A ")
 	(property "Reference" "REF**"
-		(at 0.005 4.7875 0)
+		(at 0 -6 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "db7b26fc-b9ac-4995-a49e-fcad547b25a6")
@@ -20,6 +20,7 @@
 		(at -0.000002 -3.349652 0)
 		(unlocked yes)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "8b05c56c-a6a1-4e6f-a74b-ce2707cee4d8")
 		(effects
 			(font
@@ -78,9 +79,8 @@
 			)
 		)
 	)
-	(property "Supplier" ""
-		(at -0.000002 0.136148 0)
-		(unlocked yes)
+	(property "JLC_PART" "C7095263"
+		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "16f4484b-c59d-43d4-95f5-c38dfc8a4626")
@@ -91,10 +91,11 @@
 			)
 		)
 	)
+	(clearance 0.1)
 	(attr smd)
 	(fp_line
-		(start -4.47 -1.4175)
-		(end -4.47 0.1825)
+		(start -4.5 -1.5)
+		(end -4.5 0.2)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -103,8 +104,8 @@
 		(uuid "5fc918b5-e79c-46f6-b8e2-2027f22e193e")
 	)
 	(fp_line
-		(start -4.47 2.5825)
-		(end -4.47 3.1625)
+		(start -4.5 2.5)
+		(end -4.5 3)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -113,8 +114,18 @@
 		(uuid "12e2f36a-84cb-455d-99d5-4e07fe3dd96b")
 	)
 	(fp_line
-		(start 4.47 -1.4175)
-		(end 4.47 0.1825)
+		(start -4.5 3)
+		(end 4.5 3)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b8cae47a-70ba-45ac-b840-97b7f5349590")
+	)
+	(fp_line
+		(start 4.5 -1.5)
+		(end 4.5 0.2)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -123,8 +134,8 @@
 		(uuid "bb5bb6ff-a1f6-454c-99e7-419ebcef16f9")
 	)
 	(fp_line
-		(start 4.47 3.1625)
-		(end 4.47 2.5825)
+		(start 4.5 3)
+		(end 4.5 2.5)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -132,69 +143,41 @@
 		(layer "F.SilkS")
 		(uuid "bac63090-d0f9-4e06-a18d-f59576c4e469")
 	)
-	(fp_line
-		(start -4.787902 -3.724652)
-		(end -4.787902 3.996948)
+	(fp_rect
+		(start -5 -4.5)
+		(end 5 4)
 		(stroke
-			(width 0.0254)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "840161e1-af83-407a-8301-d069a858a34f")
-	)
-	(fp_line
-		(start -4.787902 3.996948)
-		(end 4.787898 3.996948)
-		(stroke
-			(width 0.0254)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "610aada6-6bac-43f7-9d0e-683124d5fb78")
-	)
-	(fp_line
-		(start -4.47 3.9625)
-		(end 4.47 3.9625)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "8314c92e-f2b0-4782-b084-222b24c1260b")
-	)
-	(fp_line
-		(start 4.787898 -3.724652)
-		(end -4.787902 -3.724652)
-		(stroke
-			(width 0.0254)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "4d601f14-00c6-48e8-bc5b-44ec8bfc4da9")
-	)
-	(fp_line
-		(start 4.787898 3.996948)
-		(end 4.787898 -3.724652)
-		(stroke
-			(width 0.0254)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "e85ba433-888d-4910-b34b-b791ca4be183")
-	)
-	(fp_circle
-		(center -3.2 -5.1925)
-		(end -2.9 -5.1925)
-		(stroke
-			(width 0.4)
-			(type solid)
+			(width 0.1)
+			(type default)
 		)
 		(fill no)
+		(layer "F.CrtYd")
+		(uuid "69f15f67-c482-4a24-ad43-37255520db65")
+	)
+	(fp_rect
+		(start -4.5 -4.15)
+		(end 4.5 3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "10ee15d8-0ebf-4adb-9b7f-a17263ada443")
+	)
+	(fp_circle
+		(center -3.2 -4.7)
+		(end -3 -4.7)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill yes)
 		(layer "F.Fab")
 		(uuid "2e33db51-54a2-4fb3-9e12-fdf1dac790ce")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0.005 4.7875 0)
+		(at 0 -0.25 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "78749431-4b23-4f4c-a741-1b01676b9167")
@@ -209,7 +192,7 @@
 		(at -2.9 -2.3175)
 		(size 0.65 0.65)
 		(drill 0.65)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(clearance 0.05)
 		(uuid "dc30d7bd-87d3-49b0-bb39-4601d3e7da53")
 	)
@@ -217,7 +200,7 @@
 		(at 2.9 -2.3175)
 		(size 0.65 0.65)
 		(drill 0.65)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(clearance 0.1)
 		(uuid "d64e643f-8e29-48a0-bd4c-0d3ab9990334")
 	)
@@ -326,7 +309,7 @@
 		(uuid "425a5b77-dcd1-4767-b3dc-c0bf93b6e641")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/lib/3d_models/USB4105-GF-A.stp"
+	(model "${CUSTOM_3D_LIB_DIR}/USB4105-GF-A.stp"
 		(offset
 			(xyz -0.02 -3.9625 0)
 		)

@@ -544,10 +544,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "amulet_controller.net",
-      "plot": "",
-      "pos_files": "",
+      "plot": "Manufacturing/Fabrication/Gerbers/",
+      "pos_files": "Manufacturing/Assembly/",
       "specctra_dsn": "",
-      "step": "STEP/amulet_controller.step",
+      "step": "STEP_BLENDER/PWR_board_woCopper.step",
       "svg": "",
       "vrml": ""
     },
@@ -555,7 +555,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "",
+    "bom_export_filename": "Manufacturing\\Fabrication\\COMET1_PWR_Board_BOM_farnell.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -572,6 +572,12 @@
       "fields_ordered": [
         {
           "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": true
+        },
+        {
+          "group_by": false,
           "label": "Reference",
           "name": "Reference",
           "show": true
@@ -580,6 +586,12 @@
           "group_by": false,
           "label": "Value",
           "name": "Value",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
           "show": true
         },
         {
@@ -608,71 +620,47 @@
         },
         {
           "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
-          "show": false
+          "label": "Supplier",
+          "name": "Supplier",
+          "show": true
         },
         {
-          "group_by": false,
-          "label": "Farnell Part Number",
-          "name": "Farnell Part Number",
-          "show": false
-        },
-        {
-          "group_by": false,
+          "group_by": true,
           "label": "MPN",
           "name": "MPN",
           "show": true
         },
         {
           "group_by": false,
-          "label": "Manufacturer_Name",
-          "name": "Manufacturer_Name",
-          "show": false
+          "label": "Order Code",
+          "name": "Order Code",
+          "show": true
         },
         {
           "group_by": false,
-          "label": "Supplier",
-          "name": "Supplier",
-          "show": false
+          "label": "Price Per",
+          "name": "Price Per",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Min Qty",
+          "name": "Min Qty",
+          "show": true
         },
         {
           "group_by": false,
           "label": "Supplier Link",
           "name": "Supplier Link",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Supplier_Link",
-          "name": "Supplier_Link",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Description",
-          "name": "Description",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "JLC_MPN",
-          "name": "JLC_MPN",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "JLC_PART",
-          "name": "JLC_PART",
           "show": true
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "include_excluded_from_bom": true,
+      "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Supplier"
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -728,19 +716,19 @@
       "Power Board Schematic"
     ],
     [
-      "e7e6cc47-f6b8-4e74-9d8b-25b25dec501e",
+      "48c709b1-75e4-4c4a-af9e-ff05c343fcbd",
       "Component Specs"
     ]
   ],
   "text_variables": {
-    "BOARD_NAME": "Board Name",
-    "COMPANY": "Company Name",
-    "DESIGNER": "Designer Name",
+    "BOARD_NAME": "Power Board",
+    "COMPANY": "Southampton University Spaceflight Society",
+    "DESIGNER": "Ethan Wilson - ew8g21",
     "DOC_TYPE": "Fabrication",
-    "PROJECT_NAME": "Project Name",
-    "RELEASE_DATE": "Release Date",
-    "REVIEWER": "Reviewer Name",
-    "REVISION": "Revision Number",
-    "VARIANT": "Variant Name"
+    "PROJECT_NAME": "SULRE - COMET 1",
+    "RELEASE_DATE": "",
+    "REVIEWER": "TBD",
+    "REVISION": "V1",
+    "VARIANT": "PRELIMINARY"
   }
 }

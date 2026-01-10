@@ -5,10 +5,11 @@
 	(uuid "5f6d83c1-ced0-4d04-8892-4a6fbbe98305")
 	(paper "A3")
 	(title_block
-		(title "Sheet Title A")
-		(date "Last Modified Date")
+		(title "Sensors")
+		(date "2026-01-02")
 		(rev "${REVISION}")
 		(company "${COMPANY}")
+		(comment 1 "GRID - mil (1.27mm)")
 	)
 	(lib_symbols
 		(symbol "0_Connectors:502352-0201"
@@ -2410,7 +2411,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Library:+12V"
+		(symbol "power:+12V"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -2535,7 +2536,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Library:+3V3"
+		(symbol "power:+3V3"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -2660,7 +2661,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Library:GND"
+		(symbol "power:GND"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -2788,35 +2789,88 @@
 		)
 		(uuid e28db717-0467-4165-b702-3cca7e4af467)
 	)
-	(text "Potential I2C Addresses:\n0x44, 0x45, 0x46"
+	(text "I2C - 0x60"
 		(exclude_from_sim no)
-		(at 312.42 104.14 0)
+		(at 365.76 193.04 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(face "Times New Roman")
+				(size 2 2)
+				(color 162 22 34 1)
+			)
+		)
+		(uuid "015e8b35-8c2e-484d-abaf-ad99b7ffc1f1")
+	)
+	(text "I2C - 0x44"
+		(exclude_from_sim no)
+		(at 276.86 88.9 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2 2)
+				(color 162 22 34 1)
 			)
 		)
 		(uuid "73b1edd8-bdcb-4d04-b589-f88b9b9e4e28")
+	)
+	(text "I2C - 0x6E"
+		(exclude_from_sim no)
+		(at 365.76 137.16 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2 2)
+				(color 162 22 34 1)
+			)
+		)
+		(uuid "753e7537-0b50-4dd9-a998-0cdbd19607d4")
 	)
 	(text "Boost Conv.\n3V3 -> 12V"
 		(exclude_from_sim no)
 		(at 147.32 124.46 0)
 		(effects
 			(font
+				(face "Times New Roman")
 				(size 2 2)
+				(color 162 22 34 1)
 			)
 		)
 		(uuid "c580920a-903b-4565-ae0a-3045655f31d2")
 	)
-	(text "I2C Address:\n0x40"
+	(text "I2C - 0x20"
 		(exclude_from_sim no)
-		(at 182.88 189.865 0)
+		(at 198.12 167.64 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(face "Times New Roman")
+				(size 2 2)
+				(color 162 22 34 1)
 			)
 		)
 		(uuid "e1a3f380-3d5d-46e8-b27e-71b5a25784da")
+	)
+	(text_box "[${#}] ${TITLE}"
+		(exclude_from_sim no)
+		(at 12.7 12.7 0)
+		(size 395.3 27.3)
+		(margins 5.9999 5.9999 5.9999 5.9999)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 8 8)
+				(thickness 1.2)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+		)
+		(uuid "0f2391ea-dcde-4bdc-bfe2-a393d0e1980b")
 	)
 	(text_box "Engine Ignition Pyro"
 		(exclude_from_sim no)
@@ -2939,7 +2993,7 @@
 		(uuid "6b89a1a1-709f-4e0b-898f-f6bc757e8477")
 	)
 	(junction
-		(at 370.84 172.72)
+		(at 365.76 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "70746d8b-9233-49dd-8e24-75e841cea149")
@@ -2975,7 +3029,7 @@
 		(uuid "976b477b-219e-48b6-a294-12d076bab5f2")
 	)
 	(junction
-		(at 370.84 160.02)
+		(at 365.76 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a1d07bb4-352f-43b5-89d2-dd5cb77bce7f")
@@ -2997,12 +3051,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b406b5cf-5f96-4361-a078-e4f86dddef42")
-	)
-	(junction
-		(at 170.18 187.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b4991c22-6435-4586-bb62-6858eea1d0b1")
 	)
 	(junction
 		(at 66.04 104.14)
@@ -3052,6 +3100,12 @@
 		(color 0 0 0 0)
 		(uuid "eecd34a4-add3-4876-b123-ae643746ac09")
 	)
+	(junction
+		(at 170.18 177.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f8cde4f9-c19d-4251-8856-0a35911ccc43")
+	)
 	(no_connect
 		(at 127 176.53)
 		(uuid "48c83145-05a9-43af-83fa-c948bd5969dd")
@@ -3061,68 +3115,22 @@
 		(uuid "b8c3d8ef-2dad-41ff-b965-367408a1f507")
 	)
 	(bus_entry
-		(at 360.68 137.16)
+		(at 193.04 259.08)
 		(size 2.54 -2.54)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "44550762-7963-4ee6-acd3-82c7a3344b5a")
+		(uuid "b1a4ce45-7e8e-47fa-afc9-35d660828f93")
 	)
 	(bus_entry
-		(at 190.5 167.64)
+		(at 193.04 256.54)
 		(size 2.54 -2.54)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "545a4ade-e4ef-430c-8d49-c7f3083522f6")
-	)
-	(bus_entry
-		(at 358.14 193.04)
-		(size 2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c559f97-98fe-49a2-bfe0-1c20d0c35c47")
-	)
-	(bus_entry
-		(at 190.5 170.18)
-		(size 2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6dc82555-5aaf-48f6-aa54-e177bba9cd03")
-	)
-	(bus_entry
-		(at 358.14 195.58)
-		(size 2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d2dc1af-6c17-4b1b-8b1f-704cc0357b6b")
-	)
-	(bus_entry
-		(at 360.68 139.7)
-		(size 2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6478edf-0659-4f70-9c84-77856c08d598")
-	)
-	(wire
-		(pts
-			(xy 337.82 195.58) (xy 358.14 195.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "031f897c-1bc4-4949-a6d4-676f1e155daa")
+		(uuid "f810f40f-6391-43e5-abe3-5f7329e1059c")
 	)
 	(wire
 		(pts
@@ -3166,16 +3174,6 @@
 	)
 	(wire
 		(pts
-			(xy 337.82 137.16) (xy 360.68 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a4e607c-d1f0-4819-b902-6d38128c5f80")
-	)
-	(wire
-		(pts
 			(xy 38.1 104.14) (xy 35.56 104.14)
 		)
 		(stroke
@@ -3186,7 +3184,7 @@
 	)
 	(wire
 		(pts
-			(xy 383.54 160.02) (xy 370.84 160.02)
+			(xy 378.46 160.02) (xy 365.76 160.02)
 		)
 		(stroke
 			(width 0)
@@ -3276,7 +3274,7 @@
 	)
 	(wire
 		(pts
-			(xy 370.84 170.18) (xy 370.84 172.72)
+			(xy 365.76 170.18) (xy 365.76 172.72)
 		)
 		(stroke
 			(width 0)
@@ -3316,13 +3314,23 @@
 	)
 	(wire
 		(pts
-			(xy 383.54 170.18) (xy 383.54 172.72)
+			(xy 378.46 170.18) (xy 378.46 172.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "285830cc-f5de-422e-8070-88b177006d5f")
+	)
+	(wire
+		(pts
+			(xy 167.64 167.64) (xy 185.42 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "296b530f-95e0-4f6b-965c-f029959c901d")
 	)
 	(wire
 		(pts
@@ -3376,16 +3384,6 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 182.88) (xy 177.8 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "365eacbd-9fb0-4d20-868b-a50002c4f581")
-	)
-	(wire
-		(pts
 			(xy 289.56 154.94) (xy 302.26 154.94)
 		)
 		(stroke
@@ -3393,6 +3391,16 @@
 			(type default)
 		)
 		(uuid "37e4958a-b18c-47f6-862c-2e6043c9c5d4")
+	)
+	(wire
+		(pts
+			(xy 337.82 193.04) (xy 353.06 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39920935-4c1a-4e87-8696-73569c8136b0")
 	)
 	(wire
 		(pts
@@ -3514,16 +3522,6 @@
 		)
 		(uuid "48a14ebf-6949-4620-a32d-1f89729f776d")
 	)
-	(bus
-		(pts
-			(xy 360.68 190.5) (xy 363.22 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a0f513f-8095-4b47-a806-a74edd1f8fdf")
-	)
 	(wire
 		(pts
 			(xy 125.73 109.22) (xy 125.73 111.76)
@@ -3533,16 +3531,6 @@
 			(type default)
 		)
 		(uuid "4ab40c44-8d5d-4641-acdf-04cf72ea9849")
-	)
-	(bus
-		(pts
-			(xy 368.3 132.08) (xy 365.76 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d7e6ca5-b226-47b7-88e4-34c74a01aa1c")
 	)
 	(wire
 		(pts
@@ -3606,7 +3594,7 @@
 	)
 	(wire
 		(pts
-			(xy 370.84 157.48) (xy 370.84 160.02)
+			(xy 365.76 157.48) (xy 365.76 160.02)
 		)
 		(stroke
 			(width 0)
@@ -3626,16 +3614,6 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 187.96) (xy 170.18 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5485f4fb-7b19-42dc-9cf1-122a39eb8f73")
-	)
-	(wire
-		(pts
 			(xy 66.04 190.5) (xy 66.04 195.58)
 		)
 		(stroke
@@ -3643,16 +3621,6 @@
 			(type default)
 		)
 		(uuid "58697cc0-0cf4-4db0-9ef2-cff0a3e63c85")
-	)
-	(wire
-		(pts
-			(xy 167.64 170.18) (xy 190.5 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58950461-9140-466e-af74-40ea9e1f4a15")
 	)
 	(wire
 		(pts
@@ -3666,7 +3634,7 @@
 	)
 	(wire
 		(pts
-			(xy 383.54 172.72) (xy 370.84 172.72)
+			(xy 378.46 172.72) (xy 365.76 172.72)
 		)
 		(stroke
 			(width 0)
@@ -3774,15 +3742,15 @@
 		)
 		(uuid "667d9f6b-fb7a-494f-8347-8dfb7c03ec83")
 	)
-	(wire
+	(bus
 		(pts
-			(xy 170.18 187.96) (xy 170.18 180.34)
+			(xy 195.58 254) (xy 195.58 256.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "686dfdaa-9352-4e99-b8ab-669a1ceb73db")
+		(uuid "66f96be9-3810-45ca-bf98-199df6516e14")
 	)
 	(wire
 		(pts
@@ -3946,6 +3914,16 @@
 	)
 	(wire
 		(pts
+			(xy 337.82 137.16) (xy 353.06 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82288941-878c-431f-a5b3-b727130012ee")
+	)
+	(wire
+		(pts
 			(xy 66.04 190.5) (xy 81.28 190.5)
 		)
 		(stroke
@@ -3953,16 +3931,6 @@
 			(type default)
 		)
 		(uuid "825e3d48-6a4c-4f7b-90bf-0f4c429eee79")
-	)
-	(bus
-		(pts
-			(xy 365.76 187.96) (xy 363.22 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8339a01a-73a9-4536-8407-d1468cef1de8")
 	)
 	(wire
 		(pts
@@ -3973,16 +3941,6 @@
 			(type default)
 		)
 		(uuid "84adc411-2906-412c-b5a5-387d9abd5fae")
-	)
-	(bus
-		(pts
-			(xy 193.04 165.1) (xy 193.04 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86226836-d4d4-49ea-bba7-f6aadca6ee68")
 	)
 	(wire
 		(pts
@@ -4026,7 +3984,7 @@
 	)
 	(wire
 		(pts
-			(xy 370.84 160.02) (xy 370.84 162.56)
+			(xy 365.76 160.02) (xy 365.76 162.56)
 		)
 		(stroke
 			(width 0)
@@ -4116,6 +4074,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 256.54) (xy 193.04 256.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c3169bb-5824-4b1b-a4fd-2f610df285ab")
+	)
+	(wire
+		(pts
 			(xy 342.9 190.5) (xy 342.9 185.42)
 		)
 		(stroke
@@ -4123,16 +4091,6 @@
 			(type default)
 		)
 		(uuid "9cada760-b63c-4189-91c2-bd7f8291fc81")
-	)
-	(bus
-		(pts
-			(xy 193.04 165.1) (xy 195.58 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e76c442-5b08-49d5-8973-96ff6c8ac083")
 	)
 	(wire
 		(pts
@@ -4184,16 +4142,6 @@
 		)
 		(uuid "a7f90ef1-e590-4a37-887c-bc02062b3d28")
 	)
-	(bus
-		(pts
-			(xy 363.22 134.62) (xy 365.76 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a95a295a-602b-4115-b14f-c5f790569cf2")
-	)
 	(wire
 		(pts
 			(xy 256.54 134.62) (xy 261.62 134.62)
@@ -4216,13 +4164,23 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 172.72) (xy 177.8 172.72)
+			(xy 167.64 172.72) (xy 170.18 172.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "acc69fc6-bf89-47ad-93d2-4b420be77ce6")
+	)
+	(wire
+		(pts
+			(xy 353.06 139.7) (xy 337.82 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ade53a7c-5831-4d7e-be2f-a0db573efa3b")
 	)
 	(wire
 		(pts
@@ -4243,16 +4201,6 @@
 			(type default)
 		)
 		(uuid "b1761d5a-42fb-44a2-9c51-84b3597afd4f")
-	)
-	(bus
-		(pts
-			(xy 198.12 162.56) (xy 195.58 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b20f4374-cadb-4c0f-bf36-2823e2b125e2")
 	)
 	(wire
 		(pts
@@ -4294,15 +4242,15 @@
 		)
 		(uuid "b4ed00f5-c43a-4bf2-8964-0009865a2c22")
 	)
-	(bus
+	(wire
 		(pts
-			(xy 360.68 190.5) (xy 360.68 193.04)
+			(xy 337.82 195.58) (xy 353.06 195.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b661af54-1182-45f4-9cbf-722942216d0b")
+		(uuid "b525eecd-50c5-41fa-9648-563fa3f93fcf")
 	)
 	(wire
 		(pts
@@ -4336,7 +4284,7 @@
 	)
 	(wire
 		(pts
-			(xy 370.84 172.72) (xy 370.84 175.26)
+			(xy 365.76 172.72) (xy 365.76 175.26)
 		)
 		(stroke
 			(width 0)
@@ -4376,6 +4324,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 170.18) (xy 167.64 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6d82c63-66fb-44e1-b4b2-6f15fa0750d0")
+	)
+	(wire
+		(pts
 			(xy 125.73 121.92) (xy 125.73 124.46)
 		)
 		(stroke
@@ -4396,13 +4354,13 @@
 	)
 	(wire
 		(pts
-			(xy 337.82 139.7) (xy 360.68 139.7)
+			(xy 180.34 259.08) (xy 193.04 259.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cb5a71d8-4932-45a5-bb38-03d3194504f4")
+		(uuid "cb63eac3-3d0f-4830-8cfa-63a307e478d9")
 	)
 	(wire
 		(pts
@@ -4416,23 +4374,13 @@
 	)
 	(wire
 		(pts
-			(xy 337.82 193.04) (xy 358.14 193.04)
+			(xy 170.18 172.72) (xy 170.18 177.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d1b79845-d3d1-4ae0-ad0b-616b41894123")
-	)
-	(wire
-		(pts
-			(xy 177.8 172.72) (xy 177.8 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d25113e2-f23c-410a-a754-d371e7e28349")
+		(uuid "d2b17212-4eb9-4da0-a9c4-4cc558d25270")
 	)
 	(wire
 		(pts
@@ -4493,6 +4441,16 @@
 			(type default)
 		)
 		(uuid "d85aacfe-5b6e-4f78-b3c4-40dbf29e12da")
+	)
+	(bus
+		(pts
+			(xy 200.66 251.46) (xy 198.12 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9820b9c-15f7-45dd-a251-f2fbbc20aa80")
 	)
 	(wire
 		(pts
@@ -4556,7 +4514,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 190.5) (xy 170.18 187.96)
+			(xy 170.18 180.34) (xy 170.18 184.15)
 		)
 		(stroke
 			(width 0)
@@ -4566,7 +4524,7 @@
 	)
 	(wire
 		(pts
-			(xy 383.54 162.56) (xy 383.54 160.02)
+			(xy 378.46 162.56) (xy 378.46 160.02)
 		)
 		(stroke
 			(width 0)
@@ -4583,16 +4541,6 @@
 			(type default)
 		)
 		(uuid "e5cce58b-0b9f-4b1b-81e6-d89dbf3606b4")
-	)
-	(wire
-		(pts
-			(xy 167.64 167.64) (xy 190.5 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e68642ab-cca2-4114-a246-1573894f546c")
 	)
 	(wire
 		(pts
@@ -4636,13 +4584,13 @@
 	)
 	(bus
 		(pts
-			(xy 363.22 134.62) (xy 363.22 137.16)
+			(xy 195.58 254) (xy 198.12 251.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f4c24504-312f-4219-b8ae-f11fa3b35f4f")
+		(uuid "eda8b9cf-455a-4f36-a9f1-cb8a19de4f0a")
 	)
 	(wire
 		(pts
@@ -7144,6 +7092,16 @@
 		)
 		(uuid "35e19477-7f60-463a-b66f-3df4e662c9d0")
 	)
+	(label "I2C_SDA"
+		(at 180.34 259.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "420859b0-b7dc-48c6-924c-f72280a04815")
+	)
 	(label "Thermo_A-"
 		(at 299.72 137.16 180)
 		(effects
@@ -7183,6 +7141,16 @@
 			(justify left bottom)
 		)
 		(uuid "686666d2-085a-478c-9a0a-85324abc1fd6")
+	)
+	(label "I2C_SCL"
+		(at 180.34 256.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "68d6dfd4-d4d7-49dd-bd55-cdcfe0f70e44")
 	)
 	(label "PressureB-"
 		(at 81.28 154.94 180)
@@ -7255,7 +7223,7 @@
 		(uuid "a1074aa2-d907-4765-ba0a-464e01b5d418")
 	)
 	(label "I2C_SCL"
-		(at 355.6 137.16 180)
+		(at 353.06 137.16 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7345,7 +7313,7 @@
 		(uuid "d5bfe220-5151-4964-a889-0a5fd2dcaee3")
 	)
 	(label "I2C_SDA"
-		(at 355.6 139.7 180)
+		(at 353.06 139.7 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7366,40 +7334,18 @@
 	)
 	(hierarchical_label "{I2C}"
 		(shape bidirectional)
-		(at 368.3 132.08 0)
+		(at 200.66 251.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "0ada2096-85a4-4c4c-bc1d-b8bdf85aa765")
-	)
-	(hierarchical_label "{I2C}"
-		(shape bidirectional)
-		(at 198.12 162.56 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "756362cd-ca82-4293-a5d4-b5c6ac38189d")
-	)
-	(hierarchical_label "{I2C}"
-		(shape bidirectional)
-		(at 365.76 187.96 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c1d9728b-2b16-41f5-b7d6-28f16704b5f5")
+		(uuid "011f8f3d-5a82-4f26-b1b5-25292a129053")
 	)
 	(symbol
 		(lib_id "0_Passives:C")
-		(at 383.54 170.18 90)
+		(at 378.46 170.18 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7407,7 +7353,7 @@
 		(dnp no)
 		(uuid "016da327-23d2-47ea-995c-a9281c50d828")
 		(property "Reference" "C32"
-			(at 386.715 165.1 90)
+			(at 381.635 165.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7416,7 +7362,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 386.715 167.64 90)
+			(at 381.635 167.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7425,7 +7371,7 @@
 			)
 		)
 		(property "Footprint" "0_Capacitors:C_0603_1608_DensityHigh"
-			(at 389.89 163.83 0)
+			(at 384.81 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7434,7 +7380,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 383.54 166.37 90)
+			(at 378.46 166.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7442,8 +7388,62 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 0402 MLCC capacitor, Alternate KiCad Library"
-			(at 392.43 164.7952 0)
+		(property "Description" "SMD 0603 MLCC capacitor"
+			(at 387.35 164.7952 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0603KRX7R9BB104"
+			(at 378.46 170.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Min Qty" "20"
+			(at 378.46 170.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Code" "C14663"
+			(at 378.46 170.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Link" "~"
+			(at 378.46 170.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price Per" "0.002"
+			(at 378.46 170.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "JLCPCB"
+			(at 378.46 170.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7493,7 +7493,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "0_Passives:D_0805_2012Metric"
+		(property "Footprint" "0_Passives:D_SOD-123"
 			(at 116.84 104.14 0)
 			(effects
 				(font
@@ -7511,8 +7511,62 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD SOD-123 Shottky Diode"
 			(at 116.84 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "B5819W SL"
+			(at 120.65 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Min Qty" "20"
+			(at 120.65 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Code" "C8598"
+			(at 120.65 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Link" "~"
+			(at 120.65 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price Per" "0.017"
+			(at 120.65 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "JLCPCB"
+			(at 120.65 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7536,7 +7590,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library:+3V3")
+		(lib_id "power:+3V3")
 		(at 342.9 185.42 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7601,7 +7655,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library:+12V")
+		(lib_id "power:+12V")
 		(at 107.95 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7666,7 +7720,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library:GND")
+		(lib_id "power:GND")
 		(at 342.9 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7731,103 +7785,7 @@
 		)
 	)
 	(symbol
-		(lib_id "0_Passives:R")
-		(at 177.8 182.88 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1c9c567f-e6db-4197-b7b0-fca3077ffeb9")
-		(property "Reference" "R22"
-			(at 179.705 177.8 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0R"
-			(at 179.705 180.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "0_Resistors:R_0805_2012_DensityHigh"
-			(at 209.55 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 177.8 179.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD 0402 Chip Resistor, European Symbol, Alternate KiCad Library"
-			(at 198.12 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 177.8 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" ""
-			(at 177.8 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Link" ""
-			(at 177.8 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5c6ac0be-00d6-4804-b215-8a7fa859fad7")
-		)
-		(pin "2"
-			(uuid "97f8f80b-a459-45f3-88e5-c4cbae556d53")
-		)
-		(instances
-			(project "COMET1_CCT"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/216bd523-62f0-4eae-ad22-b13c33a7057e"
-					(reference "R22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Library:GND")
+		(lib_id "power:GND")
 		(at 256.54 198.12 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7908,7 +7866,7 @@
 				)
 			)
 		)
-		(property "Value" "STS4L-AD1B-R3"
+		(property "Value" "STS4L"
 			(at 314.96 83.82 0)
 			(effects
 				(font
@@ -7953,7 +7911,43 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Link" "https://uk.farnell.com/sensirion/sts4l-ad1b-r3/temperature-sensor-0-4deg-c-dfn/dp/4551122"
+		(property "Min Qty" "1"
+			(at 302.26 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Code" "4551122"
+			(at 302.26 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Link" "https://uk.farnell.com/sensirion/sts4l-ad1b-r3/temperature-sensor-0-4deg-c-dfn/dp/4551122"
+			(at 302.26 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price Per" "0.52"
+			(at 302.26 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Farnell"
 			(at 302.26 88.9 0)
 			(effects
 				(font
@@ -7984,7 +7978,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library:+12V")
+		(lib_id "power:+12V")
 		(at 66.04 185.42 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8093,7 +8087,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "MOLEX - 502352-0201 - WTB CONN, HEADER, 2POS, 1ROW, 2MM ROHS COMPLIANT: YES"
+		(property "Description" "MOLEX - 502352-0201 - WTB CONN, HEADER, 2POS, 1ROW, 2MM"
 			(at 38.1 154.94 0)
 			(effects
 				(font
@@ -8111,7 +8105,43 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Link" "https://uk.farnell.com/molex/502352-0201/wtb-conn-header-2pos-1row-2mm/dp/3103081"
+		(property "Min Qty" "1"
+			(at 38.1 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Code" "3103081"
+			(at 38.1 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Link" "https://uk.farnell.com/molex/502352-0201/wtb-conn-header-2pos-1row-2mm/dp/3103081"
+			(at 38.1 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price Per" "0.95"
+			(at 38.1 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Farnell"
 			(at 38.1 154.94 0)
 			(effects
 				(font
@@ -8142,7 +8172,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library:GND")
+		(lib_id "power:GND")
 		(at 140.97 212.09 0)
 		(mirror y)
 		(unit 1)
@@ -8209,7 +8239,7 @@
 	)
 	(symbol
 		(lib_id "0_Passives:C")
-		(at 370.84 170.18 270)
+		(at 365.76 170.18 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8218,7 +8248,7 @@
 		(dnp no)
 		(uuid "2b7a03ed-6a29-413f-9780-5eab29e986a9")
 		(property "Reference" "C30"
-			(at 374.015 165.1 90)
+			(at 368.935 165.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8227,7 +8257,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 374.015 167.64 90)
+			(at 368.935 167.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8236,7 +8266,7 @@
 			)
 		)
 		(property "Footprint" "0_Capacitors:C_0603_1608_DensityHigh"
-			(at 364.49 163.83 0)
+			(at 359.41 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8245,7 +8275,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 370.84 166.37 90)
+			(at 365.76 166.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8253,8 +8283,62 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 0402 MLCC capacitor, Alternate KiCad Library"
-			(at 361.95 164.7952 0)
+		(property "Description" "SMD 0603 MLCC capacitor"
+			(at 356.87 164.7952 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0603KRX7R9BB104"
+			(at 365.76 170.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Min Qty" "20"
+			(at 365.76 170.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Code" "C14663"
+			(at 365.76 170.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Link" "~"
+			(at 365.76 170.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price Per" "0.002"
+			(at 365.76 170.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "JLCPCB"
+			(at 365.76 170.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8278,7 +8362,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library:GND")
+		(lib_id "power:GND")
 		(at 342.9 205.74 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8351,7 +8435,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3bb170e9-98a7-4d09-a290-ee05930a6674")
-		(property "Reference" "R18"
+		(property "Reference" "R19"
 			(at 68.58 144.78 90)
 			(effects
 				(font
@@ -8360,7 +8444,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0R2"
+		(property "Value" "0.1R"
 			(at 68.58 147.32 90)
 			(effects
 				(font
@@ -8387,7 +8471,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 0402 Chip Resistor, European Symbol, Alternate KiCad Library"
+		(property "Description" "SMD 1206 Chip Resistor"
 			(at 45.72 142.24 0)
 			(effects
 				(font
@@ -8396,7 +8480,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1206W4F100LT5E"
 			(at 66.04 142.24 0)
 			(effects
 				(font
@@ -8405,8 +8489,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
-			(at 66.04 142.24 0)
+		(property "Min Qty" "15"
+			(at 66.04 142.24 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8414,8 +8498,35 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Link" ""
-			(at 66.04 142.24 0)
+		(property "Order Code" "C25334"
+			(at 66.04 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Link" "~"
+			(at 66.04 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price Per" "0.0037"
+			(at 66.04 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "JLCPCB"
+			(at 66.04 142.24 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8432,7 +8543,7 @@
 		(instances
 			(project "COMET1_CCT"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/216bd523-62f0-4eae-ad22-b13c33a7057e"
-					(reference "R18")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -8483,8 +8594,62 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 0402 MLCC capacitor, Alternate KiCad Library"
+		(property "Description" "SMD 0603 MLCC capacitor"
 			(at 163.83 108.2548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10A475KO8NNNC"
+			(at 172.72 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Min Qty" "20"
+			(at 172.72 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Code" "C19666"
+			(at 172.72 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Link" "~"
+			(at 172.72 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price Per" "0.007"
+			(at 172.72 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "JLCPCB"
+			(at 172.72 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8508,7 +8673,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library:GND")
+		(lib_id "power:GND")
 		(at 66.04 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8573,7 +8738,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library:+12V")
+		(lib_id "power:+12V")
 		(at 66.04 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8682,8 +8847,62 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 0402 MLCC capacitor, Alternate KiCad Library"
+		(property "Description" "SMD 0603 MLCC capacitor"
 			(at 144.78 204.7748 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0603KRX7R9BB104"
+			(at 153.67 199.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Min Qty" "20"
+			(at 153.67 199.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Code" "C14663"
+			(at 153.67 199.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Link" "~"
+			(at 153.67 199.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price Per" "0.002"
+			(at 153.67 199.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "JLCPCB"
+			(at 153.67 199.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8707,7 +8926,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library:+12V")
+		(lib_id "power:+12V")
 		(at 66.04 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8816,7 +9035,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "MOLEX - 502352-0201 - WTB CONN, HEADER, 2POS, 1ROW, 2MM ROHS COMPLIANT: YES"
+		(property "Description" "MOLEX - 502352-0201 - WTB CONN, HEADER, 2POS, 1ROW, 2MM"
 			(at 38.1 208.28 0)
 			(effects
 				(font
@@ -8834,7 +9053,43 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Link" "https://uk.farnell.com/molex/502352-0201/wtb-conn-header-2pos-1row-2mm/dp/3103081"
+		(property "Min Qty" "1"
+			(at 38.1 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Code" "3103081"
+			(at 38.1 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Link" "https://uk.farnell.com/molex/502352-0201/wtb-conn-header-2pos-1row-2mm/dp/3103081"
+			(at 38.1 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price Per" "0.95"
+			(at 38.1 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Farnell"
 			(at 38.1 208.28 0)
 			(effects
 				(font
@@ -8865,7 +9120,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library:GND")
+		(lib_id "power:GND")
 		(at 125.73 124.46 0)
 		(mirror y)
 		(unit 1)
@@ -8931,7 +9186,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library:GND")
+		(lib_id "power:GND")
 		(at 330.2 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8996,7 +9251,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library:GND")
+		(lib_id "power:GND")
 		(at 256.54 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9061,7 +9316,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library:+3V3")
+		(lib_id "power:+3V3")
 		(at 125.73 88.9 0)
 		(mirror y)
 		(unit 1)
@@ -9127,7 +9382,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library:GND")
+		(lib_id "power:GND")
 		(at 66.04 162.56 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9208,7 +9463,7 @@
 				)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "100nF"
 			(at 285.75 206.375 0)
 			(effects
 				(font
@@ -9234,8 +9489,62 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 0402 MLCC capacitor, Alternate KiCad Library"
+		(property "Description" "SMD 0603 MLCC capacitor"
 			(at 284.1752 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0603KRX7R9BB104"
+			(at 289.56 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Min Qty" "20"
+			(at 289.56 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Code" "C14663"
+			(at 289.56 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Link" "~"
+			(at 289.56 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price Per" "0.002"
+			(at 289.56 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "JLCPCB"
+			(at 289.56 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9259,7 +9568,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library:GND")
+		(lib_id "power:GND")
 		(at 166.37 119.38 0)
 		(mirror y)
 		(unit 1)
@@ -9325,8 +9634,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Library:GND")
-		(at 170.18 190.5 0)
+		(lib_id "power:GND")
+		(at 170.18 184.15 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9335,7 +9644,7 @@
 		(dnp no)
 		(uuid "8a6d9509-a4b3-460c-b20e-0739cd7a6156")
 		(property "Reference" "#PWR01222"
-			(at 170.18 196.85 0)
+			(at 170.18 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9344,7 +9653,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 170.18 194.31 0)
+			(at 170.18 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9352,7 +9661,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 170.18 190.5 0)
+			(at 170.18 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9361,7 +9670,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 190.5 0)
+			(at 170.18 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9370,7 +9679,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 170.18 190.5 0)
+			(at 170.18 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9407,7 +9716,7 @@
 				)
 			)
 		)
-		(property "Value" "PAC1934T-I_JQ"
+		(property "Value" "PAC1934"
 			(at 147.32 149.86 0)
 			(effects
 				(font
@@ -9415,7 +9724,7 @@
 				)
 			)
 		)
-		(property "Footprint" "0_Sensors:QFN65P400X400X55-17N-D"
+		(property "Footprint" "0_Sensors:PAC1934T-I_JQ"
 			(at 158.75 227 0)
 			(effects
 				(font
@@ -9443,53 +9752,57 @@
 				)
 			)
 		)
-		(property "Height" "0.55"
-			(at 158.75 527 0)
+		(property "MPN" "PAC1934T-I/JQ"
+			(at 127 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Farnell Part Number" ""
-			(at 158.75 627 0)
+		(property "Min Qty" "1"
+			(at 127 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Farnell Price/Stock" ""
-			(at 158.75 727 0)
+		(property "Order Code" "2907898"
+			(at 127 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Microchip"
-			(at 158.75 827 0)
+		(property "Part Link" "https://uk.farnell.com/microchip/pac1934t-i-jq/dc-power-energy-monitor-with-accumulator/dp/2907898"
+			(at 127 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "PAC1934T-I/JQ"
-			(at 158.75 927 0)
+		(property "Price Per" "1.72"
+			(at 127 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Farnell"
+			(at 127 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -9554,8 +9867,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Library:GND")
-		(at 370.84 175.26 0)
+		(lib_id "power:GND")
+		(at 365.76 175.26 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9564,7 +9877,7 @@
 		(dnp no)
 		(uuid "8e4da595-b619-404d-80ec-ec828e47442d")
 		(property "Reference" "#PWR01219"
-			(at 370.84 181.61 0)
+			(at 365.76 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9573,7 +9886,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 370.84 179.07 0)
+			(at 365.76 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9581,7 +9894,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 370.84 175.26 0)
+			(at 365.76 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9590,7 +9903,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 370.84 175.26 0)
+			(at 365.76 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9599,7 +9912,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 370.84 175.26 0)
+			(at 365.76 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9665,8 +9978,62 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 0402 MLCC capacitor, Alternate KiCad Library"
+		(property "Description" "SMD 0603 MLCC capacitor"
 			(at 99.06 113.9952 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10A475KO8NNNC"
+			(at 107.95 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Min Qty" "20"
+			(at 107.95 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Code" "C19666"
+			(at 107.95 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Link" "~"
+			(at 107.95 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price Per" "0.007"
+			(at 107.95 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "JLCPCB"
+			(at 107.95 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9698,7 +10065,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9734fe23-f9c8-494e-b860-e07deea2d8c9")
-		(property "Reference" "R19"
+		(property "Reference" "R20"
 			(at 68.58 198.12 90)
 			(effects
 				(font
@@ -9707,7 +10074,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0R2"
+		(property "Value" "0.1R"
 			(at 68.58 200.66 90)
 			(effects
 				(font
@@ -9734,7 +10101,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 0402 Chip Resistor, European Symbol, Alternate KiCad Library"
+		(property "Description" "SMD 1206 Chip Resistor"
 			(at 45.72 195.58 0)
 			(effects
 				(font
@@ -9743,7 +10110,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1206W4F100LT5E"
 			(at 66.04 195.58 0)
 			(effects
 				(font
@@ -9752,8 +10119,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
-			(at 66.04 195.58 0)
+		(property "Min Qty" "15"
+			(at 66.04 195.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9761,8 +10128,35 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Link" ""
-			(at 66.04 195.58 0)
+		(property "Order Code" "C25334"
+			(at 66.04 195.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Link" "~"
+			(at 66.04 195.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price Per" "0.0037"
+			(at 66.04 195.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "JLCPCB"
+			(at 66.04 195.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9779,14 +10173,14 @@
 		(instances
 			(project "COMET1_CCT"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/216bd523-62f0-4eae-ad22-b13c33a7057e"
-					(reference "R19")
+					(reference "R20")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Library:GND")
+		(lib_id "power:GND")
 		(at 35.56 213.36 0)
 		(mirror y)
 		(unit 1)
@@ -9852,7 +10246,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library:+3V3")
+		(lib_id "power:+3V3")
 		(at 172.72 152.4 0)
 		(mirror y)
 		(unit 1)
@@ -9964,7 +10358,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "MOLEX - 502352-0201 - WTB CONN, HEADER, 2POS, 1ROW, 2MM ROHS COMPLIANT: YES"
+		(property "Description" "MOLEX - 502352-0201 - WTB CONN, HEADER, 2POS, 1ROW, 2MM"
 			(at 261.62 134.62 0)
 			(effects
 				(font
@@ -9982,7 +10376,43 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Link" "https://uk.farnell.com/molex/502352-0201/wtb-conn-header-2pos-1row-2mm/dp/3103081"
+		(property "Min Qty" "1"
+			(at 261.62 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Code" "3103081"
+			(at 261.62 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Link" "https://uk.farnell.com/molex/502352-0201/wtb-conn-header-2pos-1row-2mm/dp/3103081"
+			(at 261.62 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price Per" "0.95"
+			(at 261.62 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Farnell"
 			(at 261.62 134.62 0)
 			(effects
 				(font
@@ -10021,7 +10451,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a2312526-9081-4eb1-9517-48cd18e6766e")
-		(property "Reference" "R20"
+		(property "Reference" "R21"
 			(at 116.84 112.395 0)
 			(effects
 				(font
@@ -10029,7 +10459,7 @@
 				)
 			)
 		)
-		(property "Value" "118kR"
+		(property "Value" "120kR"
 			(at 116.84 114.935 0)
 			(effects
 				(font
@@ -10055,7 +10485,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 0402 Chip Resistor, European Symbol, Alternate KiCad Library"
+		(property "Description" "SMD 0603 Chip Resistor"
 			(at 120.65 88.9 0)
 			(effects
 				(font
@@ -10064,7 +10494,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "0603WAF1203T5E"
 			(at 120.65 109.22 0)
 			(effects
 				(font
@@ -10073,7 +10503,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Min Qty" "20"
 			(at 120.65 109.22 0)
 			(effects
 				(font
@@ -10082,7 +10512,34 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Link" ""
+		(property "Order Code" "C25808"
+			(at 120.65 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Link" "~"
+			(at 120.65 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price Per" "0.0008"
+			(at 120.65 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "JLCPCB"
 			(at 120.65 109.22 0)
 			(effects
 				(font
@@ -10100,14 +10557,14 @@
 		(instances
 			(project "COMET1_CCT"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/216bd523-62f0-4eae-ad22-b13c33a7057e"
-					(reference "R20")
+					(reference "R21")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Library:+3V3")
+		(lib_id "power:+3V3")
 		(at 140.97 194.31 0)
 		(mirror y)
 		(unit 1)
@@ -10190,7 +10647,7 @@
 				)
 			)
 		)
-		(property "Value" "LM27313XMFX_NOPB"
+		(property "Value" "LM27313"
 			(at 147.32 99.06 0)
 			(effects
 				(font
@@ -10198,7 +10655,7 @@
 				)
 			)
 		)
-		(property "Footprint" "0_Power:SOT95P280X145-5N"
+		(property "Footprint" "0_Power:SOT-23-5"
 			(at 157.48 199.06 0)
 			(effects
 				(font
@@ -10218,7 +10675,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dc/DC Boost converter"
+		(property "Description" "DC/DC Boost converter"
 			(at 147.32 114.3 0)
 			(effects
 				(font
@@ -10235,7 +10692,43 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Link" "https://uk.farnell.com/texas-instruments/lm27313xmfx-nopb/dc-dc-conv-buck-1-6mhz-sot-23/dp/3121547"
+		(property "Min Qty" "1"
+			(at 133.35 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Code" "3121547"
+			(at 133.35 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Link" "https://uk.farnell.com/texas-instruments/lm27313xmfx-nopb/dc-dc-conv-buck-1-6mhz-sot-23/dp/3121547"
+			(at 133.35 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price Per" "1.85"
+			(at 133.35 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Farnell"
 			(at 133.35 104.14 0)
 			(effects
 				(font
@@ -10313,7 +10806,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "MOLEX - 502352-0201 - WTB CONN, HEADER, 2POS, 1ROW, 2MM ROHS COMPLIANT: YES"
+		(property "Description" "MOLEX - 502352-0201 - WTB CONN, HEADER, 2POS, 1ROW, 2MM"
 			(at 38.1 104.14 0)
 			(effects
 				(font
@@ -10331,7 +10824,43 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Link" "https://uk.farnell.com/molex/502352-0201/wtb-conn-header-2pos-1row-2mm/dp/3103081"
+		(property "Min Qty" "1"
+			(at 38.1 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Code" "3103081"
+			(at 38.1 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Link" "https://uk.farnell.com/molex/502352-0201/wtb-conn-header-2pos-1row-2mm/dp/3103081"
+			(at 38.1 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price Per" "0.95"
+			(at 38.1 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Farnell"
 			(at 38.1 104.14 0)
 			(effects
 				(font
@@ -10407,8 +10936,62 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Inductors for Power Circuits, Wound Ferrite, for Automotive"
+		(property "Description" "SMD 1206 Inductor"
 			(at 121.412 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MCSD54-120MU"
+			(at 125.73 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Min Qty" "1"
+			(at 125.73 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Code" "1864116"
+			(at 125.73 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Link" "https://uk.farnell.com/multicomp-pro/mcsd54-120mu/inductor-12uh-1-4a-20/dp/1864116 "
+			(at 125.73 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price Per" "0.25"
+			(at 125.73 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Farnell"
+			(at 125.73 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10448,7 +11031,7 @@
 				)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "100nF"
 			(at 285.75 150.495 0)
 			(effects
 				(font
@@ -10474,8 +11057,62 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 0402 MLCC capacitor, Alternate KiCad Library"
+		(property "Description" "SMD 0603 MLCC capacitor"
 			(at 284.1752 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0603KRX7R9BB104"
+			(at 289.56 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Min Qty" "20"
+			(at 289.56 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Code" "C14663"
+			(at 289.56 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Link" "~"
+			(at 289.56 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price Per" "0.002"
+			(at 289.56 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "JLCPCB"
+			(at 289.56 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10499,7 +11136,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library:+3V3")
+		(lib_id "power:+3V3")
 		(at 330.2 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10580,7 +11217,7 @@
 				)
 			)
 		)
-		(property "Value" "MCP96RL00-E_MX"
+		(property "Value" "MCP96R00"
 			(at 325.12 182.88 0)
 			(effects
 				(font
@@ -10588,7 +11225,7 @@
 				)
 			)
 		)
-		(property "Footprint" "0_Sensors:QFN65P500X500X100-21N-D"
+		(property "Footprint" "0_Sensors:MCP9600L00"
 			(at 309.88 205.74 0)
 			(effects
 				(font
@@ -10625,7 +11262,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Link" "https://uk.farnell.com/microchip/mcp96rl00-e-mx/thermocouple-emf-temp-converter/dp/2991624#anchorTechnicalDOCS"
+		(property "Min Qty" "1"
 			(at 317.5 203.2 0)
 			(effects
 				(font
@@ -10634,53 +11271,39 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "1"
-			(at 346.71 587.96 0)
+		(property "Order Code" "2991624"
+			(at 317.5 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Farnell Part Number" ""
-			(at 346.71 687.96 0)
+		(property "Part Link" "https://uk.farnell.com/microchip/mcp96rl00-e-mx/thermocouple-emf-temp-converter/dp/2991624"
+			(at 317.5 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Farnell Price/Stock" ""
-			(at 346.71 787.96 0)
+		(property "Price Per" "3.49"
+			(at 317.5 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Microchip"
-			(at 346.71 887.96 0)
+		(property "Supplier" "Farnell"
+			(at 317.5 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "MCP96RL00-E/MX"
-			(at 346.71 987.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
 				(hide yes)
 			)
 		)
@@ -10803,7 +11426,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "MOLEX - 502352-0201 - WTB CONN, HEADER, 2POS, 1ROW, 2MM ROHS COMPLIANT: YES"
+		(property "Description" "MOLEX - 502352-0201 - WTB CONN, HEADER, 2POS, 1ROW, 2MM"
 			(at 261.62 190.5 0)
 			(effects
 				(font
@@ -10821,7 +11444,43 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Link" "https://uk.farnell.com/molex/502352-0201/wtb-conn-header-2pos-1row-2mm/dp/3103081"
+		(property "Min Qty" "1"
+			(at 261.62 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Code" "3103081"
+			(at 261.62 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Link" "https://uk.farnell.com/molex/502352-0201/wtb-conn-header-2pos-1row-2mm/dp/3103081"
+			(at 261.62 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price Per" "0.95"
+			(at 261.62 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Farnell"
 			(at 261.62 190.5 0)
 			(effects
 				(font
@@ -10852,7 +11511,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library:GND")
+		(lib_id "power:GND")
 		(at 35.56 109.22 0)
 		(mirror y)
 		(unit 1)
@@ -10934,7 +11593,7 @@
 				)
 			)
 		)
-		(property "Value" "MCP96RL00-E_MX"
+		(property "Value" "MCP96R00"
 			(at 325.12 127 0)
 			(effects
 				(font
@@ -10942,7 +11601,7 @@
 				)
 			)
 		)
-		(property "Footprint" "0_Sensors:QFN65P500X500X100-21N-D"
+		(property "Footprint" "0_Sensors:MCP9600L00"
 			(at 309.88 149.86 0)
 			(effects
 				(font
@@ -10979,7 +11638,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Link" "https://uk.farnell.com/microchip/mcp96rl00-e-mx/thermocouple-emf-temp-converter/dp/2991624#anchorTechnicalDOCS"
+		(property "Min Qty" "1"
 			(at 317.5 147.32 0)
 			(effects
 				(font
@@ -10988,53 +11647,39 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "1"
-			(at 346.71 532.08 0)
+		(property "Order Code" "2991624"
+			(at 317.5 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Farnell Part Number" ""
-			(at 346.71 632.08 0)
+		(property "Part Link" "https://uk.farnell.com/microchip/mcp96rl00-e-mx/thermocouple-emf-temp-converter/dp/2991624"
+			(at 317.5 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Farnell Price/Stock" ""
-			(at 346.71 732.08 0)
+		(property "Price Per" "3.49"
+			(at 317.5 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Microchip"
-			(at 346.71 832.08 0)
+		(property "Supplier" "Farnell"
+			(at 317.5 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "MCP96RL00-E/MX"
-			(at 346.71 932.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
 				(hide yes)
 			)
 		)
@@ -11111,7 +11756,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library:+3V3")
+		(lib_id "power:+3V3")
 		(at 166.37 93.98 0)
 		(mirror y)
 		(unit 1)
@@ -11185,7 +11830,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eadfa864-3902-4cd2-90ef-b13b7a6b0d1b")
-		(property "Reference" "R21"
+		(property "Reference" "R22"
 			(at 128.27 114.3 90)
 			(effects
 				(font
@@ -11194,7 +11839,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "13.3kR"
+		(property "Value" "13kR"
 			(at 128.27 116.84 90)
 			(effects
 				(font
@@ -11221,7 +11866,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 0402 Chip Resistor, European Symbol, Alternate KiCad Library"
+		(property "Description" "SMD 0603 Chip Resistor"
 			(at 146.05 119.38 0)
 			(effects
 				(font
@@ -11230,7 +11875,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "0603WAF1302T5E"
 			(at 125.73 119.38 0)
 			(effects
 				(font
@@ -11239,8 +11884,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
-			(at 125.73 119.38 0)
+		(property "Min Qty" "20"
+			(at 125.73 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11248,8 +11893,35 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Link" ""
-			(at 125.73 119.38 0)
+		(property "Order Code" "C22797"
+			(at 125.73 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Link" "~"
+			(at 125.73 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price Per" "0.0008"
+			(at 125.73 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "JLCPCB"
+			(at 125.73 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11266,7 +11938,7 @@
 		(instances
 			(project "COMET1_CCT"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/216bd523-62f0-4eae-ad22-b13c33a7057e"
-					(reference "R21")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -11317,8 +11989,62 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 0402 MLCC capacitor, Alternate KiCad Library"
+		(property "Description" "SMD 0603 MLCC capacitor"
 			(at 132.08 204.7748 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0603KRX7R9BB104"
+			(at 140.97 199.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Min Qty" "20"
+			(at 140.97 199.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Code" "C14663"
+			(at 140.97 199.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Link" "~"
+			(at 140.97 199.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price Per" "0.002"
+			(at 140.97 199.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "JLCPCB"
+			(at 140.97 199.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11386,8 +12112,62 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 0402 MLCC capacitor, Alternate KiCad Library"
+		(property "Description" "SMD 0603 MLCC capacitor"
 			(at 326.39 91.7448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0603KRX7R9BB104"
+			(at 335.28 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Min Qty" "20"
+			(at 335.28 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Code" "C14663"
+			(at 335.28 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Link" "~"
+			(at 335.28 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price Per" "0.002"
+			(at 335.28 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "JLCPCB"
+			(at 335.28 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11411,8 +12191,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Library:+3V3")
-		(at 370.84 157.48 0)
+		(lib_id "power:+3V3")
+		(at 365.76 157.48 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11421,7 +12201,7 @@
 		(dnp no)
 		(uuid "f79c06d9-7a6a-41a8-b2b4-077356767945")
 		(property "Reference" "#PWR01216"
-			(at 370.84 161.29 0)
+			(at 365.76 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11430,7 +12210,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 370.84 153.67 0)
+			(at 365.76 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11438,7 +12218,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 370.84 157.48 0)
+			(at 365.76 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11447,7 +12227,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 370.84 157.48 0)
+			(at 365.76 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11456,7 +12236,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 370.84 157.48 0)
+			(at 365.76 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11485,7 +12265,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f7d29dfc-04a1-489a-ae86-ceab33c169ae")
-		(property "Reference" "R17"
+		(property "Reference" "R18"
 			(at 68.58 93.98 90)
 			(effects
 				(font
@@ -11494,7 +12274,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0R2"
+		(property "Value" "0.1R"
 			(at 68.58 96.52 90)
 			(effects
 				(font
@@ -11521,7 +12301,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 0402 Chip Resistor, European Symbol, Alternate KiCad Library"
+		(property "Description" "SMD 1206 Chip Resistor"
 			(at 45.72 91.44 0)
 			(effects
 				(font
@@ -11530,7 +12310,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1206W4F100LT5E"
 			(at 66.04 91.44 0)
 			(effects
 				(font
@@ -11539,8 +12319,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
-			(at 66.04 91.44 0)
+		(property "Min Qty" "15"
+			(at 66.04 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11548,8 +12328,35 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Link" ""
-			(at 66.04 91.44 0)
+		(property "Order Code" "C25334"
+			(at 66.04 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Link" "~"
+			(at 66.04 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price Per" "0.0037"
+			(at 66.04 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "JLCPCB"
+			(at 66.04 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11566,14 +12373,14 @@
 		(instances
 			(project "COMET1_CCT"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/216bd523-62f0-4eae-ad22-b13c33a7057e"
-					(reference "R17")
+					(reference "R18")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Library:GND")
+		(lib_id "power:GND")
 		(at 66.04 215.9 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11638,7 +12445,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library:GND")
+		(lib_id "power:GND")
 		(at 35.56 160.02 0)
 		(mirror y)
 		(unit 1)
@@ -11704,7 +12511,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library:+3V3")
+		(lib_id "power:+3V3")
 		(at 342.9 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)

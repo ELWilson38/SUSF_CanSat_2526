@@ -1,0 +1,1513 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "eb24ed9f-dd3d-4e40-97d7-5021027f43a9")
+	(paper "A3")
+	(title_block
+		(title "Positioning Sensors")
+		(date "2026-01-04")
+		(rev "${REVISION}")
+		(company "${COMPANY}")
+		(comment 1 "GRID - mil (1.27mm, 2.54mm)")
+	)
+	(lib_symbols
+		(symbol "Custom_Symbol_Lib:MS560702BA03-50"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "IC"
+				(at 29.21 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "MS560702BA03-50"
+				(at 29.21 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "MS5607-02BA03"
+				(at 29.21 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=MS5607-02BA03&DocType=Data%20Sheet&DocLang=English&PartCntxt=MS560702BA03-50&DocFormat=pdf"
+				(at 29.21 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Dimensions: Dimensions 3 x 3 x 0.9 MM | Dimensions .11 x .11 x 0.03 INCH | Electrical Characteristics: Board Level Pressure Sensor Supply Voltage 1.5  3.6 V | Operation/Application: Resolution .016 | Output/Span 24 bit ADC | Board Level Pressure Sensor Accuracy +/-4mbar | Other: Sensor Options No Option | Packaging Features: Board Level Pressure Sensor Package Surface Mountable | Product Type Features: Board Level Pressure Sensor Style Absolute | Board Level Pressure Sensor Type Digital Pressure and Altim"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" ""
+				(at 29.21 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Farnell Part Number" ""
+				(at 29.21 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Farnell Price/Stock" ""
+				(at 29.21 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "TE Connectivity"
+				(at 29.21 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "MS560702BA03-50"
+				(at 29.21 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "MS560702BA03-50_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 27.94 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "PS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "CSB_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 33.02 0 180)
+					(length 5.08)
+					(name "SCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 33.02 -2.54 180)
+					(length 5.08)
+					(name "SDI/SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 33.02 -5.08 180)
+					(length 5.08)
+					(name "SDO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 33.02 -7.62 180)
+					(length 5.08)
+					(name "CSB_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Sense&ControlBoard_symbol_library.pretty:+3V3"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Sense&ControlBoard_symbol_library.pretty:C_0402"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_0402"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0402_1005Metric"
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SMD 0402 MLCC capacitor, Alternate KiCad Library"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor ceramic chip mlcc smd 0402"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0402_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_0402_0_2"
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy -0.381 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -0.508) (xy -1.651 0.635)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -0.508) (xy 0.635 -1.651)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.381 0.381) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 0.508) (xy -0.635 1.651)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 0.508) (xy 1.651 -0.635)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_0402_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "C_0402_1_2"
+				(pin passive line
+					(at -2.54 -2.54 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 2.54 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Sense&ControlBoard_symbol_library.pretty:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "Potential Baros:\nMS5607"
+		(exclude_from_sim no)
+		(at 102.87 194.31 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+			(justify left top)
+		)
+		(uuid "31263df6-de89-4f3b-9b05-f81ef29d8fd8")
+	)
+	(text "IMU"
+		(exclude_from_sim no)
+		(at 311.15 82.55 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 4 4)
+				(color 162 22 34 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "343c0b30-ff43-4f64-9e42-6661f04d553d")
+	)
+	(text "???"
+		(exclude_from_sim no)
+		(at 311.15 77.47 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 4 4)
+				(color 162 22 34 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "34d2a448-288a-47cd-9a1f-410d0827e142")
+	)
+	(text "Potential IMUs:\nBNO055 - £7 JLC / £9 Mouser\n+ High performance\n+ Sensor fusion functionality\n- Not on Farnell"
+		(exclude_from_sim no)
+		(at 292.1 187.96 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+			(justify left top)
+		)
+		(uuid "44ffde0e-1da4-4822-a65b-d0addf0c1bf3")
+	)
+	(text "Barometer"
+		(exclude_from_sim no)
+		(at 106.68 113.03 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 4 4)
+				(color 162 22 34 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "4ebcbf66-2d15-499d-8256-703d809142d5")
+	)
+	(text "MS5607"
+		(exclude_from_sim no)
+		(at 106.68 107.95 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 4 4)
+				(color 162 22 34 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "c8f66a6e-daf2-4e4b-b785-e7b87597be56")
+	)
+	(text_box "[${#}] ${TITLE}"
+		(exclude_from_sim no)
+		(at 12.065 12.065 0)
+		(size 396 28)
+		(margins 5.9999 5.9999 5.9999 5.9999)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 8 8)
+				(thickness 1.2)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+		)
+		(uuid "a5e53e92-12eb-4a0b-bfe7-6796e8ca8523")
+	)
+	(junction
+		(at 96.52 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "14b92148-f843-4e57-81a7-6c708f33aec9")
+	)
+	(junction
+		(at 93.98 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ac5c2df8-9cf1-48f5-8b83-56811d4ae00e")
+	)
+	(junction
+		(at 93.98 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f4b40555-490e-45b3-9c15-69aa4d76fd06")
+	)
+	(no_connect
+		(at 132.08 148.59)
+		(uuid "1c4d5b74-0396-4540-ba49-f41b352f7b86")
+	)
+	(no_connect
+		(at 132.08 146.05)
+		(uuid "44dbf183-0e0c-4dba-aa14-e4cec1144cdf")
+	)
+	(no_connect
+		(at 99.06 148.59)
+		(uuid "67c618a2-b0ed-4f2a-9fd2-7edd8ae77ade")
+	)
+	(bus_entry
+		(at 35.56 275.59)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e612276-6a17-49ff-8915-1ee1a0937f5d")
+	)
+	(bus_entry
+		(at 35.56 273.05)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc8ae01a-ff07-498b-bfd7-dc0a30a24061")
+	)
+	(wire
+		(pts
+			(xy 87.63 147.32) (xy 87.63 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16f52ff7-0f9d-4a16-bedb-b07ed2ce4faa")
+	)
+	(wire
+		(pts
+			(xy 87.63 137.16) (xy 93.98 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28166a55-f02a-4097-8146-2ed405194693")
+	)
+	(wire
+		(pts
+			(xy 96.52 140.97) (xy 93.98 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3399e940-c26f-4e3d-be9c-2ece44851261")
+	)
+	(wire
+		(pts
+			(xy 99.06 146.05) (xy 93.98 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fa4c4ba-fc19-477f-8f6c-346a53b6c9e3")
+	)
+	(wire
+		(pts
+			(xy 93.98 140.97) (xy 93.98 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f0d21b4-8630-4f4f-8bfe-865172c7d407")
+	)
+	(wire
+		(pts
+			(xy 132.08 143.51) (xy 146.05 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51281a4b-c4bf-415b-a000-6f0499ab152b")
+	)
+	(bus
+		(pts
+			(xy 38.1 270.51) (xy 40.64 267.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b0f0fa8-2527-42c0-9886-1806d06cdcef")
+	)
+	(wire
+		(pts
+			(xy 93.98 149.86) (xy 93.98 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bff411d-9a6c-4dda-a34a-31cd95b5a13b")
+	)
+	(wire
+		(pts
+			(xy 87.63 139.7) (xy 87.63 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "606cefeb-39ff-4c63-9f50-2ec3805cd405")
+	)
+	(wire
+		(pts
+			(xy 93.98 134.62) (xy 93.98 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6572ca5b-e748-4c3b-9461-01c30ed10fb8")
+	)
+	(wire
+		(pts
+			(xy 87.63 149.86) (xy 93.98 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66915fa5-dd27-4a6c-bea8-aade40415f4b")
+	)
+	(wire
+		(pts
+			(xy 22.86 273.05) (xy 35.56 273.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a3101d7-e6cc-4abe-88c6-20149aabb0d9")
+	)
+	(wire
+		(pts
+			(xy 99.06 140.97) (xy 96.52 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c535f29-c287-4078-99d1-df1f1351ffa5")
+	)
+	(wire
+		(pts
+			(xy 22.86 275.59) (xy 35.56 275.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97fbfd20-fb21-46bf-84e8-60ae5838f21c")
+	)
+	(wire
+		(pts
+			(xy 132.08 140.97) (xy 146.05 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af619576-f0ca-4205-99c2-14fd8ea46f40")
+	)
+	(wire
+		(pts
+			(xy 93.98 146.05) (xy 93.98 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7c19d89-3a1e-4080-a267-7373d1b739b6")
+	)
+	(bus
+		(pts
+			(xy 43.18 267.97) (xy 40.64 267.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c26c62de-343b-4a5a-b99c-ff122ac5097a")
+	)
+	(wire
+		(pts
+			(xy 96.52 143.51) (xy 96.52 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d008f6c6-b74e-48b0-b07d-dfd12273b720")
+	)
+	(wire
+		(pts
+			(xy 99.06 143.51) (xy 96.52 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8d98757-34fa-4a52-b0fc-42e0c00870ec")
+	)
+	(bus
+		(pts
+			(xy 38.1 270.51) (xy 38.1 273.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f17488c1-88fa-47e7-9532-dff700e10d16")
+	)
+	(label "I2C_SDA"
+		(at 22.86 273.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0562fc23-47a9-4e76-ac23-2030563ccf19")
+	)
+	(label "I2C_SCL"
+		(at 22.86 275.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1c9564b7-d7f0-408c-8d5e-2db59cb1be3e")
+	)
+	(label "I2C_SDA"
+		(at 146.05 143.51 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9e744e7a-084e-41d5-aee6-dfd50a3e023a")
+	)
+	(label "I2C_SCL"
+		(at 146.05 140.97 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ecec66a0-2a91-4d5f-9db3-293623da9654")
+	)
+	(hierarchical_label "{I2C}"
+		(shape bidirectional)
+		(at 43.18 267.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "de03296b-b0e0-4b5d-b98e-e8ec91735881")
+	)
+	(symbol
+		(lib_id "Sense&ControlBoard_symbol_library.pretty:C_0402")
+		(at 87.63 143.51 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1cb0b793-654d-4952-9c3d-3cc503224b9c")
+		(property "Reference" "C106"
+			(at 84.709 142.3416 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 84.709 144.653 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Sense&ControlBoard_footprint_library:C_0402_1005Metric"
+			(at 86.6648 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 87.63 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 87.63 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 87.63 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Link" ""
+			(at 87.63 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 87.63 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "53265cb3-2b74-4f56-ad1e-15484a779d19")
+		)
+		(pin "2"
+			(uuid "0111e957-0cf2-412e-8d2d-4448cfa5d1c4")
+		)
+		(instances
+			(project "CanSat_SensorSuite"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/459e6a54-4354-4cbe-b679-1f9dcd1ee4fd/bd395887-436b-4d18-ab62-fea9895d2f0f"
+					(reference "C106")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sense&ControlBoard_symbol_library.pretty:GND")
+		(at 93.98 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "266c17af-8182-4eef-b7dd-18d1d60bd270")
+		(property "Reference" "#PWR0114"
+			(at 93.98 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 93.98 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 93.98 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "44a266ca-2fee-426a-959a-452fa9de83c4")
+		)
+		(instances
+			(project "CanSat_SensorSuite"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/459e6a54-4354-4cbe-b679-1f9dcd1ee4fd/bd395887-436b-4d18-ab62-fea9895d2f0f"
+					(reference "#PWR0114")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sense&ControlBoard_symbol_library.pretty:+3V3")
+		(at 93.98 134.62 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b2bb0dbb-923b-4261-81a2-a5c22de9ca32")
+		(property "Reference" "#PWR0111"
+			(at 93.98 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 93.98 130.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 93.98 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "897c7b7f-0013-4322-ac77-7df014b4ec92")
+		)
+		(instances
+			(project "CanSat_SensorSuite"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/459e6a54-4354-4cbe-b679-1f9dcd1ee4fd/bd395887-436b-4d18-ab62-fea9895d2f0f"
+					(reference "#PWR0111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Custom_Symbol_Lib:MS560702BA03-50")
+		(at 99.06 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d301c90c-609b-4c10-90b0-8339ca676a5e")
+		(property "Reference" "IC102"
+			(at 105.664 134.874 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MS560702BA03-50"
+			(at 113.538 136.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MS5607-02BA03"
+			(at 128.27 235.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=MS5607-02BA03&DocType=Data%20Sheet&DocLang=English&PartCntxt=MS560702BA03-50&DocFormat=pdf"
+			(at 128.27 335.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Barometer"
+			(at 116.078 153.162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 128.27 535.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Farnell Part Number" ""
+			(at 128.27 635.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Farnell Price/Stock" ""
+			(at 128.27 735.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "TE Connectivity"
+			(at 128.27 835.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MS560702BA03-50"
+			(at 128.27 935.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "81041d8f-db00-4317-b956-d232006a7a8c")
+		)
+		(pin "2"
+			(uuid "1d1b0797-ca72-4532-a639-c43bca7c004a")
+		)
+		(pin "1"
+			(uuid "258d1438-8068-495e-973c-ef93588772f6")
+		)
+		(pin "4"
+			(uuid "d8f0c891-89ab-49c6-933a-2b163e27ae6a")
+		)
+		(pin "3"
+			(uuid "c7331667-c8a0-4f72-95fe-89e99f301828")
+		)
+		(pin "8"
+			(uuid "8a173a66-70cd-4353-9051-98e079ea510f")
+		)
+		(pin "6"
+			(uuid "11d353b4-6b0e-42d0-9bcb-b76ccdc817e6")
+		)
+		(pin "5"
+			(uuid "5043ae60-3e3d-4daa-917f-0a4cc71d7e64")
+		)
+		(instances
+			(project "CanSat_SensorSuite"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/459e6a54-4354-4cbe-b679-1f9dcd1ee4fd/bd395887-436b-4d18-ab62-fea9895d2f0f"
+					(reference "IC102")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

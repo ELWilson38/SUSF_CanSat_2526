@@ -6,7 +6,7 @@
 	(descr "SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 	(tags "SOIC SO")
 	(property "Reference" "REF**"
-		(at 0.3 -4.805 0)
+		(at 0 -4.2 0)
 		(layer "F.SilkS")
 		(uuid "91c2629e-c099-41d6-ab54-e6a784dd7661")
 		(effects
@@ -91,10 +91,11 @@
 			)
 		)
 	)
+	(solder_mask_margin 0.05)
 	(attr smd)
 	(fp_line
-		(start -2.075 -2.71)
-		(end 2.025 -2.71)
+		(start -2 -2.6)
+		(end 2 -2.6)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -103,8 +104,8 @@
 		(uuid "c4f6a6e6-eabd-439f-8100-7af2aadc18b5")
 	)
 	(fp_line
-		(start -2.075 -2.51)
-		(end -2.075 -2.71)
+		(start -2 -2.4)
+		(end -2 -2.6)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -113,8 +114,8 @@
 		(uuid "90992f64-1b79-4261-b875-4b2db021e382")
 	)
 	(fp_line
-		(start -2.075 2.595)
-		(end -2.075 2.395)
+		(start -2 2.595)
+		(end -2 2.4)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -123,8 +124,8 @@
 		(uuid "e4a55d51-6142-44ab-b0bc-f0225135b3a6")
 	)
 	(fp_line
-		(start 2.025 -2.71)
-		(end 2.025 -2.51)
+		(start 2 -2.6)
+		(end 2 -2.4)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -133,8 +134,8 @@
 		(uuid "4d946a0b-a9f9-4d2e-b7a8-6bed1cfc7fdd")
 	)
 	(fp_line
-		(start 2.025 2.395)
-		(end 2.025 2.595)
+		(start 2 2.395)
+		(end 2 2.595)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -143,8 +144,8 @@
 		(uuid "6fc52fdf-968d-4fe4-ba24-b187abac94cb")
 	)
 	(fp_line
-		(start 2.025 2.595)
-		(end -2.075 2.595)
+		(start 2 2.595)
+		(end -2 2.595)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -153,8 +154,8 @@
 		(uuid "e5c5cbb4-6877-4f2b-a3f4-2700dd2b8ee6")
 	)
 	(fp_circle
-		(center -2.775 -2.71)
-		(end -2.775 -2.61)
+		(center -2.6 -2.6)
+		(end -2.6 -2.5)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -163,9 +164,20 @@
 		(layer "F.SilkS")
 		(uuid "83823bc4-5c5d-4e3f-8fdd-b7d161c42326")
 	)
+	(fp_rect
+		(start -4 -3)
+		(end 4 3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "a89108b3-b76f-4a7c-83ec-e5549a328c56")
+	)
 	(fp_poly
 		(pts
-			(xy -2.075 -1.91) (xy -2.075 2.59) (xy 2.025 2.59) (xy 2.025 -2.705) (xy -1.275 -2.71)
+			(xy -2 -1.91) (xy -2 2.6) (xy 2 2.6) (xy 2 -2.6) (xy -1.2 -2.6)
 		)
 		(stroke
 			(width 0.1)

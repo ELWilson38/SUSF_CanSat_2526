@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "Sheet Title A")
-		(date "Last Modified Date")
+		(date "2026-01-02")
 		(rev "${REVISION}")
 		(company "${COMPANY}")
 	)
@@ -18,7 +18,7 @@
 			(font
 				(face "Times New Roman")
 				(size 4 4)
-				(color 0 0 0 1)
+				(color 162 22 34 1)
 			)
 			(justify right bottom)
 			(href "#9")
@@ -30,10 +30,10 @@
 		(at 128.27 166.37 0)
 		(effects
 			(font
-				(face "Arial")
+				(face "Times New Roman")
 				(size 5 5)
 				(bold yes)
-				(color 53 60 207 1)
+				(color 162 22 34 1)
 			)
 			(justify left bottom)
 		)
@@ -46,7 +46,7 @@
 			(font
 				(face "Times New Roman")
 				(size 4 4)
-				(color 0 0 0 1)
+				(color 162 22 34 1)
 			)
 			(justify left bottom)
 			(href "#23")
@@ -60,7 +60,7 @@
 			(font
 				(face "Times New Roman")
 				(size 4 4)
-				(color 0 0 0 1)
+				(color 162 22 34 1)
 			)
 			(justify right bottom)
 			(href "#13")
@@ -76,11 +76,26 @@
 				(size 3 3)
 				(thickness 0.6)
 				(bold yes)
-				(color 140 140 140 1)
+				(color 162 22 34 1)
 			)
 			(justify left bottom)
 		)
 		(uuid "10cbc67f-d688-44d7-9e2b-bee41b99ad5c")
+	)
+	(text "ADD FUNCTIONALITY FOR EXTERNAL WARNING LIGHT AT ROCKET\nFOR ARMING AND COUNTDOWN\n\nPCB STITCHING VIAS\n\nPCB VCUTS/PANEL? + TOOLING HOLES"
+		(exclude_from_sim no)
+		(at 205.4 167.2 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 8 8)
+				(thickness 0.6)
+				(bold yes)
+				(color 0 0 255 1)
+			)
+			(justify bottom)
+		)
+		(uuid "174b55bb-9830-4f7b-bc6d-fe3124382845")
 	)
 	(text "Page"
 		(exclude_from_sim no)
@@ -90,7 +105,7 @@
 				(face "Times New Roman")
 				(size 4 4)
 				(bold yes)
-				(color 0 0 0 1)
+				(color 162 22 34 1)
 			)
 			(justify right bottom)
 		)
@@ -101,10 +116,10 @@
 		(at 26.67 166.37 0)
 		(effects
 			(font
-				(face "Arial")
+				(face "Times New Roman")
 				(size 5 5)
 				(bold yes)
-				(color 53 60 207 1)
+				(color 162 22 34 1)
 			)
 			(justify left bottom)
 		)
@@ -117,7 +132,7 @@
 			(font
 				(face "Times New Roman")
 				(size 4 4)
-				(color 0 0 0 1)
+				(color 162 22 34 1)
 			)
 			(justify right bottom)
 			(href "#3")
@@ -131,7 +146,7 @@
 			(font
 				(face "Times New Roman")
 				(size 4 4)
-				(color 0 0 0 1)
+				(color 162 22 34 1)
 			)
 			(justify right bottom)
 			(href "#38")
@@ -145,7 +160,7 @@
 			(font
 				(face "Times New Roman")
 				(size 4 4)
-				(color 0 0 0 1)
+				(color 162 22 34 1)
 			)
 			(justify left bottom)
 			(href "#10")
@@ -159,7 +174,7 @@
 			(font
 				(face "Times New Roman")
 				(size 4 4)
-				(color 0 0 0 1)
+				(color 162 22 34 1)
 			)
 			(justify left bottom)
 			(href "#9")
@@ -173,7 +188,7 @@
 			(font
 				(face "Times New Roman")
 				(size 4 4)
-				(color 0 0 0 1)
+				(color 162 22 34 1)
 			)
 			(justify left bottom)
 			(href "#8")
@@ -187,7 +202,7 @@
 			(font
 				(face "Times New Roman")
 				(size 4 4)
-				(color 0 0 0 1)
+				(color 162 22 34 1)
 			)
 			(justify left bottom)
 			(href "#16")
@@ -201,7 +216,7 @@
 			(font
 				(face "Times New Roman")
 				(size 4 4)
-				(color 0 0 0 1)
+				(color 162 22 34 1)
 			)
 			(justify right bottom)
 			(href "#1")
@@ -213,9 +228,9 @@
 		(at 222.25 187.96 0)
 		(effects
 			(font
-				(face "Arial")
+				(face "Times New Roman")
 				(size 3 3)
-				(color 0 0 0 1)
+				(color 162 22 34 1)
 			)
 			(justify left bottom)
 		)
@@ -228,7 +243,7 @@
 			(font
 				(face "Times New Roman")
 				(size 4 4)
-				(color 0 0 0 1)
+				(color 162 22 34 1)
 			)
 			(justify left bottom)
 			(href "#30")
@@ -243,7 +258,7 @@
 				(face "Times New Roman")
 				(size 4 4)
 				(bold yes)
-				(color 0 0 0 1)
+				(color 162 22 34 1)
 			)
 			(justify left bottom)
 		)
@@ -256,7 +271,7 @@
 			(font
 				(face "Times New Roman")
 				(size 4 4)
-				(color 0 0 0 1)
+				(color 162 22 34 1)
 			)
 			(justify left bottom)
 			(href "#13")
@@ -271,7 +286,7 @@
 				(face "Times New Roman")
 				(size 4 4)
 				(bold yes)
-				(color 0 0 0 1)
+				(color 162 22 34 1)
 			)
 			(justify left bottom)
 		)
@@ -284,7 +299,7 @@
 			(font
 				(face "Times New Roman")
 				(size 4 4)
-				(color 0 0 0 1)
+				(color 162 22 34 1)
 			)
 			(justify right bottom)
 			(href "#27")
@@ -298,7 +313,7 @@
 			(font
 				(face "Times New Roman")
 				(size 4 4)
-				(color 0 0 0 1)
+				(color 162 22 34 1)
 			)
 			(justify right bottom)
 			(href "#15")
@@ -312,7 +327,7 @@
 			(font
 				(face "Times New Roman")
 				(size 4 4)
-				(color 0 0 0 1)
+				(color 162 22 34 1)
 			)
 			(justify right bottom)
 			(href "#6")
@@ -328,7 +343,7 @@
 				(size 3 3)
 				(thickness 0.6)
 				(bold yes)
-				(color 140 140 140 1)
+				(color 162 22 34 1)
 			)
 			(justify left bottom)
 		)
@@ -341,7 +356,7 @@
 			(font
 				(face "Times New Roman")
 				(size 4 4)
-				(color 0 0 0 1)
+				(color 162 22 34 1)
 			)
 			(justify right bottom)
 			(href "#24")
@@ -357,7 +372,7 @@
 				(size 10.16 10.16)
 				(thickness 0.6)
 				(bold yes)
-				(color 200 200 200 1)
+				(color 162 22 34 1)
 			)
 			(justify left bottom)
 		)
@@ -371,20 +386,20 @@
 				(face "Times New Roman")
 				(size 4 4)
 				(bold yes)
-				(color 0 0 0 1)
+				(color 162 22 34 1)
 			)
 			(justify right bottom)
 		)
 		(uuid "5216de6a-28ab-4e49-a422-9fd32d8fed67")
 	)
-	(text "Random Sheet 1"
+	(text "MCU & Peripherals"
 		(exclude_from_sim no)
 		(at 45.72 106.68 0)
 		(effects
 			(font
 				(face "Times New Roman")
 				(size 4 4)
-				(color 0 0 0 1)
+				(color 162 22 34 1)
 			)
 			(justify left bottom)
 			(href "#4")
@@ -398,7 +413,7 @@
 			(font
 				(face "Times New Roman")
 				(size 4 4)
-				(color 0 0 0 1)
+				(color 162 22 34 1)
 			)
 			(justify left bottom)
 			(href "#27")
@@ -412,7 +427,7 @@
 			(font
 				(face "Times New Roman")
 				(size 4 4)
-				(color 0 0 0 1)
+				(color 162 22 34 1)
 			)
 			(justify right bottom)
 			(href "#8")
@@ -426,7 +441,7 @@
 			(font
 				(face "Times New Roman")
 				(size 4 4)
-				(color 0 0 0 1)
+				(color 162 22 34 1)
 			)
 			(justify right bottom)
 			(href "#14")
@@ -440,7 +455,7 @@
 			(font
 				(face "Times New Roman")
 				(size 4 4)
-				(color 0 0 0 1)
+				(color 162 22 34 1)
 			)
 			(justify left bottom)
 			(href "#38")
@@ -454,7 +469,7 @@
 			(font
 				(face "Times New Roman")
 				(size 4 4)
-				(color 0 0 0 1)
+				(color 162 22 34 1)
 			)
 			(justify left bottom)
 			(href "#40")
@@ -468,7 +483,7 @@
 			(font
 				(face "Times New Roman")
 				(size 4 4)
-				(color 0 0 0 1)
+				(color 162 22 34 1)
 			)
 			(justify right bottom)
 			(href "#23")
@@ -483,7 +498,7 @@
 				(face "Times New Roman")
 				(size 4 4)
 				(bold yes)
-				(color 0 0 0 1)
+				(color 162 22 34 1)
 			)
 			(justify left bottom)
 		)
@@ -496,7 +511,7 @@
 			(font
 				(face "Times New Roman")
 				(size 4 4)
-				(color 0 0 0 1)
+				(color 162 22 34 1)
 			)
 			(justify left bottom)
 			(href "#32")
@@ -510,7 +525,7 @@
 			(font
 				(face "Times New Roman")
 				(size 4 4)
-				(color 0 0 0 1)
+				(color 162 22 34 1)
 			)
 			(justify right bottom)
 			(href "#5")
@@ -539,7 +554,7 @@
 			(font
 				(face "Times New Roman")
 				(size 4 4)
-				(color 0 0 0 1)
+				(color 162 22 34 1)
 			)
 			(justify right bottom)
 			(href "#26")
@@ -553,7 +568,7 @@
 			(font
 				(face "Times New Roman")
 				(size 4 4)
-				(color 0 0 0 1)
+				(color 162 22 34 1)
 			)
 			(justify right bottom)
 			(href "#16")
@@ -567,7 +582,7 @@
 			(font
 				(face "Times New Roman")
 				(size 4 4)
-				(color 0 0 0 1)
+				(color 162 22 34 1)
 			)
 			(justify right bottom)
 			(href "#10")
@@ -581,7 +596,7 @@
 			(font
 				(face "Times New Roman")
 				(size 4 4)
-				(color 0 0 0 1)
+				(color 162 22 34 1)
 			)
 			(justify right bottom)
 			(href "#35")
@@ -595,7 +610,7 @@
 			(font
 				(face "Times New Roman")
 				(size 4 4)
-				(color 0 0 0 1)
+				(color 162 22 34 1)
 			)
 			(justify right bottom)
 			(href "#18")
@@ -609,7 +624,7 @@
 			(font
 				(face "Times New Roman")
 				(size 4 4)
-				(color 0 0 0 1)
+				(color 162 22 34 1)
 			)
 			(justify right bottom)
 			(href "#33")
@@ -638,7 +653,7 @@
 			(font
 				(face "Times New Roman")
 				(size 4 4)
-				(color 0 0 0 1)
+				(color 162 22 34 1)
 			)
 			(justify right bottom)
 			(href "#4")
@@ -652,7 +667,7 @@
 			(font
 				(face "Times New Roman")
 				(size 4 4)
-				(color 0 0 0 1)
+				(color 162 22 34 1)
 			)
 			(justify right bottom)
 			(href "#11")
@@ -681,7 +696,7 @@
 			(font
 				(face "Times New Roman")
 				(size 4 4)
-				(color 0 0 0 1)
+				(color 162 22 34 1)
 			)
 			(justify left bottom)
 			(href "#24")
@@ -695,7 +710,7 @@
 			(font
 				(face "Times New Roman")
 				(size 4 4)
-				(color 0 0 0 1)
+				(color 162 22 34 1)
 			)
 			(justify right bottom)
 			(href "#28")
@@ -709,7 +724,7 @@
 			(font
 				(face "Times New Roman")
 				(size 4 4)
-				(color 0 0 0 1)
+				(color 162 22 34 1)
 			)
 			(justify left bottom)
 			(href "#29")
@@ -723,7 +738,7 @@
 			(font
 				(face "Times New Roman")
 				(size 4 4)
-				(color 0 0 0 1)
+				(color 162 22 34 1)
 			)
 			(justify left bottom)
 			(href "#22")
@@ -737,21 +752,21 @@
 			(font
 				(face "Times New Roman")
 				(size 4 4)
-				(color 0 0 0 1)
+				(color 162 22 34 1)
 			)
 			(justify left bottom)
 			(href "#39")
 		)
 		(uuid "9413d17b-fd74-4a56-8014-ec2904184d8a")
 	)
-	(text "Random Sheet 2"
+	(text "USBC"
 		(exclude_from_sim no)
 		(at 45.72 114.3 0)
 		(effects
 			(font
 				(face "Times New Roman")
 				(size 4 4)
-				(color 0 0 0 1)
+				(color 162 22 34 1)
 			)
 			(justify left bottom)
 			(href "#5")
@@ -766,7 +781,7 @@
 				(face "Times New Roman")
 				(size 4 4)
 				(bold yes)
-				(color 0 0 0 1)
+				(color 162 22 34 1)
 			)
 			(justify right bottom)
 		)
@@ -779,7 +794,7 @@
 			(font
 				(face "Times New Roman")
 				(size 4 4)
-				(color 0 0 0 1)
+				(color 162 22 34 1)
 			)
 			(justify left bottom)
 			(href "#19")
@@ -793,7 +808,7 @@
 			(font
 				(face "Times New Roman")
 				(size 4 4)
-				(color 0 0 0 1)
+				(color 162 22 34 1)
 			)
 			(justify left bottom)
 			(href "#11")
@@ -807,7 +822,7 @@
 			(font
 				(face "Times New Roman")
 				(size 4 4)
-				(color 0 0 0 1)
+				(color 162 22 34 1)
 			)
 			(justify left bottom)
 			(href "#17")
@@ -821,7 +836,7 @@
 			(font
 				(face "Times New Roman")
 				(size 4 4)
-				(color 0 0 0 1)
+				(color 162 22 34 1)
 			)
 			(justify right bottom)
 			(href "#31")
@@ -835,7 +850,7 @@
 			(font
 				(face "Times New Roman")
 				(size 4 4)
-				(color 0 0 0 1)
+				(color 162 22 34 1)
 			)
 			(justify right bottom)
 			(href "#36")
@@ -849,7 +864,7 @@
 			(font
 				(face "Times New Roman")
 				(size 4 4)
-				(color 0 0 0 1)
+				(color 162 22 34 1)
 			)
 			(justify left bottom)
 			(href "#28")
@@ -863,7 +878,7 @@
 			(font
 				(face "Times New Roman")
 				(size 4 4)
-				(color 0 0 0 1)
+				(color 162 22 34 1)
 			)
 			(justify right bottom)
 			(href "#22")
@@ -877,7 +892,7 @@
 			(font
 				(face "Times New Roman")
 				(size 4 4)
-				(color 0 0 0 1)
+				(color 162 22 34 1)
 			)
 			(justify left bottom)
 			(href "#15")
@@ -891,7 +906,7 @@
 			(font
 				(face "Times New Roman")
 				(size 4 4)
-				(color 0 0 0 1)
+				(color 162 22 34 1)
 			)
 			(justify left bottom)
 			(href "#31")
@@ -905,7 +920,7 @@
 			(font
 				(face "Times New Roman")
 				(size 4 4)
-				(color 0 0 0 1)
+				(color 162 22 34 1)
 			)
 			(justify right bottom)
 			(href "#25")
@@ -934,7 +949,7 @@
 			(font
 				(face "Times New Roman")
 				(size 4 4)
-				(color 0 0 0 1)
+				(color 162 22 34 1)
 			)
 			(justify left bottom)
 			(href "#26")
@@ -948,7 +963,7 @@
 			(font
 				(face "Times New Roman")
 				(size 4 4)
-				(color 0 0 0 1)
+				(color 162 22 34 1)
 			)
 			(justify left bottom)
 			(href "#34")
@@ -962,7 +977,7 @@
 			(font
 				(face "Times New Roman")
 				(size 4 4)
-				(color 0 0 0 1)
+				(color 162 22 34 1)
 			)
 			(justify right bottom)
 			(href "#37")
@@ -977,7 +992,7 @@
 				(face "Times New Roman")
 				(size 4 4)
 				(bold yes)
-				(color 0 0 0 1)
+				(color 162 22 34 1)
 			)
 			(justify right bottom)
 		)
@@ -992,7 +1007,7 @@
 				(size 3 3)
 				(thickness 0.6)
 				(bold yes)
-				(color 140 140 140 1)
+				(color 162 22 34 1)
 			)
 			(justify left bottom)
 		)
@@ -1005,7 +1020,7 @@
 			(font
 				(face "Times New Roman")
 				(size 4 4)
-				(color 0 0 0 1)
+				(color 162 22 34 1)
 			)
 			(justify left bottom)
 			(href "#14")
@@ -1020,20 +1035,20 @@
 				(face "Times New Roman")
 				(size 4 4)
 				(bold yes)
-				(color 0 0 0 1)
+				(color 162 22 34 1)
 			)
 			(justify left bottom)
 		)
 		(uuid "c52bc9e5-2c42-41e6-ae08-fabef868928a")
 	)
-	(text "Power - Sequencing"
+	(text "RS485"
 		(exclude_from_sim no)
 		(at 45.72 121.92 0)
 		(effects
 			(font
 				(face "Times New Roman")
 				(size 4 4)
-				(color 0 0 0 1)
+				(color 162 22 34 1)
 			)
 			(justify left bottom)
 			(href "#6")
@@ -1047,7 +1062,7 @@
 			(font
 				(face "Times New Roman")
 				(size 4 4)
-				(color 0 0 0 1)
+				(color 162 22 34 1)
 			)
 			(justify left bottom)
 			(href "#36")
@@ -1061,7 +1076,7 @@
 			(font
 				(face "Times New Roman")
 				(size 4 4)
-				(color 0 0 0 1)
+				(color 162 22 34 1)
 			)
 			(justify left bottom)
 			(href "#35")
@@ -1075,7 +1090,7 @@
 			(font
 				(face "Times New Roman")
 				(size 4 4)
-				(color 0 0 0 1)
+				(color 162 22 34 1)
 			)
 			(justify left bottom)
 			(href "#2")
@@ -1089,7 +1104,7 @@
 			(font
 				(face "Times New Roman")
 				(size 4 4)
-				(color 0 0 0 1)
+				(color 162 22 34 1)
 			)
 			(justify right bottom)
 			(href "#19")
@@ -1103,7 +1118,7 @@
 			(font
 				(face "Times New Roman")
 				(size 4 4)
-				(color 0 0 0 1)
+				(color 162 22 34 1)
 			)
 			(justify right bottom)
 			(href "#30")
@@ -1117,7 +1132,7 @@
 			(font
 				(face "Times New Roman")
 				(size 4 4)
-				(color 0 0 0 1)
+				(color 162 22 34 1)
 			)
 			(justify right bottom)
 			(href "#7")
@@ -1131,7 +1146,7 @@
 			(font
 				(face "Times New Roman")
 				(size 4 4)
-				(color 0 0 0 1)
+				(color 162 22 34 1)
 			)
 			(justify left bottom)
 			(href "#25")
@@ -1145,7 +1160,7 @@
 			(font
 				(face "Times New Roman")
 				(size 4 4)
-				(color 0 0 0 1)
+				(color 162 22 34 1)
 			)
 			(justify right bottom)
 			(href "#12")
@@ -1159,7 +1174,7 @@
 			(font
 				(face "Times New Roman")
 				(size 4 4)
-				(color 0 0 0 1)
+				(color 162 22 34 1)
 			)
 			(justify right bottom)
 			(href "#21")
@@ -1171,9 +1186,9 @@
 		(at 222.25 177.8 0)
 		(effects
 			(font
-				(face "Arial")
+				(face "Times New Roman")
 				(size 3 3)
-				(color 0 0 0 1)
+				(color 162 22 34 1)
 			)
 			(justify left bottom)
 		)
@@ -1186,7 +1201,7 @@
 			(font
 				(face "Times New Roman")
 				(size 4 4)
-				(color 0 0 0 1)
+				(color 162 22 34 1)
 			)
 			(justify right bottom)
 			(href "#2")
@@ -1200,7 +1215,7 @@
 			(font
 				(face "Times New Roman")
 				(size 4 4)
-				(color 0 0 0 1)
+				(color 162 22 34 1)
 			)
 			(justify right bottom)
 			(href "#39")
@@ -1214,7 +1229,7 @@
 			(font
 				(face "Times New Roman")
 				(size 4 4)
-				(color 0 0 0 1)
+				(color 162 22 34 1)
 			)
 			(justify left bottom)
 			(href "#18")
@@ -1228,7 +1243,7 @@
 			(font
 				(face "Times New Roman")
 				(size 4 4)
-				(color 0 0 0 1)
+				(color 162 22 34 1)
 			)
 			(justify left bottom)
 			(href "#33")
@@ -1242,7 +1257,7 @@
 			(font
 				(face "Times New Roman")
 				(size 4 4)
-				(color 0 0 0 1)
+				(color 162 22 34 1)
 			)
 			(justify left bottom)
 			(href "#20")
@@ -1256,7 +1271,7 @@
 			(font
 				(face "Times New Roman")
 				(size 4 4)
-				(color 0 0 0 1)
+				(color 162 22 34 1)
 			)
 			(justify right bottom)
 			(href "#34")
@@ -1270,7 +1285,7 @@
 			(font
 				(face "Times New Roman")
 				(size 4 4)
-				(color 0 0 0 1)
+				(color 162 22 34 1)
 			)
 			(justify right bottom)
 			(href "#29")
@@ -1284,7 +1299,7 @@
 			(font
 				(face "Times New Roman")
 				(size 4 4)
-				(color 0 0 0 1)
+				(color 162 22 34 1)
 			)
 			(justify left bottom)
 			(href "#1")
@@ -1296,10 +1311,10 @@
 		(at 220.98 167.005 0)
 		(effects
 			(font
-				(face "Arial")
+				(face "Times New Roman")
 				(size 5 5)
 				(bold yes)
-				(color 53 60 207 1)
+				(color 162 22 34 1)
 			)
 			(justify left bottom)
 		)
@@ -1312,21 +1327,21 @@
 			(font
 				(face "Times New Roman")
 				(size 4 4)
-				(color 0 0 0 1)
+				(color 162 22 34 1)
 			)
 			(justify left bottom)
 			(href "#12")
 		)
 		(uuid "ecd5e3bc-c1c8-4595-a242-64b07df33fd4")
 	)
-	(text "Project Architecture"
+	(text "CCT Board Schematic"
 		(exclude_from_sim no)
 		(at 45.72 99.06 0)
 		(effects
 			(font
 				(face "Times New Roman")
 				(size 4 4)
-				(color 0 0 0 1)
+				(color 162 22 34 1)
 			)
 			(justify left bottom)
 			(href "#3")
@@ -1342,7 +1357,7 @@
 				(size 3 3)
 				(thickness 0.6)
 				(bold yes)
-				(color 140 140 140 1)
+				(color 162 22 34 1)
 			)
 			(justify left bottom)
 		)
@@ -1355,7 +1370,7 @@
 			(font
 				(face "Times New Roman")
 				(size 4 4)
-				(color 0 0 0 1)
+				(color 162 22 34 1)
 			)
 			(justify left bottom)
 			(href "#21")
@@ -1369,7 +1384,7 @@
 			(font
 				(face "Times New Roman")
 				(size 4 4)
-				(color 0 0 0 1)
+				(color 162 22 34 1)
 			)
 			(justify right bottom)
 			(href "#20")
@@ -1383,7 +1398,7 @@
 			(font
 				(face "Times New Roman")
 				(size 4 4)
-				(color 0 0 0 1)
+				(color 162 22 34 1)
 			)
 			(justify right bottom)
 			(href "#32")
@@ -1397,7 +1412,7 @@
 			(font
 				(face "Times New Roman")
 				(size 4 4)
-				(color 0 0 0 1)
+				(color 162 22 34 1)
 			)
 			(justify left bottom)
 			(href "#37")
@@ -1409,10 +1424,10 @@
 		(at 26.67 255.27 0)
 		(effects
 			(font
-				(face "Arial")
+				(face "Times New Roman")
 				(size 5 5)
 				(bold yes)
-				(color 53 60 207 1)
+				(color 162 22 34 1)
 			)
 			(justify left bottom)
 		)
@@ -1425,21 +1440,21 @@
 			(font
 				(face "Times New Roman")
 				(size 4 4)
-				(color 0 0 0 1)
+				(color 162 22 34 1)
 			)
 			(justify right bottom)
 			(href "#40")
 		)
 		(uuid "fe1f4464-8466-41a3-95c1-bacdc38614fb")
 	)
-	(text "Revision History"
+	(text "Sensors"
 		(exclude_from_sim no)
 		(at 45.72 129.54 0)
 		(effects
 			(font
 				(face "Times New Roman")
 				(size 4 4)
-				(color 0 0 0 1)
+				(color 162 22 34 1)
 			)
 			(justify left bottom)
 			(href "#7")
@@ -1453,7 +1468,7 @@
 			(font
 				(face "Times New Roman")
 				(size 4 4)
-				(color 0 0 0 1)
+				(color 162 22 34 1)
 			)
 			(justify right bottom)
 			(href "#17")
@@ -1474,9 +1489,11 @@
 		)
 		(effects
 			(font
+				(face "Times New Roman")
 				(size 2.54 2.54)
 				(thickness 0.508)
 				(bold yes)
+				(color 162 22 34 1)
 			)
 		)
 		(uuid "0c38d11f-bb11-46db-a91c-ebc0b30e95f5")
@@ -1495,9 +1512,11 @@
 		)
 		(effects
 			(font
+				(face "Times New Roman")
 				(size 2.54 2.54)
 				(thickness 0.508)
 				(bold yes)
+				(color 162 22 34 1)
 			)
 		)
 		(uuid "2d015f2a-bc39-4866-bbd9-40b03d497a26")
@@ -1516,10 +1535,11 @@
 		)
 		(effects
 			(font
+				(face "Times New Roman")
 				(size 2.54 2.54)
 				(thickness 0.381)
 				(bold yes)
-				(color 0 0 0 1)
+				(color 162 22 34 1)
 			)
 			(justify right top)
 		)
@@ -1540,9 +1560,9 @@
 		)
 		(effects
 			(font
-				(face "Arial")
+				(face "Times New Roman")
 				(size 2 2)
-				(color 0 0 0 1)
+				(color 162 22 34 1)
 			)
 			(justify left top)
 		)
@@ -1563,11 +1583,11 @@
 		)
 		(effects
 			(font
-				(face "Arial")
+				(face "Times New Roman")
 				(size 2 2)
 				(thickness 0.4)
 				(bold yes)
-				(color 0 0 255 1)
+				(color 162 22 34 1)
 			)
 			(justify left top)
 		)
@@ -1588,9 +1608,9 @@
 		)
 		(effects
 			(font
-				(face "Arial")
+				(face "Times New Roman")
 				(size 2 2)
-				(color 0 0 0 1)
+				(color 162 22 34 1)
 			)
 			(justify left top)
 		)
@@ -1611,9 +1631,9 @@
 		)
 		(effects
 			(font
-				(face "Arial")
+				(face "Times New Roman")
 				(size 2 2)
-				(color 0 0 0 1)
+				(color 162 22 34 1)
 			)
 			(justify left top)
 		)
@@ -1634,11 +1654,11 @@
 		)
 		(effects
 			(font
-				(face "Arial")
+				(face "Times New Roman")
 				(size 2 2)
 				(thickness 0.4)
 				(bold yes)
-				(color 255 0 0 1)
+				(color 162 22 34 1)
 			)
 			(justify left top)
 		)
@@ -1781,7 +1801,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Block Diagram.kicad_sch"
+		(property "Sheetfile" "SubSchematics/Block Diagram.kicad_sch"
 			(at 300.99 303.53 0)
 			(effects
 				(font
@@ -1826,7 +1846,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "CCT Board Schematic.kicad_sch"
+		(property "Sheetfile" "SubSchematics/CCT Board Schematic.kicad_sch"
 			(at 300.99 314.96 0)
 			(effects
 				(font

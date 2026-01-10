@@ -6,7 +6,7 @@
 	(descr "Through hole straight pin header, 2x03, 1.27mm pitch, double rows")
 	(tags "Through hole pin header THT 2x03 1.27mm double row")
 	(property "Reference" "REF**"
-		(at 0.635 -1.745 0)
+		(at 0.635 -1.95 0)
 		(layer "F.SilkS")
 		(uuid "a0e0b7e4-9c39-44ed-8eae-e2e19038a7a1")
 		(effects
@@ -64,7 +64,7 @@
 		(uuid "49decc98-3421-437f-b735-5fea7ae628cb")
 	)
 	(fp_line
-		(start -1.2 0)
+		(start -1.2 0.4)
 		(end -1.2 3.3)
 		(stroke
 			(width 0.12)

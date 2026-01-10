@@ -6,7 +6,7 @@
 	(descr "Shielded, 2 LED, https://www.amphenolcanada.com/ProductSearch/drawings/AC/RJHSE538X.pdf")
 	(tags "RJ45 8p8c ethernet cat5")
 	(property "Reference" "REF**"
-		(at -3.56 9.5 180)
+		(at -3.6 -9.15 180)
 		(layer "F.SilkS")
 		(uuid "d1ab98ea-1431-41fb-bc54-5c2d6c45c723")
 		(effects
@@ -19,6 +19,7 @@
 	(property "Value" "RJ45_LED_Shielded"
 		(at -3.56 -9.5 180)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "bf75fab8-98b5-46b2-8079-8a8dbd2c2d4b")
 		(effects
 			(font
@@ -153,35 +154,17 @@
 		(layer "F.SilkS")
 		(uuid "3656ccf0-6b1c-42bc-a912-3a1088eab2d3")
 	)
-	(fp_line
-		(start 5 0.7)
-		(end 5.5 0.2)
+	(fp_poly
+		(pts
+			(xy -3.55 6.7) (xy -4.04 7.7) (xy -3.09 7.7)
+		)
 		(stroke
-			(width 0.12)
+			(width 0.1)
 			(type solid)
 		)
+		(fill yes)
 		(layer "F.SilkS")
-		(uuid "c8552527-7533-4334-be29-4c94a3400709")
-	)
-	(fp_line
-		(start 5.5 0.2)
-		(end 5.5 1.2)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "c4960436-02cc-44a9-bc76-953b76f31950")
-	)
-	(fp_line
-		(start 5.5 1.2)
-		(end 5 0.7)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "8d8fd93b-c14e-4e23-bbd8-c1b537727272")
+		(uuid "c9658e97-0fda-4483-b667-cd28afa52479")
 	)
 	(fp_line
 		(start -13.34 8.5)
@@ -273,8 +256,20 @@
 		(layer "F.Fab")
 		(uuid "fd9b719e-31b2-4f50-b55e-c7ea23ad9904")
 	)
+	(fp_poly
+		(pts
+			(xy -3.55 6.7) (xy -4.04 7.7) (xy -3.09 7.7)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "58b68a69-e2ff-40d8-8bb5-517776cd2de6")
+	)
 	(fp_text user "${REFERENCE}"
-		(at -3.56 6 180)
+		(at -3.35 3.8 180)
 		(layer "F.Fab")
 		(uuid "e6c8e877-2922-4939-961f-582bd4cbd6b7")
 		(effects
@@ -288,7 +283,7 @@
 		(at -9.91 2.54 180)
 		(size 3.25 3.25)
 		(drill 3.25)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(zone_connect 0)
 		(uuid "8e9c0523-53bb-409a-9f67-40fe95794ec9")
 	)
@@ -296,7 +291,7 @@
 		(at 2.79 2.54 180)
 		(size 3.25 3.25)
 		(drill 3.25)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(zone_connect 0)
 		(uuid "f551d48a-e92f-401d-8158-ad1ada29613d")
 	)

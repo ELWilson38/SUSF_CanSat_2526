@@ -5,10 +5,11 @@
 	(uuid "e4b3b0af-4f9d-4c96-b11c-927070dda35d")
 	(paper "A3")
 	(title_block
-		(title "Sheet Title A")
-		(date "Last Modified Date")
+		(title "USB-C Power & Data")
+		(date "2026-01-04")
 		(rev "${REVISION}")
 		(company "${COMPANY}")
+		(comment 1 "GRID - mil (1.27mm, 2.54mm)")
 	)
 	(lib_symbols
 		(symbol "0_Connectors:USB4105-GF-A"
@@ -2445,30 +2446,38 @@
 		)
 		(uuid 322c4bab-f3b7-4dbf-890c-d81b91819088)
 	)
-	(text_box "USAGE NOTE:\nBridge R13 gap if not using the filter"
+	(text "Probably need a 5V supply from USB as well as battery.\nFor certain sensors.\nUSB may be providing 5V as standard, need to check output set by CC res'"
 		(exclude_from_sim no)
-		(at 210.82 113.03 0)
-		(size 41.91 8.89)
-		(margins 2.25 2.25 2.25 2.25)
+		(at 260 168.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fc66221e-4195-4bd8-b3b9-bca57ce4a342")
+	)
+	(text_box "[${#}] ${TITLE}"
+		(exclude_from_sim no)
+		(at 12.065 12.065 0)
+		(size 396 28)
+		(margins 5.9999 5.9999 5.9999 5.9999)
 		(stroke
-			(width 1)
-			(type solid)
-			(color 255 0 0 1)
+			(width -0.0001)
+			(type default)
 		)
 		(fill
 			(type none)
 		)
 		(effects
 			(font
-				(face "Arial")
-				(size 1.5 1.5)
-				(thickness 0.4)
+				(face "Times New Roman")
+				(size 8 8)
+				(thickness 1.2)
 				(bold yes)
-				(color 255 0 0 1)
+				(color 162 22 34 1)
 			)
-			(justify left top)
 		)
-		(uuid "8de50c0c-431e-4caa-a293-6660afd1f003")
+		(uuid "bfae2519-8de8-4ff8-9180-1258f0d336c1")
 	)
 	(text_box "USB Data & Power"
 		(exclude_from_sim no)
@@ -2493,29 +2502,6 @@
 			(justify bottom)
 		)
 		(uuid "d0bac2a9-53af-4ad3-8f3d-adeced06e4e5")
-	)
-	(text_box "DESIGN NOTE:\nSpace for a filter in case its needed\n(USB supply is too noisy)"
-		(exclude_from_sim no)
-		(at 215.9 158.75 0)
-		(size 39.37 11.43)
-		(margins 2 2 2 2)
-		(stroke
-			(width 1)
-			(type solid)
-			(color 250 236 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.5 1.5)
-				(color 0 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "d3152887-82cd-4e3e-be12-aac999db314e")
 	)
 	(junction
 		(at 147.32 144.78)
@@ -2542,12 +2528,6 @@
 		(uuid "49285c34-2575-4054-b80d-af798c9dd1c3")
 	)
 	(junction
-		(at 238.76 147.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5391a920-1483-4f6b-a234-ad5fd981aa65")
-	)
-	(junction
 		(at 154.94 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2564,18 +2544,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6fac0b98-e9a0-49a6-aa81-da1a2872af04")
-	)
-	(junction
-		(at 220.98 132.08)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "752fb8d8-f861-477f-b16d-9ee612a91957")
-	)
-	(junction
-		(at 238.76 132.08)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7c8fa53d-706c-4a8a-8a06-fef56f9e8460")
 	)
 	(junction
 		(at 147.32 142.24)
@@ -2679,16 +2647,6 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 132.08) (xy 226.06 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f262daf-6ef0-4281-9c0e-a4ceea5fd7bd")
-	)
-	(wire
-		(pts
 			(xy 121.92 170.18) (xy 121.92 175.26)
 		)
 		(stroke
@@ -2696,16 +2654,6 @@
 			(type default)
 		)
 		(uuid "15a487d0-d943-4e14-bede-ba1f58fecd3f")
-	)
-	(wire
-		(pts
-			(xy 238.76 129.54) (xy 238.76 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17538da2-905d-4ddd-a8c1-e282e440f402")
 	)
 	(wire
 		(pts
@@ -2759,16 +2707,6 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 147.32) (xy 238.76 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "342193c3-fb88-4391-baea-91541025fcab")
-	)
-	(wire
-		(pts
 			(xy 147.32 144.78) (xy 167.64 144.78)
 		)
 		(stroke
@@ -2796,16 +2734,6 @@
 			(type default)
 		)
 		(uuid "3c424616-ad8c-4cdf-a0eb-74f6d705b17d")
-	)
-	(wire
-		(pts
-			(xy 233.68 132.08) (xy 238.76 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "455b8004-2bad-4cd9-b75c-7e3ea5d295be")
 	)
 	(wire
 		(pts
@@ -2839,16 +2767,6 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 132.08) (xy 238.76 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a03b051-7627-44d0-a557-7c23abcf02b6")
-	)
-	(wire
-		(pts
 			(xy 144.78 147.32) (xy 147.32 147.32)
 		)
 		(stroke
@@ -2869,26 +2787,6 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 132.08) (xy 220.98 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66c53c4b-2de5-4196-8a26-9d4e9ecc230e")
-	)
-	(wire
-		(pts
-			(xy 220.98 144.78) (xy 220.98 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a99a9f8-97b7-4b9c-8af2-f45fca0e4e3d")
-	)
-	(wire
-		(pts
 			(xy 144.78 157.48) (xy 154.94 157.48)
 		)
 		(stroke
@@ -2896,16 +2794,6 @@
 			(type default)
 		)
 		(uuid "6e6c569e-25b3-4439-8ccb-ede3aadc8686")
-	)
-	(wire
-		(pts
-			(xy 238.76 147.32) (xy 238.76 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "705b93d1-26d4-4172-8a05-10f137a9d88d")
 	)
 	(wire
 		(pts
@@ -2946,16 +2834,6 @@
 			(type default)
 		)
 		(uuid "8e2f15d3-66c4-4011-9406-afdd6374d019")
-	)
-	(wire
-		(pts
-			(xy 238.76 147.32) (xy 238.76 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8fde7830-20ac-4022-a4cd-d6e289c744e9")
 	)
 	(wire
 		(pts
@@ -3370,22 +3248,22 @@
 			)
 		)
 		(pin "5"
-			(uuid "35ac93a2-cd61-4a9b-ba2e-022dbd25dd8f")
+			(uuid "be7ddf30-5b91-4408-b1f8-50e456704c4a")
 		)
 		(pin "2"
-			(uuid "8b338d49-be68-4b6a-bb20-b62a3667bfe5")
+			(uuid "bbc67a5f-ec04-4ca0-9c37-3390e862de9f")
 		)
 		(pin "4"
-			(uuid "7aa15788-e3b5-4633-9774-b7622b2b56a0")
+			(uuid "3215ad96-381d-49f5-87a1-290d66269e42")
 		)
 		(pin "3"
-			(uuid "78359362-3365-477f-8e88-da4c8be60e84")
+			(uuid "c7b653f9-47b4-466c-a978-6639b9672cc5")
 		)
 		(pin "6"
-			(uuid "dd3a576a-ce62-477f-908b-f4e8ba558ffe")
+			(uuid "099841cf-92ae-4db4-b4a2-7663c2916369")
 		)
 		(pin "1"
-			(uuid "549aef65-5e1a-475c-8268-ab643d59a8b7")
+			(uuid "880d3699-239a-49db-97a0-a4d3c7e67d30")
 		)
 		(instances
 			(project "CanSat_SensorSuite"
@@ -3405,7 +3283,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1669e4b0-57cc-4307-be58-a49185719d89")
-		(property "Reference" "#PWR0108"
+		(property "Reference" "#PWR0506"
 			(at 175.26 163.83 0)
 			(effects
 				(font
@@ -3450,12 +3328,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "841a6420-9154-4395-b16a-38048cdabd66")
+			(uuid "e3c54a97-ed18-4ac2-94c6-7bf7fc421d41")
 		)
 		(instances
 			(project "CanSat_SensorSuite"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/459e6a54-4354-4cbe-b679-1f9dcd1ee4fd/2071362a-fc19-4bc4-bfad-417248f8ffa0"
-					(reference "#PWR0108")
+					(reference "#PWR0506")
 					(unit 1)
 				)
 			)
@@ -3517,10 +3395,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "34a1c939-b952-42f0-891e-3d6e3e030348")
+			(uuid "a2805c06-6808-48c9-bd84-3fcca4c83b0a")
 		)
 		(pin "2"
-			(uuid "4060e0fc-1c98-48bb-a5d0-24689904fa36")
+			(uuid "64ed295d-50d9-4750-8a71-c6128a105861")
 		)
 		(instances
 			(project "CanSat_SensorSuite"
@@ -3540,7 +3418,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "41003052-7c3d-49e4-a1a5-0d90ed0b945d")
-		(property "Reference" "#PWR0101"
+		(property "Reference" "#PWR0501"
 			(at 175.26 133.35 0)
 			(effects
 				(font
@@ -3585,12 +3463,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "5cdf9d6d-8899-4edc-b763-e620503751db")
+			(uuid "1d3da207-145b-4dae-9ac3-c80b9595e509")
 		)
 		(instances
 			(project "CanSat_SensorSuite"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/459e6a54-4354-4cbe-b679-1f9dcd1ee4fd/2071362a-fc19-4bc4-bfad-417248f8ffa0"
-					(reference "#PWR0101")
+					(reference "#PWR0501")
 					(unit 1)
 				)
 			)
@@ -3605,7 +3483,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "50dc5e35-77c1-4f44-8066-ca6ef96485c8")
-		(property "Reference" "#PWR0107"
+		(property "Reference" "#PWR0505"
 			(at 279.4 156.21 0)
 			(effects
 				(font
@@ -3650,81 +3528,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "ab541a80-e31f-497f-b41e-de9853b7e49a")
+			(uuid "2ca20393-08a7-4f31-8442-42f19003bddf")
 		)
 		(instances
 			(project "CanSat_SensorSuite"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/459e6a54-4354-4cbe-b679-1f9dcd1ee4fd/2071362a-fc19-4bc4-bfad-417248f8ffa0"
-					(reference "#PWR0107")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "0_Passives:C")
-		(at 238.76 144.78 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp yes)
-		(uuid "54ba745b-f344-42b6-a6dc-4f58a878af62")
-		(property "Reference" "C21"
-			(at 243.586 139.7 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "DNP"
-			(at 243.586 142.24 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "0_Capacitors:C_0603_1608_DensityHigh"
-			(at 245.11 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 238.76 140.97 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD 0402 MLCC capacitor, Alternate KiCad Library"
-			(at 247.65 139.3952 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "50f78319-bd53-4cf5-9672-1a8067b4f4f5")
-		)
-		(pin "2"
-			(uuid "2cbdef72-2c0e-4567-a6fc-e52e1d1e15d8")
-		)
-		(instances
-			(project "CanSat_SensorSuite"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/459e6a54-4354-4cbe-b679-1f9dcd1ee4fd/2071362a-fc19-4bc4-bfad-417248f8ffa0"
-					(reference "C21")
+					(reference "#PWR0505")
 					(unit 1)
 				)
 			)
@@ -3739,7 +3548,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6c198c48-89ad-44e4-8c33-740a1c7ac9c7")
-		(property "Reference" "R11"
+		(property "Reference" "R12"
 			(at 153.035 165.1 90)
 			(effects
 				(font
@@ -3812,15 +3621,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "8324852f-f99d-4b1b-9d4f-0369cd49356c")
+			(uuid "7ce01347-2743-459c-97c1-b7cb925e056b")
 		)
 		(pin "2"
-			(uuid "2290bc68-6b00-4b0a-ae86-99fd39680b9c")
+			(uuid "4b601771-823f-4b98-8fb6-2926f28f784a")
 		)
 		(instances
 			(project "CanSat_SensorSuite"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/459e6a54-4354-4cbe-b679-1f9dcd1ee4fd/2071362a-fc19-4bc4-bfad-417248f8ffa0"
-					(reference "R11")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -3835,7 +3644,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6ed5ce93-9134-472c-92dc-6f0bb93516b2")
-		(property "Reference" "#PWR0105"
+		(property "Reference" "#PWR0509"
 			(at 154.94 181.61 0)
 			(effects
 				(font
@@ -3880,77 +3689,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "07722454-f162-45f0-ae01-9887bd0845fe")
+			(uuid "ecf0aec2-92cd-41f2-b074-99237773868b")
 		)
 		(instances
 			(project "CanSat_SensorSuite"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/459e6a54-4354-4cbe-b679-1f9dcd1ee4fd/2071362a-fc19-4bc4-bfad-417248f8ffa0"
-					(reference "#PWR0105")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Library:VBUS")
-		(at 238.76 129.54 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "761a6833-3267-424d-9f36-104d918b3231")
-		(property "Reference" "#PWR0103"
-			(at 238.76 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUS_F"
-			(at 238.76 125.095 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 238.76 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 238.76 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 238.76 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c805973b-748c-4c0c-adc9-f43b162b871f")
-		)
-		(instances
-			(project "CanSat_SensorSuite"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/459e6a54-4354-4cbe-b679-1f9dcd1ee4fd/2071362a-fc19-4bc4-bfad-417248f8ffa0"
-					(reference "#PWR0103")
+					(reference "#PWR0509")
 					(unit 1)
 				)
 			)
@@ -3965,7 +3709,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8388815c-8c4f-40f5-8ef9-2a430f79ce53")
-		(property "Reference" "R23"
+		(property "Reference" "R14"
 			(at 311.06 149.93 90)
 			(effects
 				(font
@@ -4063,15 +3807,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "96a012a3-c5d9-49f3-8437-0da935aeb592")
+			(uuid "00f2826a-43e4-4896-91f5-2b59d20bd24b")
 		)
 		(pin "2"
-			(uuid "2f3dad00-7add-47ac-beca-a7e1f6a47ab7")
+			(uuid "7c6b2f88-95af-4a96-bd31-6863d5ec6bb5")
 		)
 		(instances
 			(project "CanSat_SensorSuite"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/459e6a54-4354-4cbe-b679-1f9dcd1ee4fd/2071362a-fc19-4bc4-bfad-417248f8ffa0"
-					(reference "R23")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -4086,7 +3830,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "85e4f6ce-16af-47bd-9522-ccfea474fd9a")
-		(property "Reference" "#PWR0102"
+		(property "Reference" "#PWR0503"
 			(at 306.07 133.35 0)
 			(effects
 				(font
@@ -4131,77 +3875,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "9044c9a9-ff40-473d-ac22-f4d3fe04ee62")
+			(uuid "69cabd6d-09e2-4f8d-95ac-bb8d37e2b69c")
 		)
 		(instances
 			(project "CanSat_SensorSuite"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/459e6a54-4354-4cbe-b679-1f9dcd1ee4fd/2071362a-fc19-4bc4-bfad-417248f8ffa0"
-					(reference "#PWR0102")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Library:GND")
-		(at 238.76 149.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8ba6ec9e-34c3-4960-9bb9-a618b870b1a0")
-		(property "Reference" "#PWR0106"
-			(at 238.76 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 238.76 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 238.76 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 238.76 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 238.76 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "afc9e44a-b2c2-4e6c-9c5d-6f7eccabbba9")
-		)
-		(instances
-			(project "CanSat_SensorSuite"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/459e6a54-4354-4cbe-b679-1f9dcd1ee4fd/2071362a-fc19-4bc4-bfad-417248f8ffa0"
-					(reference "#PWR0106")
+					(reference "#PWR0503")
 					(unit 1)
 				)
 			)
@@ -4216,7 +3895,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "95f706ef-c393-4cd5-930a-b4916f785a67")
-		(property "Reference" "J2"
+		(property "Reference" "J3"
 			(at 119.38 124.46 0)
 			(effects
 				(font
@@ -4289,212 +3968,48 @@
 			)
 		)
 		(pin "A6"
-			(uuid "791510c9-12a0-4b0b-a80d-fa7d45153816")
+			(uuid "9fc70556-8a64-4aaa-9528-d360bf173b4b")
 		)
 		(pin "A5"
-			(uuid "e06a0e52-d5d4-445e-add1-b779c2e30fc0")
+			(uuid "63dd4feb-c586-4a33-a772-845e855fa1d2")
 		)
 		(pin "B1-A12"
-			(uuid "1f9ec634-6603-49f3-b2f3-ade210ce1fce")
+			(uuid "56bfc6bb-a912-42e9-bab2-7b858ce4ef2e")
 		)
 		(pin "B6"
-			(uuid "b4277efb-1edc-40d4-ad96-796f5a9b4f76")
+			(uuid "e27c505b-2ca1-4ee6-ac35-2812a424a6ea")
 		)
 		(pin "B7"
-			(uuid "d55700c0-0527-4069-8d4d-820e20537d06")
+			(uuid "616be038-265d-43e3-bb99-f8384ca08f18")
 		)
 		(pin "A4-B9"
-			(uuid "030753c8-3b9d-4cc5-8ef2-1598af6ead27")
+			(uuid "7583741f-4c58-4b95-8fc5-d300630804b2")
 		)
 		(pin "A1-B12"
-			(uuid "4345a29d-a065-4dc0-a6ea-f6a139ef9313")
+			(uuid "d591556c-9d46-4b2d-a310-1fe15453e989")
 		)
 		(pin "B4-A9"
-			(uuid "9d7d7e16-d3a2-4888-85b1-df61d7b4123e")
+			(uuid "0cf19473-242f-4d4c-bec4-a9a3b0f6a3b4")
 		)
 		(pin "S1"
-			(uuid "8e8c4df1-9034-4953-b018-6b6af6d0b623")
+			(uuid "471e695a-6e47-42fa-aff3-80013c1c64ee")
 		)
 		(pin "A7"
-			(uuid "e2741518-a226-47d1-a0fe-26d8214055b5")
+			(uuid "66369494-83da-4031-beeb-bc72014d9868")
 		)
 		(pin "B5"
-			(uuid "bab34612-b94e-445b-9c99-ff21f1488e67")
+			(uuid "97d60b54-445e-41ef-ba32-f27ef73a3221")
 		)
 		(pin "B8"
-			(uuid "a20926b0-d4ec-427c-86bb-bfda3e175595")
+			(uuid "05464e38-b7b8-493c-91ef-d76ce518749c")
 		)
 		(pin "A8"
-			(uuid "e4a1c934-0033-48ac-8b15-a83158db55ab")
+			(uuid "b5f789b4-6be6-4122-8f98-80d88daab987")
 		)
 		(instances
 			(project "CanSat_SensorSuite"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/459e6a54-4354-4cbe-b679-1f9dcd1ee4fd/2071362a-fc19-4bc4-bfad-417248f8ffa0"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "0_Passives:C")
-		(at 220.98 144.78 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp yes)
-		(uuid "9addbeb2-e164-440e-af7f-56451593ca85")
-		(property "Reference" "C20"
-			(at 216.535 139.7 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "DNP"
-			(at 216.535 142.24 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "0_Capacitors:C_0603_1608_DensityHigh"
-			(at 227.33 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 220.98 140.97 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD 0402 MLCC capacitor, Alternate KiCad Library"
-			(at 229.87 139.3952 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "080e6c0f-4f8c-4b15-bfd5-7662b848f291")
-		)
-		(pin "2"
-			(uuid "dc6696fa-1e89-40ba-9c01-c4f5d2ffad15")
-		)
-		(instances
-			(project "CanSat_SensorSuite"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/459e6a54-4354-4cbe-b679-1f9dcd1ee4fd/2071362a-fc19-4bc4-bfad-417248f8ffa0"
-					(reference "C20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "0_Passives:R")
-		(at 226.06 132.08 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b3f5409a-26bd-415a-a43b-3edb354901fd")
-		(property "Reference" "R13"
-			(at 229.87 126.365 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0R"
-			(at 229.87 128.905 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "0_Resistors:R_0805_2012_DensityHigh"
-			(at 226.06 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 229.87 132.08 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 226.06 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 226.06 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" ""
-			(at 226.06 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Link" ""
-			(at 226.06 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a8b5c35f-813b-4910-a777-a393e68537c3")
-		)
-		(pin "2"
-			(uuid "d4342b2c-6487-4222-afbf-9c147d74c6d2")
-		)
-		(instances
-			(project "CanSat_SensorSuite"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/459e6a54-4354-4cbe-b679-1f9dcd1ee4fd/2071362a-fc19-4bc4-bfad-417248f8ffa0"
-					(reference "R13")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -4509,7 +4024,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b5e81852-e4c0-4f33-ae1c-4670f73a68a8")
-		(property "Reference" "#PWR0104"
+		(property "Reference" "#PWR0508"
 			(at 121.92 181.61 0)
 			(effects
 				(font
@@ -4554,12 +4069,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "31bf1ecb-2712-4716-b661-534494c6a863")
+			(uuid "182a6e1f-1a60-49fa-adaa-21770387315e")
 		)
 		(instances
 			(project "CanSat_SensorSuite"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/459e6a54-4354-4cbe-b679-1f9dcd1ee4fd/2071362a-fc19-4bc4-bfad-417248f8ffa0"
-					(reference "#PWR0104")
+					(reference "#PWR0508")
 					(unit 1)
 				)
 			)
@@ -4574,7 +4089,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bcd9024c-7fc9-4368-9a4d-7e5879cabd00")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR0507"
 			(at 306.07 165.1 0)
 			(effects
 				(font
@@ -4619,12 +4134,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "589ea999-e30e-4339-b011-54866eabb1e4")
+			(uuid "ef4c141a-d97f-49c1-97ab-77661cc11b57")
 		)
 		(instances
 			(project "CanSat_SensorSuite"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/459e6a54-4354-4cbe-b679-1f9dcd1ee4fd/2071362a-fc19-4bc4-bfad-417248f8ffa0"
-					(reference "#PWR01")
+					(reference "#PWR0507")
 					(unit 1)
 				)
 			)
@@ -4685,10 +4200,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "79282785-d1ac-4b2b-bab5-e62fe37567b6")
+			(uuid "5253910d-a021-4182-9532-fdb8cabfc05d")
 		)
 		(pin "2"
-			(uuid "047b6959-55a4-4afa-a6ed-0e8dba6de236")
+			(uuid "ec03e087-1cb8-4a4d-b76a-930cc868c603")
 		)
 		(instances
 			(project "CanSat_SensorSuite"
@@ -4709,7 +4224,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dca4e2ec-b2c1-460d-8d49-d8d895931468")
-		(property "Reference" "R12"
+		(property "Reference" "R11"
 			(at 162.56 165.1 90)
 			(effects
 				(font
@@ -4782,15 +4297,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "c88c461c-cf1d-4033-80f4-99380ea2b74d")
+			(uuid "f9d0c5cc-e4a8-489f-911b-e0d80a0788d3")
 		)
 		(pin "2"
-			(uuid "d7354e64-de2f-4087-ba46-49943fa36e6b")
+			(uuid "c2ab16d2-879a-4894-8c3a-a501a73b2694")
 		)
 		(instances
 			(project "CanSat_SensorSuite"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/459e6a54-4354-4cbe-b679-1f9dcd1ee4fd/2071362a-fc19-4bc4-bfad-417248f8ffa0"
-					(reference "R12")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -4866,13 +4381,13 @@
 			)
 		)
 		(pin "3"
-			(uuid "b3b1f2bc-a94a-4de7-a1f2-291029a0156e")
+			(uuid "c5e1d486-bc21-44a0-8fb3-0e82f9c234e3")
 		)
 		(pin "1"
-			(uuid "8d6a8c1a-8db6-45ab-9d43-c8e00167a64a")
+			(uuid "8deac49f-fd3a-4db4-a3a1-bbcd9a1760d7")
 		)
 		(pin "2"
-			(uuid "25846dfb-e9b9-42b1-86da-e629941552e9")
+			(uuid "ef7eb88c-37bd-4b51-9075-769ee46bb8cd")
 		)
 		(instances
 			(project "CanSat_SensorSuite"
@@ -4937,10 +4452,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "6818c636-1dfa-4e6d-beb0-39f508525d74")
+			(uuid "c2e68c75-1c0f-4560-a9d8-ad13e0f0bdc9")
 		)
 		(pin "1"
-			(uuid "1a48d678-d970-4485-9094-505675b91d00")
+			(uuid "f3586941-d89f-4bd5-a344-f966506502cf")
 		)
 		(instances
 			(project "CanSat_SensorSuite"
@@ -4961,7 +4476,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f9445196-82f1-4fe6-9cf4-7ff3eb7fab8e")
-		(property "Reference" "LED1"
+		(property "Reference" "LED3"
 			(at 310.88 142.35 90)
 			(effects
 				(font
@@ -5059,15 +4574,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "8cc4867c-81e1-43a5-94ef-e70d200c6e97")
+			(uuid "9b6951df-8362-4363-bbdc-b476485de00e")
 		)
 		(pin "1"
-			(uuid "f803e0b1-ebb2-4489-b0bd-c291503a3db6")
+			(uuid "9fc98ca1-21b6-4311-a007-8aa20e117427")
 		)
 		(instances
 			(project "CanSat_SensorSuite"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/459e6a54-4354-4cbe-b679-1f9dcd1ee4fd/2071362a-fc19-4bc4-bfad-417248f8ffa0"
-					(reference "LED1")
+					(reference "LED3")
 					(unit 1)
 				)
 			)

@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "6902ee2c-62b2-4ff3-9a57-d1f6c587c0ba")
 	(paper "A3")
+	(title_block
+		(date "2026-01-04")
+		(rev "${REVISION}")
+		(company "${COMPANY}")
+		(comment 1 "GRID - mil (1.27mm, 2.54mm)")
+	)
 	(lib_symbols
 		(symbol "0_Peripherals:Fiducial"
 			(exclude_from_sim no)
@@ -254,6 +260,12 @@
 		)
 		(uuid "6c3f1933-83fd-4841-b6e8-54a331dfb906")
 	)
+	(junction
+		(at 194.31 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1db4c950-d0e0-407b-b714-0a48d6502437")
+	)
 	(no_connect
 		(at 162.56 199.39)
 		(uuid "62164ba5-a056-4957-a70e-465ff6638b90")
@@ -272,7 +284,7 @@
 	)
 	(bus
 		(pts
-			(xy 175.26 107.95) (xy 213.36 107.95)
+			(xy 175.26 107.95) (xy 194.31 107.95)
 		)
 		(stroke
 			(width 0)
@@ -280,9 +292,39 @@
 		)
 		(uuid "765d18a8-e53d-4d53-b518-b8643fdceee5")
 	)
+	(bus
+		(pts
+			(xy 194.31 107.95) (xy 213.36 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77ed58b0-e526-441b-b17a-0e7c5a886c15")
+	)
+	(bus
+		(pts
+			(xy 175.26 134.62) (xy 194.31 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87133010-7625-4668-abdd-ba888d2b7b4a")
+	)
+	(bus
+		(pts
+			(xy 194.31 134.62) (xy 194.31 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4ac1587-96ae-425d-84d8-2b911539ff5e")
+	)
 	(wire
 		(pts
-			(xy 243.84 81.28) (xy 264.16 81.28)
+			(xy 243.84 83.82) (xy 264.16 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1626,7 +1668,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0f3ba8ec-b7e9-45c4-b213-7440b7ed9c33")
-		(property "Reference" "MH3"
+		(property "Reference" "MH303"
 			(at 162.56 191.77 0)
 			(effects
 				(font
@@ -1672,12 +1714,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "e4cd753b-cf2a-4cc6-a37b-e2f1be430d30")
+			(uuid "2f5ae306-8dea-4462-9095-c02825e252dd")
 		)
 		(instances
 			(project "CanSat_SensorSuite"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/459e6a54-4354-4cbe-b679-1f9dcd1ee4fd"
-					(reference "MH3")
+					(reference "MH303")
 					(unit 1)
 				)
 			)
@@ -1693,7 +1735,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "49a7a93c-7198-43e0-a8a2-685104b5a19e")
-		(property "Reference" "FID1"
+		(property "Reference" "FID301"
 			(at 184.15 191.77 0)
 			(effects
 				(font
@@ -1742,7 +1784,7 @@
 		(instances
 			(project "CanSat_SensorSuite"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/459e6a54-4354-4cbe-b679-1f9dcd1ee4fd"
-					(reference "FID1")
+					(reference "FID301")
 					(unit 1)
 				)
 			)
@@ -1758,7 +1800,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "80427010-b7cb-4e12-9ec7-0b9033da722c")
-		(property "Reference" "FID3"
+		(property "Reference" "FID303"
 			(at 184.15 199.39 0)
 			(effects
 				(font
@@ -1807,7 +1849,7 @@
 		(instances
 			(project "CanSat_SensorSuite"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/459e6a54-4354-4cbe-b679-1f9dcd1ee4fd"
-					(reference "FID3")
+					(reference "FID303")
 					(unit 1)
 				)
 			)
@@ -1822,7 +1864,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e8399db2-9583-4337-bb96-547fd39d3995")
-		(property "Reference" "MH4"
+		(property "Reference" "MH304"
 			(at 170.18 191.77 0)
 			(effects
 				(font
@@ -1868,12 +1910,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "b838b4ec-b10b-48dd-bad6-638d7844308a")
+			(uuid "df91ad95-2472-4ba0-8a2d-126cc4fe7b5a")
 		)
 		(instances
 			(project "CanSat_SensorSuite"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/459e6a54-4354-4cbe-b679-1f9dcd1ee4fd"
-					(reference "MH4")
+					(reference "MH304")
 					(unit 1)
 				)
 			)
@@ -1888,7 +1930,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eef775e2-65e2-4c1b-befa-df4c62be334d")
-		(property "Reference" "MH1"
+		(property "Reference" "MH301"
 			(at 147.32 191.77 0)
 			(effects
 				(font
@@ -1934,12 +1976,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "351ee218-db57-4010-86fa-a4e28f9bb900")
+			(uuid "6ff86458-b1c6-48b6-a34f-db41f995c593")
 		)
 		(instances
 			(project "CanSat_SensorSuite"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/459e6a54-4354-4cbe-b679-1f9dcd1ee4fd"
-					(reference "MH1")
+					(reference "MH301")
 					(unit 1)
 				)
 			)
@@ -1955,7 +1997,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f920c589-d760-4282-a74e-f3a959427a3d")
-		(property "Reference" "FID2"
+		(property "Reference" "FID302"
 			(at 184.15 195.58 0)
 			(effects
 				(font
@@ -2004,7 +2046,7 @@
 		(instances
 			(project "CanSat_SensorSuite"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/459e6a54-4354-4cbe-b679-1f9dcd1ee4fd"
-					(reference "FID2")
+					(reference "FID302")
 					(unit 1)
 				)
 			)
@@ -2019,7 +2061,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ffd95f6e-53c8-4643-846a-3f8524e02655")
-		(property "Reference" "MH2"
+		(property "Reference" "MH302"
 			(at 154.94 191.77 0)
 			(effects
 				(font
@@ -2065,12 +2107,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "a5ef58b5-d603-4b82-89ac-764fc0ba5aeb")
+			(uuid "5d5ed19d-575b-4efa-84f1-07135455681b")
 		)
 		(instances
 			(project "CanSat_SensorSuite"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/459e6a54-4354-4cbe-b679-1f9dcd1ee4fd"
-					(reference "MH2")
+					(reference "MH302")
 					(unit 1)
 				)
 			)
@@ -2083,7 +2125,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -2092,27 +2133,27 @@
 			(color 101 130 255 1.0000)
 		)
 		(uuid "00146b2c-c60c-46a7-ac1e-e6968021f9cb")
-		(property "Sheetname" "Sensors"
-			(at 157.48 102.1584 0)
+		(property "Sheetname" "AtmoSensors"
+			(at 166.37 101.6 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
-				(justify left bottom)
+				(justify bottom)
 			)
 		)
-		(property "Sheetfile" "Sensors.kicad_sch"
-			(at 157.48 113.6146 0)
+		(property "Sheetfile" "AtmoSensors.kicad_sch"
+			(at 166.37 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify top)
 			)
 		)
 		(pin "{I2C}" bidirectional
 			(at 175.26 107.95 0)
-			(uuid "e97a3b86-9d32-4861-befd-23a42f4c5cd2")
+			(uuid "52cdc085-7ed4-43da-bd99-560d0fd0442b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2163,7 +2204,7 @@
 		)
 		(pin "{USB}" bidirectional
 			(at 175.26 83.82 0)
-			(uuid "79d70882-ae27-4189-ad00-aff7d1a86723")
+			(uuid "e3b3f64b-2af2-4bea-baa1-b26762bb8912")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2215,7 +2256,7 @@
 		)
 		(pin "{I2C}" bidirectional
 			(at 213.36 107.95 180)
-			(uuid "e7bb90be-2fd9-48f1-9d30-f7b55fe8a92a")
+			(uuid "cd6c3f55-8f4a-4fea-a97b-4ef97b09c551")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2226,7 +2267,7 @@
 		)
 		(pin "{USB}" bidirectional
 			(at 213.36 83.82 180)
-			(uuid "fa8f4086-4844-41e3-b6db-bd36b0f10c35")
+			(uuid "72ffdd54-fc50-4719-a275-e6531a97792e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2236,8 +2277,8 @@
 			)
 		)
 		(pin "VBAT_sense" input
-			(at 243.84 81.28 0)
-			(uuid "0bd95715-bc51-4ecc-a7b0-942b0cdbcd47")
+			(at 243.84 83.82 0)
+			(uuid "b45f5c57-b512-4cee-80ce-f445f790afa5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2255,7 +2296,7 @@
 		)
 	)
 	(sheet
-		(at 264.16 76.2)
+		(at 264.16 78.74)
 		(size 20.32 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2271,7 +2312,7 @@
 		)
 		(uuid "982efe7d-f5a1-469a-a12e-4fb13ad93078")
 		(property "Sheetname" "Battery Supply"
-			(at 264.16 75.4884 0)
+			(at 264.16 78.0284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2280,7 +2321,7 @@
 			)
 		)
 		(property "Sheetfile" "Battery Supply.kicad_sch"
-			(at 264.16 86.9446 0)
+			(at 264.16 89.4846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2289,8 +2330,8 @@
 			)
 		)
 		(pin "VBAT_sense" output
-			(at 264.16 81.28 180)
-			(uuid "854af9af-6d2d-444c-8905-7e0be7ac7980")
+			(at 264.16 83.82 180)
+			(uuid "f506cfda-626e-4b95-9b3c-9c88d9122a73")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2302,6 +2343,57 @@
 			(project "CanSat_SensorSuite"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/459e6a54-4354-4cbe-b679-1f9dcd1ee4fd"
 					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 157.48 129.54)
+		(size 17.78 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 101 130 255 1.0000)
+		)
+		(uuid "bd395887-436b-4d18-ab62-fea9895d2f0f")
+		(property "Sheetname" "PosSensors"
+			(at 166.37 128.27 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Sheetfile" "PosSensors.kicad_sch"
+			(at 166.37 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(pin "{I2C}" bidirectional
+			(at 175.26 134.62 0)
+			(uuid "d92c7eae-fded-4581-9cc2-e67e70fc1b78")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "CanSat_SensorSuite"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/459e6a54-4354-4cbe-b679-1f9dcd1ee4fd"
+					(page "8")
 				)
 			)
 		)

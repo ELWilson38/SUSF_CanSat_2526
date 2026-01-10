@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "Cover Page")
-		(date "Last Modified Date")
+		(date "2025-12-23")
 		(rev "${REVISION}")
 		(company "${COMPANY}")
 	)
@@ -1755,6 +1755,51 @@
 		(uuid "f1ab5a98-3d21-4c83-b2d8-cfe1793d64cb")
 	)
 	(sheet
+		(at 342.9 302.26)
+		(size 35.56 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "48c709b1-75e4-4c4a-af9e-ff05c343fcbd")
+		(property "Sheetname" "Component Specs"
+			(at 342.9 301.2309 0)
+			(effects
+				(font
+					(face "Times New Roman")
+					(size 1.905 1.905)
+					(bold yes)
+					(color 0 0 0 1)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SubSchematics/Component Specs.kicad_sch"
+			(at 344.17 303.53 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "COMET1_PWR_Board"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 299.72 302.26)
 		(size 35.56 5.08)
 		(exclude_from_sim no)
@@ -1781,7 +1826,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Block Diagram.kicad_sch"
+		(property "Sheetfile" "SubSchematics/Block Diagram.kicad_sch"
 			(at 300.99 303.53 0)
 			(effects
 				(font
@@ -1795,48 +1840,6 @@
 			(project "COMET1_PWR_Board"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c"
 					(page "2")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 339.09 302.26)
-		(size 33.02 5.08)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "e7e6cc47-f6b8-4e74-9d8b-25b25dec501e")
-		(property "Sheetname" "Component Specs"
-			(at 339.09 301.5484 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Component Specs.kicad_sch"
-			(at 339.09 307.9246 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "COMET1_PWR_Board"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c"
-					(page "4")
 				)
 			)
 		)
@@ -1868,7 +1871,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "PowerBoard.kicad_sch"
+		(property "Sheetfile" "SubSchematics/PowerBoard.kicad_sch"
 			(at 300.99 314.96 0)
 			(effects
 				(font

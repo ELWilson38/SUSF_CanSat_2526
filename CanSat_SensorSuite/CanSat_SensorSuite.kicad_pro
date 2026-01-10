@@ -518,7 +518,6 @@
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -555,7 +554,7 @@
     "page_layout_descr_file": "Templates/KDT_Template_Fab.kicad_wks"
   },
   "schematic": {
-    "annotate_start_num": 0,
+    "annotate_start_num": 100,
     "bom_export_filename": "",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
@@ -682,18 +681,26 @@
     ],
     [
       "00146b2c-c60c-46a7-ac1e-e6968021f9cb",
-      "Sensors"
+      "AtmoSensors"
+    ],
+    [
+      "bd395887-436b-4d18-ab62-fea9895d2f0f",
+      "PosSensors"
+    ],
+    [
+      "a08d8c18-b3ff-4e6c-afba-583c12250e6f",
+      "Block DiagramSULREexample"
     ]
   ],
   "text_variables": {
     "BOARD_NAME": "Board Name",
-    "COMPANY": "Company Name",
-    "DESIGNER": "Designer Name",
+    "COMPANY": "Southampton University Spaceflight Society",
+    "DESIGNER": "Ethan Wilson, ..., ....",
     "DOC_TYPE": "Fabrication",
-    "PROJECT_NAME": "Project Name",
-    "RELEASE_DATE": "Release Date",
-    "REVIEWER": "Reviewer Name",
-    "REVISION": "Revision Number",
-    "VARIANT": "Variant Name"
+    "PROJECT_NAME": "SUSF CanSat 25/26",
+    "RELEASE_DATE": "",
+    "REVIEWER": "...",
+    "REVISION": "V1",
+    "VARIANT": "DRAFT"
   }
 }
