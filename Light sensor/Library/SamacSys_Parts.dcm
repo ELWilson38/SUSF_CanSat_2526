@@ -1,0 +1,129 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NE555DR
+D Single Precision Timer
+K
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP PIC24F04KA201-I_SO
+D 4KB Flash, ADC, CTMU,UART, Low Power XLP
+K
+F http://ww1.microchip.com/downloads/en/DeviceDoc/30009937c.pdf
+$ENDCMP
+#
+$CMP TC1262-3.3VDB
+D TC1262-3.3VDB, Low Dropout Voltage Regulator, 0.5A, 3.3 V +/-0.5%, 2.7  6 Vin, 3-Pin SOT-223
+K
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21373C.pdf
+$ENDCMP
+#
+$CMP 10118193-0001LF
+D Micro USB 2.0, Input Output Connectors, B TYPE RECEPTACLE
+K
+F https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/10118193.pdf
+$ENDCMP
+#
+$CMP 47219-2001
+D Molex 47219 Series 8 Way Horizontal Hinged Micro SD Memory Card Connector with Solder Termination
+K
+F http://www.molex.com/molex/products/datasheet.jsp?part=active/0472192001_MEMORY_CARD_SOCKET.xml&channel=Products&Lang=en-US
+$ENDCMP
+#
+$CMP MX25V4035FM1I
+D NOR Flash Serial (SPI, Dual SPI, Quad SPI) 3.3V 4M-bit 4M/2M/1M x 1/2-bit/4-bit 8ns 8-Pin SOP
+K
+F https://componentsearchengine.com/Datasheets/2/MX25V4035FM1I.pdf
+$ENDCMP
+#
+$CMP LSM6DSOXTR
+D IMUs - Inertial Measurement Units iNEMO inertial module: always-on 3D accelerometer and 3D gyroscope
+K
+F https://www.st.com/resource/en/datasheet/lsm6dsox.pdf
+$ENDCMP
+#
+$CMP S2B-PH-SM4-TB_LF__SN_
+D Conn Shrouded Header (4 Sides) HDR 2 POS 2mm Solder RA Side Entry SMD T/R
+K
+F https://www.jst-mfg.com/product/pdf/eng/ePH.pdf
+$ENDCMP
+#
+$CMP CL-SB-12B-12T
+D SWITCH SLIDE SPDT 200MA 12V
+K
+F https://www.nidec-copal-electronics.com/e/catalog/switch/cl-sb.pdf
+$ENDCMP
+#
+$CMP MP008281
+D LED, RED, 100MCD, 638NM, 1206
+K
+F 
+$ENDCMP
+#
+$CMP NSVR0340HT1G
+D Very Low Forward Voltage Drop - 415 mV @ 100 mA; Low Reverse Current - 0.4 uA @ 25 V VR; 250 mA of Continuous Forward Current; Power Dissipation of 160 mW with Minimum Trace; Very High Switching Speed; Low Capacitance - CT = 6 pF; This is a Pb-Free Device
+K
+F https://www.onsemi.com/download/data-sheet/pdf/nsr0340h-d.pdf
+$ENDCMP
+#
+$CMP JS202011SCQN
+D Sub miniature slide switches
+K
+F https://www.ckswitches.com/media/1422/js.pdf
+$ENDCMP
+#
+$CMP LTR-390UV-01
+D SENSOR OPT ULTRAVIOLET 6PINS
+K
+F https://www.arrow.com/en/products/ltr-390uv-01/lite-on-technology
+$ENDCMP
+#
+$CMP CRCW0603100KFKEA
+D CRCW0603 Resistor T/R 0.10W,1%,100K Vishay CRCW Series Thick Film Surface Mount Resistor 0603 Case 100kOhm ?1% 0.1W ?100ppm/?C
+K
+F http://www.vishay.com/docs/20035/dcrcwe3.pdf
+$ENDCMP
+#
+$CMP 06031A151JAT2A
+D AVX 0603 150pF Ceramic Multilayer Capacitor, 100 V dc, +125C, C0G, NP0 Dielectric, +/-5%
+K
+F https://componentsearchengine.com/Datasheets/1/06031A100FAT2A.pdf
+$ENDCMP
+#
+$CMP C1608X5R1E475K080AC
+D MULTILAYER CERAMIC CHIP CAPACITORS, 1608, Commercial grade, general (Up to 75V)
+K
+F https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_midvoltage_en.pdf
+$ENDCMP
+#
+$CMP KAM21BR71H104JM
+D Multilayer Ceramic Capacitors MLCC - SMD/SMT 50V 0.1uF X7R 0805 5% AEC-Q200
+K
+F https://www.mouser.dk/ProductDetail/KYOCERA-AVX/KAM21BR71H104JM?qs=sGAEpiMZZMuMW9TJLBQkXqLYvz3DzaXfcS9olcxY6vM%3D
+$ENDCMP
+#
+$CMP SMA_CONNECTOR
+D LPRS - SMA CONNECTOR - CONNECTOR, SMA, ANTENNA
+K
+F 
+$ENDCMP
+#
+$CMP MCP6002-E_MS
+D OP Amp Dual GP R-R I/O 6V
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-304/55313.pdf
+$ENDCMP
+#
+$CMP 61900411121
+D WR-WTB Wire-to-Board Connectors 2.54 mm Male Vertical Locking Header, 4 pins
+K
+F https://www.we-online.com/components/products/datasheet/61900411121.pdf
+$ENDCMP
+#
+$CMP RC0603JR-0710KL
+D Yageo 10k, 0603 (1608M) Thick Film Surface Mount Fixed Resistor +/-5% 0.1W - RC0603JR-0710KL
+K
+F https://componentsearchengine.com/Datasheets/2/RC0603JR-0710KL.pdf
+$ENDCMP
+#
+#End Doc Library
