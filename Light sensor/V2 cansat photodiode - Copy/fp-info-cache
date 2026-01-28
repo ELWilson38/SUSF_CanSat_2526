@@ -1,4 +1,4 @@
-26754194292283855
+26759502936667861
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -2828,6 +2828,13 @@ Connector
 12
 12
 CUSTOM_LIBRARY
+AS7331-AQFM
+
+
+0
+16
+16
+CUSTOM_LIBRARY
 CAPC1608X80N
 C1608 (080 thickness)
 Capacitor
@@ -2947,6 +2954,13 @@ Integrated Circuit
 8
 8
 CUSTOM_LIBRARY
+SOIC127P600X175-14N
+14-LEAD PSO (SL) - NARROW
+Integrated Circuit
+0
+14
+14
+CUSTOM_LIBRARY
 SOIC127P1030X265-20N
 (SO)20-Lead(SOIC)
 Integrated Circuit
@@ -2960,6 +2974,13 @@ Integrated Circuit
 0
 8
 8
+CUSTOM_LIBRARY
+SOT95P270X145-5N
+(OT) [SOT-23]
+Integrated Circuit
+0
+5
+5
 CUSTOM_LIBRARY
 SOT230P700X180-4N
 3-Pin SOT-223*-**
