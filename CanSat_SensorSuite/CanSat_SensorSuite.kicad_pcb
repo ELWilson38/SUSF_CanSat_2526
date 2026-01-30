@@ -10560,6 +10560,32 @@
 		(layer "User.9")
 		(uuid "d5c824ef-636b-4b6b-9355-fdcb3ba855b0")
 	)
+	(gr_text "110m height\n"
+		(at 74.2 38.3 0)
+		(layer "F.Cu")
+		(uuid "81c73c30-b3de-48ed-9783-d73d27c3dbaf")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "53mm width max\n"
+		(at 72.75 42.9 0)
+		(layer "F.Cu")
+		(uuid "f782928c-cd8c-4d96-b7a4-5e366a6de360")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "Top View"
 		(at 83.5 30.5 0)
 		(layer "Dwgs.User")
