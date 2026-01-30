@@ -1,4 +1,4 @@
-26763042320058950
+26768351458884780
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -2926,6 +2926,13 @@ Resistor
 2
 2
 CUSTOM_LIBRARY
+RMCA1206FT4K70-HP
+
+
+0
+2
+2
+CUSTOM_LIBRARY
 S2BPHSM4TBLFSN
 S2B-PH-SM4-TB(LF)(SN)-2
 Connector
@@ -3003,12 +3010,26 @@ Integrated Circuit
 4
 4
 CUSTOM_LIBRARY
+TCS34303M
+TCS34303M-1
+Integrated Circuit
+0
+8
+8
+CUSTOM_LIBRARY
 WP7113PD1BT_BD-P22
 
 
 0
 2
 2
+CUSTOM_LIBRARY
+WSOF6
+WSOF6
+Integrated Circuit
+0
+6
+6
 Calibration_Scale
 Gauge_10mm_Type1_CopperTop
 Gauge, Massstab, 10mm, CopperTop, Type 1,
