@@ -2446,16 +2446,6 @@
 		)
 		(uuid 322c4bab-f3b7-4dbf-890c-d81b91819088)
 	)
-	(text "Probably need a 5V supply from USB as well as battery.\nFor certain sensors.\nUSB may be providing 5V as standard, need to check output set by CC res'"
-		(exclude_from_sim no)
-		(at 260 168.6 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "fc66221e-4195-4bd8-b3b9-bca57ce4a342")
-	)
 	(text_box "[${#}] ${TITLE}"
 		(exclude_from_sim no)
 		(at 12.065 12.065 0)
@@ -2516,13 +2506,13 @@
 		(uuid "1fed98ab-f709-4bd0-9cf8-d584da4895ac")
 	)
 	(junction
-		(at 294.64 132.08)
+		(at 264.16 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "32a6b33c-9800-41d1-8c39-4c6cf204351d")
 	)
 	(junction
-		(at 264.16 132.08)
+		(at 233.68 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "49285c34-2575-4054-b80d-af798c9dd1c3")
@@ -2534,13 +2524,13 @@
 		(uuid "56a1bc0e-f2bd-4b27-bcb5-55d20f52a711")
 	)
 	(junction
-		(at 306.07 132.08)
+		(at 275.59 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6dee2cd7-57d8-423f-b654-09de83f7fc10")
 	)
 	(junction
-		(at 279.4 147.32)
+		(at 248.92 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6fac0b98-e9a0-49a6-aa81-da1a2872af04")
@@ -2627,7 +2617,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 144.78) (xy 264.16 147.32)
+			(xy 233.68 144.78) (xy 233.68 147.32)
 		)
 		(stroke
 			(width 0)
@@ -2657,7 +2647,7 @@
 	)
 	(wire
 		(pts
-			(xy 287.02 132.08) (xy 294.64 132.08)
+			(xy 256.54 132.08) (xy 264.16 132.08)
 		)
 		(stroke
 			(width 0)
@@ -2667,7 +2657,7 @@
 	)
 	(wire
 		(pts
-			(xy 294.64 147.32) (xy 279.4 147.32)
+			(xy 264.16 147.32) (xy 248.92 147.32)
 		)
 		(stroke
 			(width 0)
@@ -2677,7 +2667,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 147.32) (xy 279.4 147.32)
+			(xy 233.68 147.32) (xy 248.92 147.32)
 		)
 		(stroke
 			(width 0)
@@ -2697,7 +2687,7 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 137.16) (xy 306.07 132.08)
+			(xy 275.59 137.16) (xy 275.59 132.08)
 		)
 		(stroke
 			(width 0)
@@ -2717,7 +2707,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 132.08) (xy 271.78 132.08)
+			(xy 233.68 132.08) (xy 241.3 132.08)
 		)
 		(stroke
 			(width 0)
@@ -2727,7 +2717,7 @@
 	)
 	(wire
 		(pts
-			(xy 294.64 132.08) (xy 306.07 132.08)
+			(xy 264.16 132.08) (xy 275.59 132.08)
 		)
 		(stroke
 			(width 0)
@@ -2737,7 +2727,7 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 132.08) (xy 306.07 129.54)
+			(xy 275.59 132.08) (xy 275.59 129.54)
 		)
 		(stroke
 			(width 0)
@@ -2747,7 +2737,7 @@
 	)
 	(wire
 		(pts
-			(xy 294.64 132.08) (xy 294.64 137.16)
+			(xy 264.16 132.08) (xy 264.16 137.16)
 		)
 		(stroke
 			(width 0)
@@ -2757,7 +2747,7 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 139.7) (xy 279.4 147.32)
+			(xy 248.92 139.7) (xy 248.92 147.32)
 		)
 		(stroke
 			(width 0)
@@ -2777,7 +2767,7 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 154.94) (xy 306.07 158.75)
+			(xy 275.59 154.94) (xy 275.59 158.75)
 		)
 		(stroke
 			(width 0)
@@ -2794,16 +2784,6 @@
 			(type default)
 		)
 		(uuid "6e6c569e-25b3-4439-8ccb-ede3aadc8686")
-	)
-	(wire
-		(pts
-			(xy 175.26 132.08) (xy 220.98 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f011bd9-4334-4fed-960d-b03d2609d983")
 	)
 	(wire
 		(pts
@@ -2847,7 +2827,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 132.08) (xy 264.16 132.08)
+			(xy 175.26 132.08) (xy 233.68 132.08)
 		)
 		(stroke
 			(width 0)
@@ -2857,7 +2837,7 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 147.32) (xy 279.4 149.86)
+			(xy 248.92 147.32) (xy 248.92 149.86)
 		)
 		(stroke
 			(width 0)
@@ -2887,7 +2867,7 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 144.78) (xy 306.07 147.32)
+			(xy 275.59 144.78) (xy 275.59 147.32)
 		)
 		(stroke
 			(width 0)
@@ -2897,7 +2877,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 132.08) (xy 264.16 137.16)
+			(xy 233.68 132.08) (xy 233.68 137.16)
 		)
 		(stroke
 			(width 0)
@@ -2907,7 +2887,7 @@
 	)
 	(wire
 		(pts
-			(xy 294.64 144.78) (xy 294.64 147.32)
+			(xy 264.16 144.78) (xy 264.16 147.32)
 		)
 		(stroke
 			(width 0)
@@ -3341,7 +3321,7 @@
 	)
 	(symbol
 		(lib_id "0_Passives:C")
-		(at 264.16 144.78 270)
+		(at 233.68 144.78 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3350,7 +3330,7 @@
 		(dnp no)
 		(uuid "1c6d7eb3-ecf1-4dda-9b83-b08347e03b1b")
 		(property "Reference" "C22"
-			(at 267.335 139.7 90)
+			(at 236.855 139.7 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3359,7 +3339,7 @@
 			)
 		)
 		(property "Value" "10nF"
-			(at 267.335 142.24 90)
+			(at 236.855 142.24 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3368,7 +3348,7 @@
 			)
 		)
 		(property "Footprint" "0_Capacitors:C_0603_1608_DensityHigh"
-			(at 257.81 138.43 0)
+			(at 227.33 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3377,7 +3357,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 264.16 140.97 90)
+			(at 233.68 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3386,7 +3366,7 @@
 			)
 		)
 		(property "Description" "SMD 0402 MLCC capacitor, Alternate KiCad Library"
-			(at 255.27 139.3952 0)
+			(at 224.79 139.3952 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3476,7 +3456,7 @@
 	)
 	(symbol
 		(lib_id "Library:GND")
-		(at 279.4 149.86 0)
+		(at 248.92 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3484,7 +3464,7 @@
 		(dnp no)
 		(uuid "50dc5e35-77c1-4f44-8066-ca6ef96485c8")
 		(property "Reference" "#PWR0505"
-			(at 279.4 156.21 0)
+			(at 248.92 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3493,7 +3473,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 279.4 153.67 0)
+			(at 248.92 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3501,7 +3481,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 279.4 149.86 0)
+			(at 248.92 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3510,7 +3490,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 279.4 149.86 0)
+			(at 248.92 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3519,7 +3499,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 279.4 149.86 0)
+			(at 248.92 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3702,7 +3682,7 @@
 	)
 	(symbol
 		(lib_id "0_Passives:R")
-		(at 306.07 154.94 90)
+		(at 275.59 154.94 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3710,7 +3690,7 @@
 		(dnp no)
 		(uuid "8388815c-8c4f-40f5-8ef9-2a430f79ce53")
 		(property "Reference" "R14"
-			(at 311.06 149.93 90)
+			(at 280.58 149.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3718,7 +3698,7 @@
 			)
 		)
 		(property "Value" "51R"
-			(at 311.06 152.47 90)
+			(at 280.58 152.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3726,7 +3706,7 @@
 			)
 		)
 		(property "Footprint" "0_Resistors:R_0603_1608_DensityHigh"
-			(at 337.82 154.94 0)
+			(at 307.34 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3735,7 +3715,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 306.07 151.13 90)
+			(at 275.59 151.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3744,7 +3724,7 @@
 			)
 		)
 		(property "Description" "SMD 0603 Chip Resistor"
-			(at 326.39 154.94 0)
+			(at 295.91 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3753,7 +3733,7 @@
 			)
 		)
 		(property "MPN" "0603WAF510JT5E"
-			(at 306.07 154.94 0)
+			(at 275.59 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3762,7 +3742,7 @@
 			)
 		)
 		(property "JLC Part Number" "C23197"
-			(at 306.07 154.94 0)
+			(at 275.59 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3771,7 +3751,7 @@
 			)
 		)
 		(property "JLC Price" "0.0008"
-			(at 306.07 154.94 0)
+			(at 275.59 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3780,7 +3760,7 @@
 			)
 		)
 		(property "Farnell Link" "~"
-			(at 306.07 154.94 0)
+			(at 275.59 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3789,7 +3769,7 @@
 			)
 		)
 		(property "Farnell Part Number" "~"
-			(at 306.07 154.94 0)
+			(at 275.59 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3798,7 +3778,7 @@
 			)
 		)
 		(property "Farnell Price" "~"
-			(at 306.07 154.94 0)
+			(at 275.59 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3823,7 +3803,7 @@
 	)
 	(symbol
 		(lib_id "Library:+3V3")
-		(at 306.07 129.54 0)
+		(at 275.59 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3831,7 +3811,7 @@
 		(dnp no)
 		(uuid "85e4f6ce-16af-47bd-9522-ccfea474fd9a")
 		(property "Reference" "#PWR0503"
-			(at 306.07 133.35 0)
+			(at 275.59 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3840,7 +3820,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 306.07 125.095 0)
+			(at 275.59 125.095 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3848,7 +3828,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 306.07 129.54 0)
+			(at 275.59 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3857,7 +3837,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 306.07 129.54 0)
+			(at 275.59 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3866,7 +3846,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 306.07 129.54 0)
+			(at 275.59 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4082,7 +4062,7 @@
 	)
 	(symbol
 		(lib_id "Library:GND")
-		(at 306.07 158.75 0)
+		(at 275.59 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4090,7 +4070,7 @@
 		(dnp no)
 		(uuid "bcd9024c-7fc9-4368-9a4d-7e5879cabd00")
 		(property "Reference" "#PWR0507"
-			(at 306.07 165.1 0)
+			(at 275.59 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4099,7 +4079,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 306.07 162.56 0)
+			(at 275.59 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4107,7 +4087,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 306.07 158.75 0)
+			(at 275.59 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4116,7 +4096,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 306.07 158.75 0)
+			(at 275.59 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4125,7 +4105,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 306.07 158.75 0)
+			(at 275.59 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4147,7 +4127,7 @@
 	)
 	(symbol
 		(lib_id "0_Passives:C")
-		(at 294.64 137.16 270)
+		(at 264.16 137.16 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4155,7 +4135,7 @@
 		(dnp no)
 		(uuid "cec1ce30-7518-4d27-b82c-ab9699c31e56")
 		(property "Reference" "C23"
-			(at 291.465 139.7 90)
+			(at 260.985 139.7 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4164,7 +4144,7 @@
 			)
 		)
 		(property "Value" "10nF"
-			(at 291.465 142.24 90)
+			(at 260.985 142.24 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4173,7 +4153,7 @@
 			)
 		)
 		(property "Footprint" "0_Capacitors:C_0603_1608_DensityHigh"
-			(at 288.29 143.51 0)
+			(at 257.81 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4182,7 +4162,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 294.64 140.97 90)
+			(at 264.16 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4191,7 +4171,7 @@
 			)
 		)
 		(property "Description" "SMD 0402 MLCC capacitor, Alternate KiCad Library"
-			(at 285.75 142.5448 0)
+			(at 255.27 142.5448 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4313,7 +4293,7 @@
 	)
 	(symbol
 		(lib_id "0_Power:NCP1117-3.3")
-		(at 271.78 132.08 0)
+		(at 241.3 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4321,7 +4301,7 @@
 		(dnp no)
 		(uuid "dcfa1823-dd1d-4c0c-8fc5-069ebcbabd61")
 		(property "Reference" "U3"
-			(at 279.4 121.92 0)
+			(at 248.92 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4329,7 +4309,7 @@
 			)
 		)
 		(property "Value" "NCP1117_3.3"
-			(at 279.4 124.46 0)
+			(at 248.92 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4337,7 +4317,7 @@
 			)
 		)
 		(property "Footprint" "0_Power:SOT-223-3_TabPin2"
-			(at 271.78 127 0)
+			(at 241.3 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4346,7 +4326,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF"
-			(at 274.32 138.43 0)
+			(at 243.84 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4355,7 +4335,7 @@
 			)
 		)
 		(property "Description" "1A Low drop-out regulator"
-			(at 279.4 127 0)
+			(at 248.92 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4363,7 +4343,7 @@
 			)
 		)
 		(property "MPN" "NCP1117LPST33T3G"
-			(at 271.78 132.08 0)
+			(at 241.3 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4372,7 +4352,7 @@
 			)
 		)
 		(property "Supplier Link" "https://uk.farnell.com/on-semiconductor/ncp1117lpst33t3g/ldo-fixed-3-3v-1a-sot-223-3/dp/2534283"
-			(at 271.78 132.08 0)
+			(at 241.3 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4468,7 +4448,7 @@
 	)
 	(symbol
 		(lib_id "0_Passives:LED_R")
-		(at 306.07 137.16 90)
+		(at 275.59 137.16 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4477,7 +4457,7 @@
 		(dnp no)
 		(uuid "f9445196-82f1-4fe6-9cf4-7ff3eb7fab8e")
 		(property "Reference" "LED3"
-			(at 310.88 142.35 90)
+			(at 280.4 142.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4485,7 +4465,7 @@
 			)
 		)
 		(property "Value" "Red"
-			(at 310.88 139.81 90)
+			(at 280.4 139.81 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4493,7 +4473,7 @@
 			)
 		)
 		(property "Footprint" "0_Passives:LED_0603_1608Metric"
-			(at 312.42 137.16 0)
+			(at 281.94 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4502,7 +4482,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 311.15 137.16 0)
+			(at 280.67 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4511,7 +4491,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 312.42 137.16 0)
+			(at 281.94 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4520,7 +4500,7 @@
 			)
 		)
 		(property "MPN" " KT-0603R"
-			(at 306.07 137.16 0)
+			(at 275.59 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4529,7 +4509,7 @@
 			)
 		)
 		(property "JLC Part Number" " C2286"
-			(at 306.07 137.16 0)
+			(at 275.59 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4538,7 +4518,7 @@
 			)
 		)
 		(property "JLC Price" "0.004"
-			(at 306.07 137.16 0)
+			(at 275.59 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4547,7 +4527,7 @@
 			)
 		)
 		(property "Farnell Link" "~"
-			(at 306.07 137.16 0)
+			(at 275.59 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4556,7 +4536,7 @@
 			)
 		)
 		(property "Farnell Part Number" "~"
-			(at 306.07 137.16 0)
+			(at 275.59 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4565,7 +4545,7 @@
 			)
 		)
 		(property "Farnell Price" "~"
-			(at 306.07 137.16 0)
+			(at 275.59 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
