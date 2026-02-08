@@ -1,4 +1,4 @@
-(footprint "C_0402_1005_DensityMedium"
+(footprint "R_0402_1005_DensityMedium"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -71,7 +71,7 @@
 			)
 		)
 	)
-	(property "Value" "C_0402_1005_DensityMedium"
+	(property "Value" "R_0402_1005_DensityMedium"
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -271,7 +271,7 @@
 		(uuid "fd64e8d6-a3ea-4e53-9918-fca007305180")
 	)
 	(embedded_fonts no)
-	(model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.wrl"
+	(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

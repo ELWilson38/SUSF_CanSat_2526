@@ -643,7 +643,7 @@
     },
     "net_format_name": "KiCad",
     "page_layout_descr_file": "Templates\\KDT_Template.kicad_wks",
-    "plot_directory": "Schematic/",
+    "plot_directory": "Outputs/",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
@@ -672,12 +672,8 @@
       "MCU & Peripherals"
     ],
     [
-      "2071362a-fc19-4bc4-bfad-417248f8ffa0",
-      "USBC"
-    ],
-    [
       "982efe7d-f5a1-469a-a12e-4fb13ad93078",
-      "Battery Supply"
+      "USBC & Battery Supply"
     ],
     [
       "00146b2c-c60c-46a7-ac1e-e6968021f9cb",
