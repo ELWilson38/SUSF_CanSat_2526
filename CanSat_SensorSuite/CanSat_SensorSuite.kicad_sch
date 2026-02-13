@@ -1196,48 +1196,6 @@
 		)
 	)
 	(sheet
-		(at 340.36 302.26)
-		(size 35.56 6.35)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "a08d8c18-b3ff-4e6c-afba-583c12250e6f")
-		(property "Sheetname" "Block DiagramSULREexample"
-			(at 340.36 301.5484 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Block DiagramSULREexample.kicad_sch"
-			(at 340.36 309.1946 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "CanSat_SensorSuite"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c"
-					(page "9")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 299.72 302.26)
 		(size 35.56 5.08)
 		(exclude_from_sim no)

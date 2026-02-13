@@ -5749,7 +5749,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD 0603 MLCC capacitor"
 			(at 149.86 199.39 0)
 			(effects
 				(font
@@ -5758,7 +5758,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GPC0402104"
 			(at 149.86 199.39 0)
 			(effects
 				(font
@@ -5776,7 +5776,16 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "Generic"
+			(at 149.86 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "C0603"
 			(at 149.86 199.39 0)
 			(effects
 				(font
@@ -5911,7 +5920,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD 0603 MLCC capacitor"
 			(at 151.13 107.95 0)
 			(effects
 				(font
@@ -5920,7 +5929,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GPC0402104"
 			(at 151.13 107.95 0)
 			(effects
 				(font
@@ -5938,7 +5947,16 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "Generic"
+			(at 151.13 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "C0603"
 			(at 151.13 107.95 0)
 			(effects
 				(font
@@ -6037,8 +6055,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Price" "2.36"
-			(at 163.83 160.02 0)
+		(property "Supplier Link" "https://uk.farnell.com/stmicroelectronics/lsm6dsoqtr/inemo-inertial-module-3-6v-tri/dp/4209821"
+			(at 168.91 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6046,8 +6064,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Link" "https://uk.farnell.com/stmicroelectronics/lsm6dsoqtr/inemo-inertial-module-3-6v-tri/dp/4209821"
-			(at 168.91 152.4 0)
+		(property "Package" ""
+			(at 166.37 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6243,7 +6261,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Price" "7.88"
+		(property "Supplier Link" "https://uk.farnell.com/sensor-solutions-te-connectivity/ms560702ba03-50/sensor-barometric-0-01-1-2bar/dp/2362660"
 			(at 162.56 195.58 0)
 			(effects
 				(font
@@ -6252,7 +6270,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Link" "https://uk.farnell.com/sensor-solutions-te-connectivity/ms560702ba03-50/sensor-barometric-0-01-1-2bar/dp/2362660"
+		(property "Package" ""
 			(at 162.56 195.58 0)
 			(effects
 				(font

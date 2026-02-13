@@ -10240,8 +10240,35 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 0402 MLCC capacitor, Alternate KiCad Library"
+		(property "Description" "SMD 0603 MLCC capacitor"
 			(at 220.98 74.6252 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "C0603"
+			(at 229.87 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GPC0402103"
+			(at 229.87 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Generic"
+			(at 229.87 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10542,7 +10569,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Part Number" ""
+		(property "JLC Part Number" "C634245"
 			(at 203.2 158.75 0)
 			(effects
 				(font
@@ -10551,7 +10578,16 @@
 				(hide yes)
 			)
 		)
-		(property "JLC_PART" "C634245"
+		(property "Package" ""
+			(at 203.2 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Farnell"
 			(at 203.2 158.75 0)
 			(effects
 				(font
@@ -10703,15 +10739,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC_PART" " C627907"
-			(at 237.49 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MPN" "MIC29302AWD-TR"
 			(at 237.49 210.82 0)
 			(effects
@@ -10721,7 +10748,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_Link" "https://uk.farnell.com/microchip/mic29302awd-tr/ldo-adj-1-25-15v-3a-to-252-5/dp/2857615"
+		(property "JLC Part Number" " C627907"
 			(at 237.49 210.82 0)
 			(effects
 				(font
@@ -10730,7 +10757,25 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Part Number" ""
+		(property "Package" ""
+			(at 237.49 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Link" "https://uk.farnell.com/microchip/mic29302awd-tr/ldo-adj-1-25-15v-3a-to-252-5/dp/2857615"
+			(at 237.49 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Farnell"
 			(at 237.49 210.82 0)
 			(effects
 				(font
@@ -10809,7 +10854,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD 0603 MLCC capacitor"
 			(at 260.35 161.29 0)
 			(effects
 				(font
@@ -10827,7 +10872,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC_PART" "C57112"
+		(property "JLC Part Number" "C57112"
 			(at 254 161.29 90)
 			(effects
 				(font
@@ -10836,7 +10881,25 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Part Number" ""
+		(property "Package" "C0603"
+			(at 254 161.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GPC0402103"
+			(at 254 161.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Generic"
 			(at 254 161.29 90)
 			(effects
 				(font
@@ -11305,7 +11368,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GPR0402390K"
 			(at 85.09 209.55 0)
 			(effects
 				(font
@@ -11314,7 +11377,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "Generic"
 			(at 85.09 209.55 0)
 			(effects
 				(font
@@ -11341,7 +11404,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC_PART" "C23150"
+		(property "JLC Part Number" "C23150"
 			(at 85.09 209.55 90)
 			(effects
 				(font
@@ -11350,7 +11413,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Part Number" ""
+		(property "Package" "R0603"
 			(at 85.09 209.55 90)
 			(effects
 				(font
@@ -11507,7 +11570,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "Farnell"
 			(at 189.23 187.96 90)
 			(effects
 				(font
@@ -11534,7 +11597,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC_PART" "C17179519"
+		(property "JLC Part Number" "C17179519"
 			(at 189.23 187.96 90)
 			(effects
 				(font
@@ -11543,7 +11606,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Part Number" ""
+		(property "Package" ""
 			(at 189.23 187.96 90)
 			(effects
 				(font
@@ -11639,7 +11702,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "Farnell"
 			(at 115.57 95.25 0)
 			(effects
 				(font
@@ -11649,6 +11712,15 @@
 			)
 		)
 		(property "Supplier Link" "https://uk.farnell.com/gct-global-connector-technology/usb4085-gf-a/usb-conn-2-0-type-c-r-a-rcpt-16pos/dp/2924867"
+			(at 115.57 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
 			(at 115.57 95.25 0)
 			(effects
 				(font
@@ -11759,7 +11831,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GPR0402470K"
 			(at 85.09 196.85 0)
 			(effects
 				(font
@@ -11768,7 +11840,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "Generic"
 			(at 85.09 196.85 0)
 			(effects
 				(font
@@ -11795,7 +11867,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC_PART" "C23178"
+		(property "JLC Part Number" "C23178"
 			(at 85.09 196.85 90)
 			(effects
 				(font
@@ -11804,7 +11876,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Part Number" ""
+		(property "Package" "R0603"
 			(at 85.09 196.85 90)
 			(effects
 				(font
@@ -11957,7 +12029,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "Farnell"
 			(at 166.37 85.09 0)
 			(effects
 				(font
@@ -11967,6 +12039,15 @@
 			)
 		)
 		(property "Supplier Link" "https://uk.farnell.com/stmicroelectronics/usblc6-2sc6/esd-protection-17v-sot-23/dp/1269406"
+			(at 166.37 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
 			(at 166.37 85.09 0)
 			(effects
 				(font
@@ -12189,16 +12270,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Multicomp Pro"
-			(at 118.11 653.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
 		(property "MPN" "MP011756"
 			(at 118.11 753.67 0)
 			(effects
@@ -12227,7 +12298,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC_PART" "C431092"
+		(property "JLC Part Number" "C431092"
 			(at 139.7 158.75 0)
 			(effects
 				(font
@@ -12236,7 +12307,16 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Part Number" ""
+		(property "Package" ""
+			(at 139.7 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Farnell"
 			(at 139.7 158.75 0)
 			(effects
 				(font
@@ -12347,8 +12427,8 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Part Number" ""
-			(at 189.23 152.4 0)
+		(property "JLC Part Number" "C634245"
+			(at 189.23 152.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12356,8 +12436,17 @@
 				(hide yes)
 			)
 		)
-		(property "JLC_PART" "C634245"
-			(at 189.23 152.4 0)
+		(property "Package" ""
+			(at 189.23 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Farnell"
+			(at 189.23 152.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12579,6 +12668,24 @@
 				(hide yes)
 			)
 		)
+		(property "Package" "SOT-223-3"
+			(at 237.49 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Farnell"
+			(at 237.49 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "335bab70-ffee-4dbb-a7f2-e2a7e7118bd2")
 		)
@@ -12661,7 +12768,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "Generic"
 			(at 255.27 214.63 0)
 			(effects
 				(font
@@ -12688,7 +12795,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC_PART" "C22787"
+		(property "JLC Part Number" "C22787"
 			(at 255.27 214.63 90)
 			(effects
 				(font
@@ -12697,7 +12804,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Part Number" ""
+		(property "Package" "R0603"
 			(at 255.27 214.63 90)
 			(effects
 				(font
@@ -12784,7 +12891,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "Generic"
 			(at 255.27 204.47 0)
 			(effects
 				(font
@@ -12811,7 +12918,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC_PART" "C23179"
+		(property "JLC Part Number" "C23179"
 			(at 255.27 204.47 90)
 			(effects
 				(font
@@ -12820,7 +12927,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Part Number" ""
+		(property "Package" "R0603"
 			(at 255.27 204.47 90)
 			(effects
 				(font
@@ -13286,7 +13393,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0603WAF510JT5E"
+		(property "MPN" "GPR060351R"
 			(at 271.78 90.17 0)
 			(effects
 				(font
@@ -13304,8 +13411,8 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Price" "0.0008"
-			(at 271.78 90.17 0)
+		(property "JLC_MPN" "0603WAF510JT5E"
+			(at 271.78 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13313,8 +13420,8 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Link" "~"
-			(at 271.78 90.17 0)
+		(property "Package" "R0603"
+			(at 271.78 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13322,8 +13429,8 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Part Number" "~"
-			(at 271.78 90.17 0)
+		(property "Order Code" ""
+			(at 271.78 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13331,8 +13438,8 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Price" "~"
-			(at 271.78 90.17 0)
+		(property "Supplier" "Generic"
+			(at 271.78 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13401,7 +13508,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Red SMD LED, 0603"
+		(property "Description" "SMD RED LED, 0603"
 			(at 275.59 204.47 0)
 			(effects
 				(font
@@ -13419,7 +13526,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC_PART" " C2286"
+		(property "JLC Part Number" " C2286"
 			(at 269.24 204.47 90)
 			(effects
 				(font
@@ -13428,7 +13535,16 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Part Number" ""
+		(property "Package" "D0603"
+			(at 269.24 204.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Farnell"
 			(at 269.24 204.47 90)
 			(effects
 				(font
@@ -13498,7 +13614,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD 0603 Chip Resistor"
 			(at 271.78 171.45 0)
 			(effects
 				(font
@@ -13507,7 +13623,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GPR060351R"
 			(at 271.78 171.45 0)
 			(effects
 				(font
@@ -13516,7 +13632,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "Generic"
 			(at 271.78 171.45 0)
 			(effects
 				(font
@@ -13543,7 +13659,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC_PART" "C23197"
+		(property "JLC Part Number" "C23197"
 			(at 271.78 171.45 90)
 			(effects
 				(font
@@ -13552,7 +13668,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Part Number" ""
+		(property "Package" "R0603"
 			(at 271.78 171.45 90)
 			(effects
 				(font
@@ -13685,7 +13801,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD RED LED, 0603"
 			(at 278.13 72.39 0)
 			(effects
 				(font
@@ -13694,7 +13810,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" " KT-0603R"
+		(property "MPN" ""
 			(at 271.78 72.39 0)
 			(effects
 				(font
@@ -13712,8 +13828,8 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Price" "0.004"
-			(at 271.78 72.39 0)
+		(property "JLC_MPN" " KT-0603R"
+			(at 271.78 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13721,8 +13837,8 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Link" "~"
-			(at 271.78 72.39 0)
+		(property "Package" "D0603"
+			(at 271.78 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13730,8 +13846,8 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Part Number" "~"
-			(at 271.78 72.39 0)
+		(property "Order Code" ""
+			(at 271.78 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13739,8 +13855,8 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Price" "~"
-			(at 271.78 72.39 0)
+		(property "Supplier" "Farnell"
+			(at 271.78 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13817,7 +13933,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GPR06035K1"
 			(at 151.13 105.41 0)
 			(effects
 				(font
@@ -13826,7 +13942,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "Generic"
 			(at 151.13 105.41 0)
 			(effects
 				(font
@@ -13837,6 +13953,15 @@
 		)
 		(property "Supplier Link" ""
 			(at 151.13 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "R0603"
+			(at 151.13 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13914,7 +14039,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GPR06035K1"
 			(at 156.21 97.79 0)
 			(effects
 				(font
@@ -13923,7 +14048,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "Generic"
 			(at 156.21 97.79 0)
 			(effects
 				(font
@@ -13934,6 +14059,15 @@
 		)
 		(property "Supplier Link" ""
 			(at 156.21 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "R0603"
+			(at 156.21 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14034,7 +14168,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC_PART" "C146799"
+		(property "JLC Part Number" "C146799"
 			(at 229.87 158.75 0)
 			(effects
 				(font
@@ -14043,7 +14177,16 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Part Number" ""
+		(property "Package" "SOT-223-3"
+			(at 229.87 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Farnell"
 			(at 229.87 158.75 0)
 			(effects
 				(font
@@ -14115,6 +14258,24 @@
 			)
 		)
 		(property "Description" "Fuse"
+			(at 162.56 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 162.56 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Farnell"
 			(at 162.56 67.31 0)
 			(effects
 				(font
@@ -14202,7 +14363,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC_PART" "C19702"
+		(property "JLC Part Number" "C19702"
 			(at 302.26 214.63 90)
 			(effects
 				(font
@@ -14211,7 +14372,25 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Part Number" ""
+		(property "Package" "C0603"
+			(at 302.26 214.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GPC0603106"
+			(at 302.26 214.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Generic"
 			(at 302.26 214.63 90)
 			(effects
 				(font
@@ -14281,7 +14460,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD 0603 Chip Resistor"
 			(at 269.24 214.63 0)
 			(effects
 				(font
@@ -14290,7 +14469,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GPR060351R"
 			(at 269.24 214.63 0)
 			(effects
 				(font
@@ -14299,7 +14478,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "Generic"
 			(at 269.24 214.63 0)
 			(effects
 				(font
@@ -14326,7 +14505,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC_PART" "C23197"
+		(property "JLC Part Number" "C23197"
 			(at 269.24 214.63 90)
 			(effects
 				(font
@@ -14335,7 +14514,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Part Number" ""
+		(property "Package" "R0603"
 			(at 269.24 214.63 90)
 			(effects
 				(font
@@ -14537,7 +14716,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Red SMD LED, 0603"
+		(property "Description" "SMD RED LED, 0603"
 			(at 278.13 161.29 0)
 			(effects
 				(font
@@ -14555,7 +14734,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC_PART" " C2286"
+		(property "JLC Part Number" " C2286"
 			(at 271.78 161.29 90)
 			(effects
 				(font
@@ -14564,7 +14743,16 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Part Number" ""
+		(property "Package" "D0603"
+			(at 271.78 161.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Farnell"
 			(at 271.78 161.29 90)
 			(effects
 				(font
@@ -14633,8 +14821,35 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 0402 MLCC capacitor, Alternate KiCad Library"
+		(property "Description" "SMD 0603 MLCC capacitor"
 			(at 251.46 77.7748 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "C0603"
+			(at 260.35 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GPC0402103"
+			(at 260.35 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Generic"
+			(at 260.35 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14721,7 +14936,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC_PART" "C19702"
+		(property "JLC Part Number" "C19702"
 			(at 289.56 214.63 90)
 			(effects
 				(font
@@ -14730,7 +14945,25 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Part Number" ""
+		(property "Package" "C0603"
+			(at 289.56 214.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GPC0603106"
+			(at 289.56 214.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Generic"
 			(at 289.56 214.63 90)
 			(effects
 				(font
@@ -14799,7 +15032,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD 0603 MLCC capacitor"
 			(at 227.33 168.91 0)
 			(effects
 				(font
@@ -14817,7 +15050,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC_PART" "C57112"
+		(property "JLC Part Number" "C57112"
 			(at 220.98 168.91 90)
 			(effects
 				(font
@@ -14826,7 +15059,25 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Part Number" ""
+		(property "Package" "C0603"
+			(at 220.98 168.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GPC0402103"
+			(at 220.98 168.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Generic"
 			(at 220.98 168.91 90)
 			(effects
 				(font

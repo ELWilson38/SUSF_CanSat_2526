@@ -12084,7 +12084,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0603WAF510JT5E"
+		(property "MPN" "GPR060351R"
 			(at 266.7 203.2 0)
 			(effects
 				(font
@@ -12102,7 +12102,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Price" "0.0008"
+		(property "JLC_MPN" "0603WAF510JT5E"
 			(at 266.7 203.2 0)
 			(effects
 				(font
@@ -12111,7 +12111,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Link" "~"
+		(property "Package" "R0603"
 			(at 266.7 203.2 0)
 			(effects
 				(font
@@ -12120,7 +12120,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Part Number" "~"
+		(property "Order Code" ""
 			(at 266.7 203.2 0)
 			(effects
 				(font
@@ -12129,7 +12129,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Price" "~"
+		(property "Supplier" "Generic"
 			(at 266.7 203.2 0)
 			(effects
 				(font
@@ -12215,7 +12215,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Price" "0.0007"
+		(property "MPN" "GPC0402150"
 			(at 288.7 52.12 0)
 			(effects
 				(font
@@ -12224,7 +12224,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Link" "~"
+		(property "JLC_MPN" "0402CG150J500NT"
 			(at 288.7 52.12 0)
 			(effects
 				(font
@@ -12233,7 +12233,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Part Number" "~"
+		(property "Package" "C0402"
 			(at 288.7 52.12 0)
 			(effects
 				(font
@@ -12242,7 +12242,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Price" "~"
+		(property "Order Code" ""
 			(at 288.7 52.12 0)
 			(effects
 				(font
@@ -12251,7 +12251,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0402CG150J500NT"
+		(property "Supplier" "Generic"
 			(at 288.7 52.12 0)
 			(effects
 				(font
@@ -12330,7 +12330,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0603WAF1002T5E"
+		(property "MPN" "GPR060310K"
 			(at 279.4 121.92 0)
 			(effects
 				(font
@@ -12348,7 +12348,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Price" "0.0007"
+		(property "JLC_MPN" "0603WAF1002T5E"
 			(at 279.4 121.92 90)
 			(effects
 				(font
@@ -12357,7 +12357,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Link" "~"
+		(property "Package" "R0603"
 			(at 279.4 121.92 90)
 			(effects
 				(font
@@ -12366,7 +12366,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Part Number" "~"
+		(property "Order Code" ""
 			(at 279.4 121.92 90)
 			(effects
 				(font
@@ -12375,7 +12375,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Price" "~"
+		(property "Supplier" "Generic"
 			(at 279.4 121.92 90)
 			(effects
 				(font
@@ -12507,7 +12507,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD GREEN LED, 0603"
 			(at 246.38 209.55 0)
 			(effects
 				(font
@@ -12516,7 +12516,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "KT-0603G"
+		(property "MPN" ""
 			(at 246.38 203.2 0)
 			(effects
 				(font
@@ -12534,7 +12534,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Price" "0.009"
+		(property "JLC_MPN" "KT-0603G"
 			(at 246.38 203.2 0)
 			(effects
 				(font
@@ -12543,7 +12543,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Link" "~"
+		(property "Package" "D0603"
 			(at 246.38 203.2 0)
 			(effects
 				(font
@@ -12552,7 +12552,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Part Number" "~"
+		(property "Order Code" ""
 			(at 246.38 203.2 0)
 			(effects
 				(font
@@ -12561,7 +12561,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Price" "~"
+		(property "Supplier" "Farnell"
 			(at 246.38 203.2 0)
 			(effects
 				(font
@@ -12648,7 +12648,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Price" "0.0009"
+		(property "MPN" "GPC0402104"
 			(at 146.05 210.66 90)
 			(effects
 				(font
@@ -12657,7 +12657,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Link" "~"
+		(property "JLC_MPN" "CL05B104KO5NNNC"
 			(at 146.05 210.66 90)
 			(effects
 				(font
@@ -12666,7 +12666,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Part Number" "~"
+		(property "Package" "C0402"
 			(at 146.05 210.66 90)
 			(effects
 				(font
@@ -12675,7 +12675,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Price" "~"
+		(property "Order Code" ""
 			(at 146.05 210.66 90)
 			(effects
 				(font
@@ -12684,7 +12684,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL05B104KO5NNNC"
+		(property "Supplier" "Generic"
 			(at 146.05 210.66 90)
 			(effects
 				(font
@@ -12898,7 +12898,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "MLT-7525"
+		(property "MPN" ""
 			(at 314.96 208.28 0)
 			(effects
 				(font
@@ -12916,7 +12916,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Price" "0.17"
+		(property "JLC_MPN" "MLT-7525"
 			(at 314.96 208.28 0)
 			(effects
 				(font
@@ -12925,7 +12925,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Link" "~"
+		(property "Package" ""
 			(at 314.96 208.28 0)
 			(effects
 				(font
@@ -12934,16 +12934,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Part Number" "~"
-			(at 314.96 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Farnell Price" "~"
+		(property "Order Code" ""
 			(at 314.96 208.28 0)
 			(effects
 				(font
@@ -13164,7 +13155,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Price" "0.0009"
+		(property "MPN" "GPC0402104"
 			(at 180.34 210.66 90)
 			(effects
 				(font
@@ -13173,7 +13164,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Link" "~"
+		(property "JLC_MPN" "CL05B104KO5NNNC"
 			(at 180.34 210.66 90)
 			(effects
 				(font
@@ -13182,7 +13173,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Part Number" "~"
+		(property "Package" "C0402"
 			(at 180.34 210.66 90)
 			(effects
 				(font
@@ -13191,7 +13182,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Price" "~"
+		(property "Order Code" ""
 			(at 180.34 210.66 90)
 			(effects
 				(font
@@ -13200,7 +13191,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL05B104KO5NNNC"
+		(property "Supplier" "Generic"
 			(at 180.34 210.66 90)
 			(effects
 				(font
@@ -13286,15 +13277,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Price" "0.89"
-			(at 33.02 258.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MPN" "RP2350B"
 			(at 33.02 258.92 0)
 			(effects
@@ -13304,7 +13286,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Link" "https://uk.farnell.com/raspberry-pi/rp2350b-tr7/mcu-32bit-150mhz-qfn-80/dp/4667146"
+		(property "Package" "QFN-80"
 			(at 33.02 258.92 0)
 			(effects
 				(font
@@ -13313,7 +13295,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Part Number" "N/A"
+		(property "Order Code" ""
 			(at 33.02 258.92 0)
 			(effects
 				(font
@@ -13322,7 +13304,16 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Price" "N/A"
+		(property "Supplier Link" "https://uk.farnell.com/raspberry-pi/rp2350b-tr7/mcu-32bit-150mhz-qfn-80/dp/4667146"
+			(at 33.02 258.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Farnell"
 			(at 33.02 258.92 0)
 			(effects
 				(font
@@ -13702,7 +13693,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0603WAF1001T5E"
+		(property "MPN" "GPR06031K"
 			(at 254 134.62 0)
 			(effects
 				(font
@@ -13720,7 +13711,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Price" "0.0007"
+		(property "JLC_MPN" "0603WAF1001T5E"
 			(at 254 134.62 90)
 			(effects
 				(font
@@ -13729,7 +13720,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Link" "~"
+		(property "Package" "R0603"
 			(at 254 134.62 90)
 			(effects
 				(font
@@ -13738,7 +13729,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Part Number" "~"
+		(property "Order Code" ""
 			(at 254 134.62 90)
 			(effects
 				(font
@@ -13747,7 +13738,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Price" "~"
+		(property "Supplier" "Generic"
 			(at 254 134.62 90)
 			(effects
 				(font
@@ -13833,7 +13824,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Price" "N/A"
+		(property "MPN" ""
 			(at 370.84 223.52 0)
 			(effects
 				(font
@@ -13842,7 +13833,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Link" "~"
+		(property "Package" ""
 			(at 370.84 223.52 0)
 			(effects
 				(font
@@ -13851,7 +13842,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Part Number" "~"
+		(property "Order Code" ""
 			(at 370.84 223.52 0)
 			(effects
 				(font
@@ -13860,7 +13851,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Price" "~"
+		(property "Supplier Link" "~"
 			(at 370.84 223.52 0)
 			(effects
 				(font
@@ -13869,7 +13860,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "N/A"
+		(property "Supplier" "Farnell"
 			(at 370.84 223.52 0)
 			(effects
 				(font
@@ -13968,7 +13959,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Price" "0.0009"
+		(property "MPN" "GPC0402104"
 			(at 111.76 253.84 90)
 			(effects
 				(font
@@ -13977,7 +13968,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Link" "~"
+		(property "JLC_MPN" "CL05B104KO5NNNC"
 			(at 111.76 253.84 90)
 			(effects
 				(font
@@ -13986,7 +13977,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Part Number" "~"
+		(property "Package" "C0402"
 			(at 111.76 253.84 90)
 			(effects
 				(font
@@ -13995,7 +13986,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Price" "~"
+		(property "Order Code" ""
 			(at 111.76 253.84 90)
 			(effects
 				(font
@@ -14004,7 +13995,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL05B104KO5NNNC"
+		(property "Supplier" "Generic"
 			(at 111.76 253.84 90)
 			(effects
 				(font
@@ -14083,7 +14074,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "N/A"
+		(property "MPN" ""
 			(at 261.62 154.94 0)
 			(effects
 				(font
@@ -14101,7 +14092,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Price" "N/A"
+		(property "Package" ""
 			(at 261.62 154.94 0)
 			(effects
 				(font
@@ -14110,7 +14101,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Link" "~"
+		(property "Order Code" ""
 			(at 261.62 154.94 0)
 			(effects
 				(font
@@ -14119,16 +14110,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Part Number" "~"
-			(at 261.62 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Farnell Price" "~"
+		(property "Supplier" "Farnell"
 			(at 261.62 154.94 0)
 			(effects
 				(font
@@ -14204,7 +14186,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0603WAF4701T5E"
+		(property "MPN" "GPR06034K7"
 			(at 66.04 134.62 0)
 			(effects
 				(font
@@ -14222,7 +14204,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Price" "0.0008"
+		(property "JLC_MPN" "0603WAF4701T5E"
 			(at 66.04 134.62 0)
 			(effects
 				(font
@@ -14231,7 +14213,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Link" "~"
+		(property "Package" "R0603"
 			(at 66.04 134.62 0)
 			(effects
 				(font
@@ -14240,7 +14222,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Part Number" "~"
+		(property "Order Code" ""
 			(at 66.04 134.62 0)
 			(effects
 				(font
@@ -14249,7 +14231,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Price" "~"
+		(property "Supplier" "Generic"
 			(at 66.04 134.62 0)
 			(effects
 				(font
@@ -14336,7 +14318,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Price" "0.0009"
+		(property "MPN" "GPC0402104"
 			(at 124.46 253.84 90)
 			(effects
 				(font
@@ -14345,7 +14327,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Link" "~"
+		(property "JLC_MPN" "CL05B104KO5NNNC"
 			(at 124.46 253.84 90)
 			(effects
 				(font
@@ -14354,7 +14336,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Part Number" "~"
+		(property "Package" "C0402"
 			(at 124.46 253.84 90)
 			(effects
 				(font
@@ -14363,7 +14345,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Price" "~"
+		(property "Order Code" ""
 			(at 124.46 253.84 90)
 			(effects
 				(font
@@ -14372,7 +14354,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL05B104KO5NNNC"
+		(property "Supplier" "Generic"
 			(at 124.46 253.84 90)
 			(effects
 				(font
@@ -14459,7 +14441,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Price" "0.0035"
+		(property "MPN" "GPC0402475"
 			(at 86.36 251.3 90)
 			(effects
 				(font
@@ -14468,7 +14450,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Link" "~"
+		(property "JLC_MPN" "CL05A475MP5NRNC"
 			(at 86.36 251.3 90)
 			(effects
 				(font
@@ -14477,7 +14459,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Part Number" "~"
+		(property "Package" "C0402"
 			(at 86.36 251.3 90)
 			(effects
 				(font
@@ -14486,7 +14468,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Price" "~"
+		(property "Order Code" ""
 			(at 86.36 251.3 90)
 			(effects
 				(font
@@ -14495,7 +14477,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL05A475MP5NRNC"
+		(property "Supplier" "Generic"
 			(at 86.36 251.3 90)
 			(effects
 				(font
@@ -14582,7 +14564,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Price" "0.0009"
+		(property "MPN" "GPC0402104"
 			(at 134.62 210.66 90)
 			(effects
 				(font
@@ -14591,7 +14573,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Link" "~"
+		(property "JLC_MPN" "CL05B104KO5NNNC"
 			(at 134.62 210.66 90)
 			(effects
 				(font
@@ -14600,7 +14582,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Part Number" "~"
+		(property "Package" "C0402"
 			(at 134.62 210.66 90)
 			(effects
 				(font
@@ -14609,7 +14591,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Price" "~"
+		(property "Order Code" ""
 			(at 134.62 210.66 90)
 			(effects
 				(font
@@ -14618,7 +14600,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL05B104KO5NNNC"
+		(property "Supplier" "Generic"
 			(at 134.62 210.66 90)
 			(effects
 				(font
@@ -14770,15 +14752,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Price" "0.89"
-			(at 154.94 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MPN" "RP2350B"
 			(at 154.94 167.64 0)
 			(effects
@@ -14788,7 +14761,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Link" "https://uk.farnell.com/raspberry-pi/rp2350b-tr7/mcu-32bit-150mhz-qfn-80/dp/4667146"
+		(property "Package" "QFN-80"
 			(at 154.94 167.64 0)
 			(effects
 				(font
@@ -14797,7 +14770,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Part Number" "N/A"
+		(property "Order Code" ""
 			(at 154.94 167.64 0)
 			(effects
 				(font
@@ -14806,7 +14779,16 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Price" "N/A"
+		(property "Supplier Link" "https://uk.farnell.com/raspberry-pi/rp2350b-tr7/mcu-32bit-150mhz-qfn-80/dp/4667146"
+			(at 154.94 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Farnell"
 			(at 154.94 167.64 0)
 			(effects
 				(font
@@ -15141,7 +15123,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Price" "0.0064"
+		(property "Package" ""
 			(at 307.34 213.36 90)
 			(effects
 				(font
@@ -15150,7 +15132,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Link" "~"
+		(property "Order Code" ""
 			(at 307.34 213.36 90)
 			(effects
 				(font
@@ -15159,16 +15141,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Part Number" "~"
-			(at 307.34 213.36 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Farnell Price" "~"
+		(property "Supplier" "Farnell"
 			(at 307.34 213.36 90)
 			(effects
 				(font
@@ -15320,7 +15293,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Price" "0.0035"
+		(property "MPN" "GPC0402475"
 			(at 91.44 213.2 90)
 			(effects
 				(font
@@ -15329,7 +15302,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Link" "~"
+		(property "JLC_MPN" "CL05A475MP5NRNC"
 			(at 91.44 213.2 90)
 			(effects
 				(font
@@ -15338,7 +15311,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Part Number" "~"
+		(property "Package" "C0402"
 			(at 91.44 213.2 90)
 			(effects
 				(font
@@ -15347,7 +15320,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Price" "~"
+		(property "Order Code" ""
 			(at 91.44 213.2 90)
 			(effects
 				(font
@@ -15356,7 +15329,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL05A475MP5NRNC"
+		(property "Supplier" "Generic"
 			(at 91.44 213.2 90)
 			(effects
 				(font
@@ -15509,43 +15482,43 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Price" "0.43"
-			(at 353.06 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Farnell Link" "https://uk.farnell.com/molex/47219-2001/connector-micro-sd-8pos/dp/2614940"
-			(at 353.06 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Farnell Part Number" "2614940"
-			(at 353.06 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Farnell Price" "1.87"
-			(at 353.06 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MPN" "47219-2001"
+			(at 353.06 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 353.06 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Code" "2614940"
+			(at 353.06 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Link" "https://uk.farnell.com/molex/47219-2001/connector-micro-sd-8pos/dp/2614940"
+			(at 353.06 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Farnell"
 			(at 353.06 149.86 0)
 			(effects
 				(font
@@ -15711,7 +15684,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0603WAF270JT5E"
+		(property "MPN" "GPR060327R"
 			(at 139.7 66.04 0)
 			(effects
 				(font
@@ -15729,7 +15702,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Price" "0.0008"
+		(property "JLC_MPN" "0603WAF270JT5E"
 			(at 139.7 66.04 0)
 			(effects
 				(font
@@ -15738,7 +15711,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Link" "~"
+		(property "Package" "R0603"
 			(at 139.7 66.04 0)
 			(effects
 				(font
@@ -15747,7 +15720,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Part Number" "~"
+		(property "Order Code" ""
 			(at 139.7 66.04 0)
 			(effects
 				(font
@@ -15756,7 +15729,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Price" "~"
+		(property "Supplier" "Generic"
 			(at 139.7 66.04 0)
 			(effects
 				(font
@@ -15909,7 +15882,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Price" "0.0035"
+		(property "MPN" "GPC0402475"
 			(at 137.16 253.84 90)
 			(effects
 				(font
@@ -15918,7 +15891,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Link" "~"
+		(property "JLC_MPN" "CL05A475MP5NRNC"
 			(at 137.16 253.84 90)
 			(effects
 				(font
@@ -15927,7 +15900,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Part Number" "~"
+		(property "Package" "C0402"
 			(at 137.16 253.84 90)
 			(effects
 				(font
@@ -15936,7 +15909,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Price" "~"
+		(property "Order Code" ""
 			(at 137.16 253.84 90)
 			(effects
 				(font
@@ -15945,7 +15918,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL05A475MP5NRNC"
+		(property "Supplier" "Generic"
 			(at 137.16 253.84 90)
 			(effects
 				(font
@@ -16095,43 +16068,43 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Price" "0.14"
-			(at 76.2 248.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Farnell Link" "https://uk.farnell.com/abracon/aota-b201610s3r3-101-t/power-inductor-3-3uh-2-3a-20/dp/4568814"
-			(at 76.2 248.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Farnell Part Number" "4568814"
-			(at 76.2 248.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Farnell Price" "1.4"
-			(at 76.2 248.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MPN" "AOTA-B201610S3R3-101-T"
+			(at 76.2 248.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 76.2 248.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Code" "4568814"
+			(at 76.2 248.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Link" "https://uk.farnell.com/abracon/aota-b201610s3r3-101-t/power-inductor-3-3uh-2-3a-20/dp/4568814"
+			(at 76.2 248.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Farnell"
 			(at 76.2 248.76 0)
 			(effects
 				(font
@@ -16282,7 +16255,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Price" "0.0007"
+		(property "MPN" "GPR06031K"
 			(at 270.92 77.52 0)
 			(effects
 				(font
@@ -16291,7 +16264,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Link" "~"
+		(property "JLC_MPN" "0603WAF1001T5E"
 			(at 270.92 77.52 0)
 			(effects
 				(font
@@ -16300,7 +16273,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Part Number" "~"
+		(property "Package" "R0402"
 			(at 270.92 77.52 0)
 			(effects
 				(font
@@ -16309,7 +16282,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Price" "~"
+		(property "Order Code" ""
 			(at 270.92 77.52 0)
 			(effects
 				(font
@@ -16318,7 +16291,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0603WAF1001T5E"
+		(property "Supplier" "Generic"
 			(at 270.92 77.52 0)
 			(effects
 				(font
@@ -16405,7 +16378,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Price" "0.0035"
+		(property "MPN" "GPC0402475"
 			(at 81.28 213.2 90)
 			(effects
 				(font
@@ -16414,7 +16387,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Link" "~"
+		(property "JLC_MPN" "CL05A475MP5NRNC"
 			(at 81.28 213.2 90)
 			(effects
 				(font
@@ -16423,7 +16396,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Part Number" "~"
+		(property "Package" "C0402"
 			(at 81.28 213.2 90)
 			(effects
 				(font
@@ -16432,7 +16405,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Price" "~"
+		(property "Order Code" ""
 			(at 81.28 213.2 90)
 			(effects
 				(font
@@ -16441,7 +16414,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL05A475MP5NRNC"
+		(property "Supplier" "Generic"
 			(at 81.28 213.2 90)
 			(effects
 				(font
@@ -16528,7 +16501,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Price" "0.0009"
+		(property "MPN" "GPC0402104"
 			(at 157.48 210.66 90)
 			(effects
 				(font
@@ -16537,7 +16510,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Link" "~"
+		(property "JLC_MPN" "CL05B104KO5NNNC"
 			(at 157.48 210.66 90)
 			(effects
 				(font
@@ -16546,7 +16519,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Part Number" "~"
+		(property "Package" "C0402"
 			(at 157.48 210.66 90)
 			(effects
 				(font
@@ -16555,7 +16528,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Price" "~"
+		(property "Order Code" ""
 			(at 157.48 210.66 90)
 			(effects
 				(font
@@ -16564,7 +16537,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL05B104KO5NNNC"
+		(property "Supplier" "Generic"
 			(at 157.48 210.66 90)
 			(effects
 				(font
@@ -16643,7 +16616,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0603WAF270JT5E"
+		(property "MPN" "GPR060327R"
 			(at 139.7 68.58 0)
 			(effects
 				(font
@@ -16661,7 +16634,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Price" "0.0008"
+		(property "JLC_MPN" "0603WAF270JT5E"
 			(at 139.7 68.58 0)
 			(effects
 				(font
@@ -16670,7 +16643,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Link" "~"
+		(property "Package" "R0603"
 			(at 139.7 68.58 0)
 			(effects
 				(font
@@ -16679,7 +16652,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Part Number" "~"
+		(property "Order Code" ""
 			(at 139.7 68.58 0)
 			(effects
 				(font
@@ -16688,7 +16661,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Price" "~"
+		(property "Supplier" "Generic"
 			(at 139.7 68.58 0)
 			(effects
 				(font
@@ -16905,7 +16878,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Price" "0.0009"
+		(property "MPN" "GPC0402104"
 			(at 123.19 210.66 90)
 			(effects
 				(font
@@ -16914,7 +16887,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Link" "~"
+		(property "JLC_MPN" "CL05B104KO5NNNC"
 			(at 123.19 210.66 90)
 			(effects
 				(font
@@ -16923,7 +16896,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Part Number" "~"
+		(property "Package" "C0402"
 			(at 123.19 210.66 90)
 			(effects
 				(font
@@ -16932,7 +16905,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Price" "~"
+		(property "Order Code" ""
 			(at 123.19 210.66 90)
 			(effects
 				(font
@@ -16941,7 +16914,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL05B104KO5NNNC"
+		(property "Supplier" "Generic"
 			(at 123.19 210.66 90)
 			(effects
 				(font
@@ -17029,15 +17002,6 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Link" "https://uk.farnell.com/molex/502352-0201/wtb-conn-header-2pos-1row-2mm/dp/3103081"
-			(at 383.54 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "JLC Part Number" "C587898"
 			(at 383.54 198.12 0)
 			(effects
@@ -17047,7 +17011,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Price" "0.22"
+		(property "Package" ""
 			(at 383.54 198.12 0)
 			(effects
 				(font
@@ -17056,7 +17020,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Part Number" "3103081"
+		(property "Order Code" "3103081"
 			(at 383.54 198.12 0)
 			(effects
 				(font
@@ -17065,7 +17029,16 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Price" "0.95"
+		(property "Supplier Link" "https://uk.farnell.com/molex/502352-0201/wtb-conn-header-2pos-1row-2mm/dp/3103081"
+			(at 383.54 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Farnell"
 			(at 383.54 198.12 0)
 			(effects
 				(font
@@ -17421,7 +17394,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Price" "0.0004"
+		(property "MPN" "GPR040233R"
 			(at 83.82 208.12 0)
 			(effects
 				(font
@@ -17430,7 +17403,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Link" "~"
+		(property "JLC_MPN" "0402WGF330JTCE"
 			(at 83.82 208.12 0)
 			(effects
 				(font
@@ -17439,7 +17412,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Part Number" "~"
+		(property "Package" "R0402"
 			(at 83.82 208.12 0)
 			(effects
 				(font
@@ -17448,7 +17421,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Price" "~"
+		(property "Order Code" ""
 			(at 83.82 208.12 0)
 			(effects
 				(font
@@ -17457,7 +17430,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0402WGF330JTCE"
+		(property "Supplier" "Generic"
 			(at 83.82 208.12 0)
 			(effects
 				(font
@@ -17741,7 +17714,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Price" "0.0009"
+		(property "MPN" "GPC0402104"
 			(at 168.91 210.66 90)
 			(effects
 				(font
@@ -17750,7 +17723,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Link" "~"
+		(property "JLC_MPN" "CL05B104KO5NNNC"
 			(at 168.91 210.66 90)
 			(effects
 				(font
@@ -17759,7 +17732,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Part Number" "~"
+		(property "Package" "C0402"
 			(at 168.91 210.66 90)
 			(effects
 				(font
@@ -17768,7 +17741,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Price" "~"
+		(property "Order Code" ""
 			(at 168.91 210.66 90)
 			(effects
 				(font
@@ -17777,7 +17750,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL05B104KO5NNNC"
+		(property "Supplier" "Generic"
 			(at 168.91 210.66 90)
 			(effects
 				(font
@@ -17864,7 +17837,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Price" "0.0009"
+		(property "MPN" "GPC0402104"
 			(at 111.76 210.66 90)
 			(effects
 				(font
@@ -17873,7 +17846,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Link" "~"
+		(property "JLC_MPN" "CL05B104KO5NNNC"
 			(at 111.76 210.66 90)
 			(effects
 				(font
@@ -17882,7 +17855,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Part Number" "~"
+		(property "Package" "C0402"
 			(at 111.76 210.66 90)
 			(effects
 				(font
@@ -17891,7 +17864,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Price" "~"
+		(property "Order Code" ""
 			(at 111.76 210.66 90)
 			(effects
 				(font
@@ -17900,7 +17873,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL05B104KO5NNNC"
+		(property "Supplier" "Generic"
 			(at 111.76 210.66 90)
 			(effects
 				(font
@@ -18054,15 +18027,6 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Link" "https://uk.farnell.com/infineon/s25fl128lagmfi013/flash-memory-128mbit-40-to-85deg/dp/4128033"
-			(at 284.48 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "JLC Part Number" "C97521"
 			(at 284.48 127 0)
 			(effects
@@ -18072,7 +18036,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Price" "1.13"
+		(property "Package" "SOIC-8"
 			(at 284.48 127 0)
 			(effects
 				(font
@@ -18081,7 +18045,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Part Number" "4128033"
+		(property "Order Code" "4128033"
 			(at 284.48 127 0)
 			(effects
 				(font
@@ -18090,7 +18054,16 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Price" "1.94"
+		(property "Supplier Link" "https://uk.farnell.com/infineon/s25fl128lagmfi013/flash-memory-128mbit-40-to-85deg/dp/4128033"
+			(at 284.48 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Farnell"
 			(at 284.48 127 0)
 			(effects
 				(font
@@ -18261,7 +18234,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Price" "0.002"
+		(property "MPN" "GPC0402104"
 			(at 307.34 137.16 90)
 			(effects
 				(font
@@ -18270,7 +18243,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Link" "~"
+		(property "JLC_MPN" "CC0603KRX7R9BB104"
 			(at 307.34 137.16 90)
 			(effects
 				(font
@@ -18279,7 +18252,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Part Number" "~"
+		(property "Package" "C0603"
 			(at 307.34 137.16 90)
 			(effects
 				(font
@@ -18288,7 +18261,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Price" "~"
+		(property "Order Code" ""
 			(at 307.34 137.16 90)
 			(effects
 				(font
@@ -18297,7 +18270,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CC0603KRX7R9BB104"
+		(property "Supplier" "Generic"
 			(at 307.34 137.16 90)
 			(effects
 				(font
@@ -18374,7 +18347,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0603WAF510JT5E"
+		(property "MPN" "GPR060351R"
 			(at 266.7 215.9 0)
 			(effects
 				(font
@@ -18392,7 +18365,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Price" "0.0008"
+		(property "JLC_MPN" "0603WAF510JT5E"
 			(at 266.7 215.9 0)
 			(effects
 				(font
@@ -18401,7 +18374,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Link" "~"
+		(property "Package" "R0603"
 			(at 266.7 215.9 0)
 			(effects
 				(font
@@ -18410,7 +18383,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Part Number" "~"
+		(property "Order Code" ""
 			(at 266.7 215.9 0)
 			(effects
 				(font
@@ -18419,7 +18392,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Price" "~"
+		(property "Supplier" "Generic"
 			(at 266.7 215.9 0)
 			(effects
 				(font
@@ -18552,7 +18525,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD RED LED, 0603"
 			(at 246.38 222.25 0)
 			(effects
 				(font
@@ -18561,7 +18534,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" " KT-0603R"
+		(property "MPN" ""
 			(at 246.38 215.9 0)
 			(effects
 				(font
@@ -18579,7 +18552,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Price" "0.004"
+		(property "JLC_MPN" " KT-0603R"
 			(at 246.38 215.9 0)
 			(effects
 				(font
@@ -18588,7 +18561,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Link" "~"
+		(property "Package" "D0603"
 			(at 246.38 215.9 0)
 			(effects
 				(font
@@ -18597,7 +18570,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Part Number" "~"
+		(property "Order Code" ""
 			(at 246.38 215.9 0)
 			(effects
 				(font
@@ -18606,7 +18579,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Price" "~"
+		(property "Supplier" "Farnell"
 			(at 246.38 215.9 0)
 			(effects
 				(font
@@ -18694,7 +18667,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Price" "0.002"
+		(property "MPN" "GPC0402104"
 			(at 332.74 162.56 90)
 			(effects
 				(font
@@ -18703,7 +18676,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Link" "~"
+		(property "JLC_MPN" "CC0603KRX7R9BB104"
 			(at 332.74 162.56 90)
 			(effects
 				(font
@@ -18712,7 +18685,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Part Number" "~"
+		(property "Package" "C0603"
 			(at 332.74 162.56 90)
 			(effects
 				(font
@@ -18721,7 +18694,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Price" "~"
+		(property "Order Code" ""
 			(at 332.74 162.56 90)
 			(effects
 				(font
@@ -18730,7 +18703,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CC0603KRX7R9BB104"
+		(property "Supplier" "Generic"
 			(at 332.74 162.56 90)
 			(effects
 				(font
@@ -18882,7 +18855,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Price" "0.0009"
+		(property "MPN" "GPC0402104"
 			(at 191.77 210.66 90)
 			(effects
 				(font
@@ -18891,7 +18864,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Link" "~"
+		(property "JLC_MPN" "CL05B104KO5NNNC"
 			(at 191.77 210.66 90)
 			(effects
 				(font
@@ -18900,7 +18873,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Part Number" "~"
+		(property "Package" "C0402"
 			(at 191.77 210.66 90)
 			(effects
 				(font
@@ -18909,7 +18882,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Price" "~"
+		(property "Order Code" ""
 			(at 191.77 210.66 90)
 			(effects
 				(font
@@ -18918,7 +18891,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL05B104KO5NNNC"
+		(property "Supplier" "Generic"
 			(at 191.77 210.66 90)
 			(effects
 				(font
@@ -18995,7 +18968,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0603WAF4701T5E"
+		(property "MPN" "GPR06034K7"
 			(at 73.66 132.08 0)
 			(effects
 				(font
@@ -19013,7 +18986,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Price" "0.0008"
+		(property "JLC_MPN" "0603WAF4701T5E"
 			(at 73.66 132.08 0)
 			(effects
 				(font
@@ -19022,7 +18995,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Link" "~"
+		(property "Package" "R0603"
 			(at 73.66 132.08 0)
 			(effects
 				(font
@@ -19031,7 +19004,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Part Number" "~"
+		(property "Order Code" ""
 			(at 73.66 132.08 0)
 			(effects
 				(font
@@ -19040,7 +19013,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Price" "~"
+		(property "Supplier" "Generic"
 			(at 73.66 132.08 0)
 			(effects
 				(font
@@ -19192,7 +19165,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Price" "0.0007"
+		(property "MPN" "GPC0402150"
 			(at 288.7 77.52 0)
 			(effects
 				(font
@@ -19201,7 +19174,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Link" "~"
+		(property "JLC_MPN" "0402CG150J500NT"
 			(at 288.7 77.52 0)
 			(effects
 				(font
@@ -19210,7 +19183,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Part Number" "~"
+		(property "Package" "C0402"
 			(at 288.7 77.52 0)
 			(effects
 				(font
@@ -19219,7 +19192,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Price" "~"
+		(property "Order Code" ""
 			(at 288.7 77.52 0)
 			(effects
 				(font
@@ -19228,7 +19201,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0402CG150J500NT"
+		(property "Supplier" "Generic"
 			(at 288.7 77.52 0)
 			(effects
 				(font
@@ -19315,7 +19288,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Price" "0.0009"
+		(property "MPN" "GPC0402104"
 			(at 203.2 210.66 90)
 			(effects
 				(font
@@ -19324,7 +19297,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Link" "~"
+		(property "JLC_MPN" "CL05B104KO5NNNC"
 			(at 203.2 210.66 90)
 			(effects
 				(font
@@ -19333,7 +19306,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Part Number" "~"
+		(property "Package" "C0402"
 			(at 203.2 210.66 90)
 			(effects
 				(font
@@ -19342,7 +19315,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Price" "~"
+		(property "Order Code" ""
 			(at 203.2 210.66 90)
 			(effects
 				(font
@@ -19351,7 +19324,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL05B104KO5NNNC"
+		(property "Supplier" "Generic"
 			(at 203.2 210.66 90)
 			(effects
 				(font
@@ -19495,33 +19468,6 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Link" "https://uk.farnell.com/abracon/abm8-272-t3/crystal-12mhz-10pf-3-2mm-x-2-5mm/dp/4331750"
-			(at 278.54 64.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Farnell Part Number" "4331750"
-			(at 278.54 64.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Farnell Price" "0.67"
-			(at 278.54 64.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "JLC Part Number" "C20625731"
 			(at 278.54 64.82 0)
 			(effects
@@ -19531,7 +19477,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Price" "0.25"
+		(property "MPN" "ABM8-272-T3"
 			(at 278.54 64.82 0)
 			(effects
 				(font
@@ -19540,7 +19486,34 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "ABM8-272-T3"
+		(property "Package" ""
+			(at 278.54 64.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Code" "4331750"
+			(at 278.54 64.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Link" "https://uk.farnell.com/abracon/abm8-272-t3/crystal-12mhz-10pf-3-2mm-x-2-5mm/dp/4331750"
+			(at 278.54 64.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Farnell"
 			(at 278.54 64.82 0)
 			(effects
 				(font
