@@ -1,4 +1,4 @@
-26768351458884780
+26775439308075088
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -2828,6 +2828,13 @@ Connector
 12
 12
 CUSTOM_LIBRARY
+5023520301
+502352-0301-2
+Connector
+0
+5
+5
+CUSTOM_LIBRARY
 AS7331-AQFM
 
 
@@ -2953,6 +2960,27 @@ Connector
 0
 4
 4
+CUSTOM_LIBRARY
+SM04B-SRSS-TB_LFSN_
+SM04B-SRSS-TB(LFSN)
+Connector
+0
+6
+6
+CUSTOM_LIBRARY
+SM05BNSHSSTBLFSN
+SM05B-NSHSS-TB (LF)(SN)-2
+Connector
+0
+7
+7
+CUSTOM_LIBRARY
+SM05BSRSSTBLFSN
+SM05B-SRSS-TB(LF)(SN)-2
+Connector
+0
+7
+7
 CUSTOM_LIBRARY
 SMACONNECTOR
 SMA CONNECTOR-4

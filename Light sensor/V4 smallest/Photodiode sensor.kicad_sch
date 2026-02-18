@@ -583,15 +583,12 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "CUSTOM_SYMBOL:C1608X5R1E475K080AC"
-			(pin_names
-				(hide yes)
-			)
+		(symbol "CUSTOM_SYMBOL:BM04B-SRSS-TB_LF__SN_"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "C"
-				(at 8.89 6.35 0)
+			(property "Reference" "J"
+				(at 16.51 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -599,8 +596,8 @@
 					(justify left top)
 				)
 			)
-			(property "Value" "C1608X5R1E475K080AC"
-				(at 8.89 3.81 0)
+			(property "Value" "BM04B-SRSS-TB_LF__SN_"
+				(at 16.51 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -608,18 +605,8 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "CAPC1608X80N"
-				(at 8.89 -96.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_midvoltage_en.pdf"
-				(at 8.89 -196.19 0)
+			(property "Footprint" "BM04B-SRSS-TB_LFSN_"
+				(at 16.51 -94.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -628,7 +615,17 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "MULTILAYER CERAMIC CHIP CAPACITORS, 1608, Commercial grade, general (Up to 75V)"
+			(property "Datasheet" "http://www.jst.fr/core/file.get?path=doc/jst/family/pdf/eSH.pdf"
+				(at 16.51 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "JST (JAPAN SOLDERLESS TERMINALS) - BM04B-SRSS-TB(LF)(SN) - HEADER, TOP ENTRY, 4WAY"
 				(at 0 0 0)
 				(effects
 					(font
@@ -637,8 +634,8 @@
 					(hide yes)
 				)
 			)
-			(property "Height" "0.8"
-				(at 8.89 -396.19 0)
+			(property "Height" ""
+				(at 16.51 -394.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -648,7 +645,7 @@
 				)
 			)
 			(property "Farnell Part Number" ""
-				(at 8.89 -496.19 0)
+				(at 16.51 -494.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -658,7 +655,7 @@
 				)
 			)
 			(property "Farnell Price/Stock" ""
-				(at 8.89 -596.19 0)
+				(at 16.51 -594.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -667,8 +664,8 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Name" "TDK"
-				(at 8.89 -696.19 0)
+			(property "Manufacturer_Name" "JST (JAPAN SOLDERLESS TERMINALS)"
+				(at 16.51 -694.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -677,8 +674,8 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "C1608X5R1E475K080AC"
-				(at 8.89 -796.19 0)
+			(property "Manufacturer_Part_Number" "BM04B-SRSS-TB(LF)(SN)"
+				(at 16.51 -794.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -687,202 +684,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "C1608X5R1E475K080AC_1_1"
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 5.588 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.588 2.54) (xy 5.588 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.112 2.54) (xy 7.112 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.112 0) (xy 7.62 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 0 180)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "CUSTOM_SYMBOL:ERJHP6J821V"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 13.97 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "ERJHP6J821V"
-				(at 13.97 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "ERJHP6D1000V"
-				(at 13.97 -96.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://industrial.panasonic.com/cdbs/www-data/pdf/RDQ0000/ast-ind-151033.pdf"
-				(at 13.97 -196.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power Rating 0.5W,Resistance 820 Ohm,LxW(EIA) 2.0 x 1.25 (EIA:0805) mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "0.7"
-				(at 13.97 -396.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Farnell Part Number" ""
-				(at 13.97 -496.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Farnell Price/Stock" ""
-				(at 13.97 -596.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Panasonic"
-				(at 13.97 -696.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "ERJHP6J821V"
-				(at 13.97 -796.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "ERJHP6J821V_1_1"
+			(symbol "BM04B-SRSS-TB_LF__SN__1_1"
 				(rectangle
-					(start 5.08 1.27)
-					(end 12.7 -1.27)
+					(start 5.08 2.54)
+					(end 15.24 -5.08)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -910,7 +715,7 @@
 					)
 				)
 				(pin passive line
-					(at 17.78 0 180)
+					(at 0 -2.54 0)
 					(length 5.08)
 					(name "2"
 						(effects
@@ -920,6 +725,42 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 0 180)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -2.54 180)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1432,577 +1273,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_01x02"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x02"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x02_1_1"
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Connector_Generic:Conn_01x04"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x04"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x04_1_1"
-				(rectangle
-					(start -1.27 3.81)
-					(end 1.27 -6.35)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Connector_Generic:Conn_01x05"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x05"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x05_1_1"
-				(rectangle
-					(start -1.27 6.35)
-					(end 1.27 -6.35)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 5.207)
-					(end 0 4.953)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 5.08 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -2106,26 +1376,14 @@
 		)
 	)
 	(junction
-		(at 83.82 101.6)
+		(at 120.65 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1b3d1e29-6d6c-4b65-adb4-c96c761049c7")
-	)
-	(junction
-		(at 87.63 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6674ffa2-ab78-4d47-8126-5947c45a03ee")
-	)
-	(junction
-		(at 87.63 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "86a7f95f-2bb5-4aaf-a77a-09b75b9729d2")
+		(uuid "70b39f28-5a29-4c2b-b96c-9871600fdde4")
 	)
 	(wire
 		(pts
-			(xy 165.1 72.39) (xy 160.02 72.39)
+			(xy 207.01 88.9) (xy 214.63 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2135,43 +1393,13 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 113.03) (xy 175.26 113.03)
+			(xy 130.81 83.82) (xy 130.81 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2d50c552-9505-41a1-aa8a-fec2522bd3d8")
-	)
-	(wire
-		(pts
-			(xy 83.82 88.9) (xy 87.63 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f9c86bb-5ea6-4f89-ba84-98adf1bb0d25")
-	)
-	(wire
-		(pts
-			(xy 74.93 73.66) (xy 74.93 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37fac3ac-0073-44da-a94b-ad1b842eaf8d")
-	)
-	(wire
-		(pts
-			(xy 87.63 85.09) (xy 87.63 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b713f07-eb6a-4aef-8ed4-c0242b8c0d6f")
+		(uuid "108fdbe8-e31f-444c-b4fa-072b34c48f05")
 	)
 	(wire
 		(pts
@@ -2185,26 +1413,6 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 105.41) (xy 175.26 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52736790-de39-4eb5-8361-88c6879f1565")
-	)
-	(wire
-		(pts
-			(xy 74.93 101.6) (xy 83.82 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54c59fe2-56ce-42fa-9560-1ed6e86275b7")
-	)
-	(wire
-		(pts
 			(xy 125.73 81.28) (xy 125.73 90.17)
 		)
 		(stroke
@@ -2215,17 +1423,27 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 107.95) (xy 175.26 107.95)
+			(xy 120.65 106.68) (xy 120.65 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "57366d35-e57f-45e1-ad2e-e9c9c53cf883")
+		(uuid "66ab8f2e-68a4-4cc3-ac33-c2bf968cd5f2")
 	)
 	(wire
 		(pts
-			(xy 165.1 67.31) (xy 160.02 67.31)
+			(xy 106.68 119.38) (xy 120.65 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6eca3b8e-ffd6-4a5f-9a9f-75a0d7022b4c")
+	)
+	(wire
+		(pts
+			(xy 186.69 88.9) (xy 181.61 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2235,13 +1453,43 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 101.6) (xy 93.98 101.6)
+			(xy 106.68 106.68) (xy 120.65 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "905fc98a-c896-4747-8970-63b2faf46ac8")
+		(uuid "9038a8ec-c864-450c-836c-799036032a71")
+	)
+	(wire
+		(pts
+			(xy 149.86 62.23) (xy 130.81 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dc588b5-8190-4195-8037-c62629188624")
+	)
+	(wire
+		(pts
+			(xy 120.65 119.38) (xy 120.65 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f382aa2-d70b-40e3-9e66-bfd357c9c39f")
+	)
+	(wire
+		(pts
+			(xy 133.35 83.82) (xy 130.81 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a06a5377-9fd8-4869-b844-f495c750db7a")
 	)
 	(wire
 		(pts
@@ -2255,65 +1503,15 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 73.66) (xy 74.93 73.66)
+			(xy 130.81 62.23) (xy 130.81 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "aa283fb1-1e7c-4e4f-97d7-6e4f4fd7193e")
+		(uuid "be0eae23-abf8-4ba5-982a-f27b3338f19b")
 	)
-	(wire
-		(pts
-			(xy 87.63 82.55) (xy 87.63 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4a749d8-e986-458e-9add-22ef2c98f5ad")
-	)
-	(wire
-		(pts
-			(xy 165.1 74.93) (xy 160.02 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2413f71-b89f-432c-9631-bcb780dd9e35")
-	)
-	(wire
-		(pts
-			(xy 92.71 114.3) (xy 97.79 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c455b53b-a385-4de1-a7f0-b391e372c81a")
-	)
-	(wire
-		(pts
-			(xy 181.61 110.49) (xy 175.26 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd62e24b-3a3f-4e59-9d89-b46e65a1cf86")
-	)
-	(wire
-		(pts
-			(xy 87.63 88.9) (xy 93.98 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e12d957e-dab8-44eb-81c4-90be847f1ee7")
-	)
-	(label "SCL 2"
+	(label "SCL"
 		(at 146.05 111.76 0)
 		(effects
 			(font
@@ -2354,7 +1552,7 @@
 		(uuid "16d59c77-6d41-41dc-9f68-e50f629fc9a0")
 	)
 	(label "3.3V"
-		(at 87.63 85.09 0)
+		(at 186.69 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2363,18 +1561,8 @@
 		)
 		(uuid "1a8cbbf7-6125-4887-8eac-1ebbb93b800c")
 	)
-	(label "SCL 2"
-		(at 175.26 105.41 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2a0a4b71-e7e8-4e3c-9ead-14888956b75c")
-	)
 	(label "SCL"
-		(at 160.02 72.39 0)
+		(at 214.63 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2413,36 +1601,6 @@
 		)
 		(uuid "5563a3c5-6027-47be-9003-34ff4414caaa")
 	)
-	(label "SDA 2"
-		(at 175.26 110.49 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5e6062be-0bed-4a21-942d-265265ca88d7")
-	)
-	(label "SYN"
-		(at 160.02 74.93 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "602687fe-b81a-417c-9e40-ee6ba26139bc")
-	)
-	(label "READY"
-		(at 133.35 81.28 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "613e75b9-5825-4e07-bd55-f9f0c5decad3")
-	)
 	(label "3.3V"
 		(at 146.05 114.3 0)
 		(effects
@@ -2463,26 +1621,6 @@
 		)
 		(uuid "6c9920c9-14d3-4b50-9f98-ea451533caa7")
 	)
-	(label "3.3V"
-		(at 97.79 114.3 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8d169fc7-7d8a-4a68-9638-1e4bc6ae7d8d")
-	)
-	(label "3.3V"
-		(at 143.51 90.17 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8f49fa50-e294-4ced-9143-d525e6971ffc")
-	)
 	(label "INT 2"
 		(at 118.11 114.3 0)
 		(effects
@@ -2493,7 +1631,7 @@
 		)
 		(uuid "9900ba65-6a5e-4ed3-8e29-cc696000aa27")
 	)
-	(label "SDA 2"
+	(label "SDA"
 		(at 146.05 116.84 0)
 		(effects
 			(font
@@ -2502,16 +1640,6 @@
 			(justify left bottom)
 		)
 		(uuid "9bb8cffb-c6ff-45cc-8036-6f5c512d6882")
-	)
-	(label "INT 2"
-		(at 175.26 113.03 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "beddd457-6edc-4397-af92-efa088dae442")
 	)
 	(label "SCL"
 		(at 118.11 74.93 0)
@@ -2534,7 +1662,7 @@
 		(uuid "e01b0174-5ca0-4ef9-91f7-51d338d76c37")
 	)
 	(label "SDA"
-		(at 160.02 67.31 0)
+		(at 181.61 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2543,64 +1671,18 @@
 		)
 		(uuid "f2e3d19c-6714-42be-9b5c-7c23e3c0f1c1")
 	)
-	(label "READY"
-		(at 165.1 64.77 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fe7b562c-9c43-41c5-b343-11a45b8a9785")
-	)
 	(symbol
-		(lib_id "CUSTOM_SYMBOL:RMCA1206FT4K70-HP")
-		(at 115.57 114.3 180)
+		(lib_id "power:GND")
+		(at 158.75 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "02b006b4-c4c8-4f7c-9d64-4f7ed9517202")
-		(property "Reference" "R1"
-			(at 106.68 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RMCA1206FT4K70-HP"
-			(at 106.68 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "CUSTOM_LIBRARY:RMCA1206FT4K70-HP"
-			(at 101.6 18.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://industrial.panasonic.com/cdbs/www-data/pdf/RDQ0000/ast-ind-151033.pdf"
-			(at 101.6 -81.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "3.3M ohm resistor SMD"
-			(at 115.57 114.3 0)
+		(uuid "0d029b92-f788-434f-9c37-d9ec6160a6ed")
+		(property "Reference" "#PWR09"
+			(at 158.75 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2608,66 +1690,48 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "0.7"
-			(at 101.6 -281.89 0)
+		(property "Value" "GND"
+			(at 158.75 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
-				(hide yes)
 			)
 		)
-		(property "Farnell Part Number" ""
-			(at 101.6 -381.89 0)
+		(property "Footprint" ""
+			(at 158.75 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Farnell Price/Stock" ""
-			(at 101.6 -481.89 0)
+		(property "Datasheet" ""
+			(at 158.75 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Panasonic"
-			(at 101.6 -581.89 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 158.75 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
-		)
-		(property "Manufacturer_Part_Number" "ERJHP6J821V"
-			(at 101.6 -681.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "50f34d22-fb89-43ed-a5d4-247b2dbcdd39")
 		)
 		(pin "1"
-			(uuid "cdf48db7-bb96-4ab3-8bd3-dcbf7097f48f")
+			(uuid "eceb5118-25bc-42b6-bc43-3551cb78409b")
 		)
 		(instances
-			(project ""
+			(project "Photodiode sensor"
 				(path "/f02bda67-d4f5-4bb7-a39b-9a2a6cdc7bb4"
-					(reference "R1")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -2790,143 +1854,6 @@
 			(project "Photodiode sensor"
 				(path "/f02bda67-d4f5-4bb7-a39b-9a2a6cdc7bb4"
 					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 87.63 82.55 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1e85b268-4330-49b5-b669-1efd63d33883")
-		(property "Reference" "#PWR012"
-			(at 81.28 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 83.82 82.5499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 87.63 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 87.63 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 87.63 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "962d840b-abc0-4268-8494-c5ae688004a9")
-		)
-		(instances
-			(project "CanSat stuff"
-				(path "/f02bda67-d4f5-4bb7-a39b-9a2a6cdc7bb4"
-					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 92.71 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1f2d30c3-36c0-4191-be97-73f474d24f17")
-		(property "Reference" "J1"
-			(at 95.25 82.5499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 95.25 85.0899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical"
-			(at 92.71 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 92.71 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 92.71 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0c203933-bde0-4d11-a072-fa058c8f92d8")
-		)
-		(pin "1"
-			(uuid "124f6393-707c-45d5-a3d2-30c5a40b35cc")
-		)
-		(instances
-			(project ""
-				(path "/f02bda67-d4f5-4bb7-a39b-9a2a6cdc7bb4"
-					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -3067,82 +1994,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
-		(at 186.69 107.95 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "32cb6a1e-c381-48cf-960c-d8ac70333b23")
-		(property "Reference" "J2"
-			(at 189.23 107.9499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x04"
-			(at 189.23 110.4899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x04_P1.00mm_Vertical"
-			(at 186.69 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 186.69 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 186.69 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "e547649e-e402-4fd3-b052-ca2888702961")
-		)
-		(pin "4"
-			(uuid "91da2592-7d8a-4ffa-8761-83ad0c1ee012")
-		)
-		(pin "1"
-			(uuid "f78e9f96-8b06-4329-ad3b-d0d05ccba6b3")
-		)
-		(pin "2"
-			(uuid "1f56526a-82fb-47a9-a8df-63eb19905084")
-		)
-		(instances
-			(project ""
-				(path "/f02bda67-d4f5-4bb7-a39b-9a2a6cdc7bb4"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 120.65 116.84 270)
 		(unit 1)
@@ -3204,6 +2055,72 @@
 			(project "Photodiode sensor"
 				(path "/f02bda67-d4f5-4bb7-a39b-9a2a6cdc7bb4"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 149.86 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "506c374a-2c0b-45f1-b428-f69bff2d5657")
+		(property "Reference" "#PWR06"
+			(at 149.86 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 149.86 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 149.86 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "12aab98a-13d8-4db9-b8fe-4e11d1735091")
+		)
+		(instances
+			(project "Photodiode sensor"
+				(path "/f02bda67-d4f5-4bb7-a39b-9a2a6cdc7bb4"
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -3403,126 +2320,6 @@
 			(project ""
 				(path "/f02bda67-d4f5-4bb7-a39b-9a2a6cdc7bb4"
 					(reference "IC1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CUSTOM_SYMBOL:ERJHP6J821V")
-		(at 143.51 90.17 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5b88e58d-1143-4ce1-a77b-fd1845a17a26")
-		(property "Reference" "R5"
-			(at 134.62 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ERJHP6J821V"
-			(at 134.62 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "ERJHP6D1000V"
-			(at 129.54 -6.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://industrial.panasonic.com/cdbs/www-data/pdf/RDQ0000/ast-ind-151033.pdf"
-			(at 129.54 -106.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power Rating 0.5W,Resistance 820 Ohm,LxW(EIA) 2.0 x 1.25 (EIA:0805) mm"
-			(at 143.51 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.7"
-			(at 129.54 -306.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Farnell Part Number" ""
-			(at 129.54 -406.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Farnell Price/Stock" ""
-			(at 129.54 -506.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Panasonic"
-			(at 129.54 -606.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "ERJHP6J821V"
-			(at 129.54 -706.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b139485d-486c-47c6-a794-c07d46d9f2a7")
-		)
-		(pin "2"
-			(uuid "47986315-ced1-4b79-8109-4a020f085b29")
-		)
-		(instances
-			(project ""
-				(path "/f02bda67-d4f5-4bb7-a39b-9a2a6cdc7bb4"
-					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -3961,17 +2758,53 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 165.1 69.85 270)
+		(lib_id "CUSTOM_SYMBOL:KAM21BR71H104JM")
+		(at 146.05 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "989d549e-2588-48f2-914e-64b6dd49e1b4")
-		(property "Reference" "#PWR017"
-			(at 158.75 69.85 0)
+		(uuid "970698a1-3505-498b-b8b5-131224aeef52")
+		(property "Reference" "C3"
+			(at 152.4 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KAM21BR71H104JM"
+			(at 152.4 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CAPC2012X94N"
+			(at 154.94 210.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.dk/ProductDetail/KYOCERA-AVX/KAM21BR71H104JM?qs=sGAEpiMZZMuMW9TJLBQkXqLYvz3DzaXfcS9olcxY6vM%3D"
+			(at 154.94 310.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 50V 0.1uF X7R 0805 5% AEC-Q200"
+			(at 146.05 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3979,195 +2812,192 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 161.29 69.8499 90)
+		(property "Height" "0.94"
+			(at 154.94 510.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 165.1 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 165.1 69.85 0)
+		(property "Mouser Part Number" "581-KAM21BR71H104JM"
+			(at 154.94 610.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 165.1 69.85 0)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/KAM21BR71H104JM?qs=Jm2GQyTW%2FbjKdz3nqUKYQg%3D%3D"
+			(at 154.94 710.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "aa27184b-95c1-429a-805d-c37f7c78545f")
-		)
-		(instances
-			(project "Photodiode sensor"
-				(path "/f02bda67-d4f5-4bb7-a39b-9a2a6cdc7bb4"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 175.26 107.95 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "98d40c61-bec6-492f-b214-81b855bed714")
-		(property "Reference" "#PWR06"
-			(at 168.91 107.95 0)
+		(property "Manufacturer_Name" "Kyocera AVX"
+			(at 154.94 810.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 171.45 107.9499 90)
+		(property "Manufacturer_Part_Number" "KAM21BR71H104JM"
+			(at 154.94 910.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 175.26 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+				(justify left top)
 				(hide yes)
 			)
-		)
-		(property "Datasheet" ""
-			(at 175.26 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 175.26 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "97b73af4-cb37-4775-8755-50cf27692a47")
-		)
-		(instances
-			(project "Photodiode sensor"
-				(path "/f02bda67-d4f5-4bb7-a39b-9a2a6cdc7bb4"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x05")
-		(at 170.18 69.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a0104305-4441-4413-a92e-ea1601ec690b")
-		(property "Reference" "J3"
-			(at 172.72 68.5799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x05"
-			(at 172.72 71.1199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x05_P1.00mm_Vertical"
-			(at 170.18 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 170.18 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 170.18 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "a6595853-2593-496f-a303-c430e7b3e379")
-		)
-		(pin "4"
-			(uuid "053436f0-94ba-41cf-b68c-7fd5b7960824")
-		)
-		(pin "1"
-			(uuid "9688c164-3305-4d2e-ba9e-086b0d443e76")
 		)
 		(pin "2"
-			(uuid "38be8975-8eb2-4562-b31d-b87f0781a256")
+			(uuid "d209d571-1248-422d-9154-5ffe984cf0eb")
 		)
-		(pin "5"
-			(uuid "1b86c63e-9cac-43bd-ba53-ecbf777e7dfc")
+		(pin "1"
+			(uuid "7aa572d1-23d3-40c3-80ee-ad588b04128e")
 		)
 		(instances
 			(project "Photodiode sensor"
 				(path "/f02bda67-d4f5-4bb7-a39b-9a2a6cdc7bb4"
-					(reference "J3")
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CUSTOM_SYMBOL:BM04B-SRSS-TB_LF__SN_")
+		(at 186.69 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a65e82d2-fa47-4c50-8f87-a237cd09c660")
+		(property "Reference" "J1"
+			(at 196.85 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BM04B-SRSS-TB_LF__SN_"
+			(at 196.85 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BM04B-SRSS-TB_LFSN_"
+			(at 203.2 181.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.jst.fr/core/file.get?path=doc/jst/family/pdf/eSH.pdf"
+			(at 203.2 281.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "JST (JAPAN SOLDERLESS TERMINALS) - BM04B-SRSS-TB(LF)(SN) - HEADER, TOP ENTRY, 4WAY"
+			(at 186.69 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 203.2 481.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Farnell Part Number" ""
+			(at 203.2 581.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Farnell Price/Stock" ""
+			(at 203.2 681.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "JST (JAPAN SOLDERLESS TERMINALS)"
+			(at 203.2 781.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "BM04B-SRSS-TB(LF)(SN)"
+			(at 203.2 881.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "19e8c7a2-caea-4c52-af1d-309abd0bb2d9")
+		)
+		(pin "1"
+			(uuid "e3f43b46-aff6-4387-b47e-9f78a6bb9ef3")
+		)
+		(pin "3"
+			(uuid "4fd784b0-aa9e-4208-9fa1-c262dcfd71e3")
+		)
+		(pin "4"
+			(uuid "117770d5-0772-4976-ad75-e1b6dfa1d07d")
+		)
+		(instances
+			(project "Photodiode sensor"
+				(path "/f02bda67-d4f5-4bb7-a39b-9a2a6cdc7bb4"
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -4307,7 +3137,7 @@
 	)
 	(symbol
 		(lib_id "CUSTOM_SYMBOL:KAM21BR71H104JM")
-		(at 83.82 88.9 270)
+		(at 149.86 62.23 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4316,7 +3146,7 @@
 		(fields_autoplaced yes)
 		(uuid "b6a4343b-b033-40ce-8604-0ddb0bcd401f")
 		(property "Reference" "C1"
-			(at 87.63 93.9799 90)
+			(at 153.67 67.3099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4325,7 +3155,7 @@
 			)
 		)
 		(property "Value" "KAM21BR71H104JM"
-			(at 87.63 96.5199 90)
+			(at 153.67 69.8499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4334,7 +3164,7 @@
 			)
 		)
 		(property "Footprint" "CAPC2012X94N"
-			(at -12.37 97.79 0)
+			(at 53.67 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4344,7 +3174,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.dk/ProductDetail/KYOCERA-AVX/KAM21BR71H104JM?qs=sGAEpiMZZMuMW9TJLBQkXqLYvz3DzaXfcS9olcxY6vM%3D"
-			(at -112.37 97.79 0)
+			(at -46.33 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4354,7 +3184,7 @@
 			)
 		)
 		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 50V 0.1uF X7R 0805 5% AEC-Q200"
-			(at 83.82 88.9 0)
+			(at 149.86 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4363,7 +3193,7 @@
 			)
 		)
 		(property "Height" "0.94"
-			(at -312.37 97.79 0)
+			(at -246.33 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4373,7 +3203,7 @@
 			)
 		)
 		(property "Mouser Part Number" "581-KAM21BR71H104JM"
-			(at -412.37 97.79 0)
+			(at -346.33 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4383,7 +3213,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/KAM21BR71H104JM?qs=Jm2GQyTW%2FbjKdz3nqUKYQg%3D%3D"
-			(at -512.37 97.79 0)
+			(at -446.33 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4393,7 +3223,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Kyocera AVX"
-			(at -612.37 97.79 0)
+			(at -546.33 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4403,7 +3233,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "KAM21BR71H104JM"
-			(at -712.37 97.79 0)
+			(at -646.33 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4428,17 +3258,83 @@
 		)
 	)
 	(symbol
-		(lib_id "CUSTOM_SYMBOL:C1608X5R1E475K080AC")
-		(at 93.98 88.9 270)
+		(lib_id "power:GND")
+		(at 133.35 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "bd616703-8df9-4f58-94e1-14293821d13b")
+		(uuid "c683c2cd-e123-40a9-83cb-232cb217d8a4")
+		(property "Reference" "#PWR08"
+			(at 133.35 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 133.35 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 133.35 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "448b433d-82f0-4637-bedd-5764cc1c50f0")
+		)
+		(instances
+			(project "Photodiode sensor"
+				(path "/f02bda67-d4f5-4bb7-a39b-9a2a6cdc7bb4"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CUSTOM_SYMBOL:KAM21BR71H104JM")
+		(at 106.68 106.68 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d1129eb2-693a-43b5-94a3-10d78cc203dd")
 		(property "Reference" "C2"
-			(at 97.79 93.9799 90)
+			(at 110.49 111.7599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4446,8 +3342,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C1608X5R1E475K080AC"
-			(at 97.79 96.5199 90)
+		(property "Value" "KAM21BR71H104JM"
+			(at 110.49 114.2999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4455,8 +3351,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAPC1608X80N"
-			(at -2.21 97.79 0)
+		(property "Footprint" "CAPC2012X94N"
+			(at 10.49 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4465,8 +3361,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_midvoltage_en.pdf"
-			(at -102.21 97.79 0)
+		(property "Datasheet" "https://www.mouser.dk/ProductDetail/KYOCERA-AVX/KAM21BR71H104JM?qs=sGAEpiMZZMuMW9TJLBQkXqLYvz3DzaXfcS9olcxY6vM%3D"
+			(at -89.51 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4475,8 +3371,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "MULTILAYER CERAMIC CHIP CAPACITORS, 1608, Commercial grade, general (Up to 75V)"
-			(at 93.98 88.9 0)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 50V 0.1uF X7R 0805 5% AEC-Q200"
+			(at 106.68 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4484,18 +3380,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "0.8"
-			(at -302.21 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Farnell Part Number" ""
-			(at -402.21 97.79 0)
+		(property "Height" "0.94"
+			(at -289.51 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4504,8 +3390,8 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell Price/Stock" ""
-			(at -502.21 97.79 0)
+		(property "Mouser Part Number" "581-KAM21BR71H104JM"
+			(at -389.51 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4514,8 +3400,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "TDK"
-			(at -602.21 97.79 0)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/KAM21BR71H104JM?qs=Jm2GQyTW%2FbjKdz3nqUKYQg%3D%3D"
+			(at -489.51 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4524,8 +3410,18 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "C1608X5R1E475K080AC"
-			(at -702.21 97.79 0)
+		(property "Manufacturer_Name" "Kyocera AVX"
+			(at -589.51 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "KAM21BR71H104JM"
+			(at -689.51 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4535,13 +3431,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "f348fbb8-9671-4de1-8f73-46ec4bcc47d6")
+			(uuid "f8b9d535-43fa-4e74-9300-39f09725cd87")
 		)
 		(pin "1"
-			(uuid "db9ebb60-64d0-46b6-9f70-ade562bd0538")
+			(uuid "768c0d66-2698-4e07-92f0-9373ebc6af07")
 		)
 		(instances
-			(project ""
+			(project "Photodiode sensor"
 				(path "/f02bda67-d4f5-4bb7-a39b-9a2a6cdc7bb4"
 					(reference "C2")
 					(unit 1)
@@ -4611,6 +3507,128 @@
 			(project "Photodiode sensor"
 				(path "/f02bda67-d4f5-4bb7-a39b-9a2a6cdc7bb4"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CUSTOM_SYMBOL:KAM21BR71H104JM")
+		(at 133.35 83.82 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d5adafc0-1400-486c-8ed0-737d5576e295")
+		(property "Reference" "C4"
+			(at 137.16 88.8999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "KAM21BR71H104JM"
+			(at 137.16 91.4399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CAPC2012X94N"
+			(at 37.16 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.dk/ProductDetail/KYOCERA-AVX/KAM21BR71H104JM?qs=sGAEpiMZZMuMW9TJLBQkXqLYvz3DzaXfcS9olcxY6vM%3D"
+			(at -62.84 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 50V 0.1uF X7R 0805 5% AEC-Q200"
+			(at 133.35 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.94"
+			(at -262.84 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "581-KAM21BR71H104JM"
+			(at -362.84 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/KAM21BR71H104JM?qs=Jm2GQyTW%2FbjKdz3nqUKYQg%3D%3D"
+			(at -462.84 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Kyocera AVX"
+			(at -562.84 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "KAM21BR71H104JM"
+			(at -662.84 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "eb6b8d90-d753-4942-88bc-ad1bfd1c6e4e")
+		)
+		(pin "1"
+			(uuid "a38b00e0-566f-4ec4-9705-e0df93021ea1")
+		)
+		(instances
+			(project "Photodiode sensor"
+				(path "/f02bda67-d4f5-4bb7-a39b-9a2a6cdc7bb4"
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -4739,128 +3757,6 @@
 		)
 	)
 	(symbol
-		(lib_id "CUSTOM_SYMBOL:ERJHP6J821V")
-		(at 118.11 92.71 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ef62b249-039b-4e86-95cc-985287559223")
-		(property "Reference" "R6"
-			(at 120.65 82.5499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "ERJHP6J821V"
-			(at 120.65 85.0899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "ERJHP6D1000V"
-			(at 214.3 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://industrial.panasonic.com/cdbs/www-data/pdf/RDQ0000/ast-ind-151033.pdf"
-			(at 314.3 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power Rating 0.5W,Resistance 820 Ohm,LxW(EIA) 2.0 x 1.25 (EIA:0805) mm"
-			(at 118.11 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.7"
-			(at 514.3 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Farnell Part Number" ""
-			(at 614.3 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Farnell Price/Stock" ""
-			(at 714.3 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Panasonic"
-			(at 814.3 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "ERJHP6J821V"
-			(at 914.3 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a674cd99-04aa-4e5b-be1e-d2e1f9cf4f40")
-		)
-		(pin "2"
-			(uuid "db216146-79d6-4043-9016-d719ea2cabdb")
-		)
-		(instances
-			(project ""
-				(path "/f02bda67-d4f5-4bb7-a39b-9a2a6cdc7bb4"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 125.73 63.5 180)
 		(unit 1)
@@ -4921,6 +3817,73 @@
 			(project "Photodiode sensor"
 				(path "/f02bda67-d4f5-4bb7-a39b-9a2a6cdc7bb4"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 207.01 86.36 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fa1e91ea-01e1-42f7-8bb4-1c740b84d92d")
+		(property "Reference" "#PWR07"
+			(at 213.36 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 210.82 86.3599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 207.01 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 207.01 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e69b3d86-19f3-4b68-9ccf-fcd801add093")
+		)
+		(instances
+			(project "Photodiode sensor"
+				(path "/f02bda67-d4f5-4bb7-a39b-9a2a6cdc7bb4"
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
