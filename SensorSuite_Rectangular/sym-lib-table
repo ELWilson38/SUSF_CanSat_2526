@@ -1,0 +1,13 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "0_Connectors")(type "KiCad")(uri "${KIPRJMOD}/Library/sym_lib/0_Connectors.kicad_sym")(options "")(descr ""))
+  (lib (name "0_MCU")(type "KiCad")(uri "${KIPRJMOD}/Library/sym_lib/0_MCU.kicad_sym")(options "")(descr ""))
+  (lib (name "0_Mechanical")(type "KiCad")(uri "${KIPRJMOD}/Library/sym_lib/0_Mechanical.kicad_sym")(options "")(descr ""))
+  (lib (name "0_Passives")(type "KiCad")(uri "${KIPRJMOD}/Library/sym_lib/0_Passives.kicad_sym")(options "")(descr ""))
+  (lib (name "0_Peripherals")(type "KiCad")(uri "${KIPRJMOD}/Library/sym_lib/0_Peripherals.kicad_sym")(options "")(descr ""))
+  (lib (name "0_Power")(type "KiCad")(uri "${KIPRJMOD}/Library/sym_lib/0_Power.kicad_sym")(options "")(descr ""))
+  (lib (name "0_Sensors")(type "KiCad")(uri "${KIPRJMOD}/Library/sym_lib/0_Sensors.kicad_sym")(options "")(descr ""))
+  (lib (name "0_Poweraa")(type "KiCad")(uri "C:/Users/ethan/OneDrive - University of Southampton/SUSF/SULRE/COMET-I-Static-Fire/COMET1_PWR_Board/Library/sym_lib/0_Power.kicad_sym")(options "")(descr "")(disabled))
+  (lib (name "0_Passivesaa")(type "KiCad")(uri "C:/Users/ethan/OneDrive - University of Southampton/SUSF/SULRE/COMET-I-Static-Fire/COMET1_CCT_Board/Library/sym_lib/0_Passives.kicad_sym")(options "")(descr "")(disabled))
+  (lib (name "0_Passivesbb")(type "KiCad")(uri "C:/Users/ethan/OneDrive - University of Southampton/SUSF/SULRE/COMET-I-Static-Fire/COMET1_PWR_Board/Library/sym_lib/0_Passives.kicad_sym")(options "")(descr "")(disabled))
+)
