@@ -1,4 +1,4 @@
-26759502936667861
+26763042320058950
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -2863,6 +2863,13 @@ Switch
 3
 3
 CUSTOM_LIBRARY
+ERJHP6D1000V
+ERJHP6
+Resistor
+0
+2
+2
+CUSTOM_LIBRARY
 JS202011SCQN
 JS202011SCQN
 Switch
@@ -2897,6 +2904,13 @@ Integrated Circuit
 0
 8
 8
+CUSTOM_LIBRARY
+RC0402JR-073M3L
+
+
+0
+2
+2
 CUSTOM_LIBRARY
 RESC1608X50N
 CRCW0603
