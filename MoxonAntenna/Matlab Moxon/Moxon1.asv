@@ -11,16 +11,16 @@ c=300e6;
 
 lambda=c/f;
 
-A=0.351*lambda
-B=0.0551*lambda
-C=0.0051*lambda
-D=0.0651*lambda
+A=0.358*lambda
+B=0.0558*lambda
+C=0.0058*lambda
+D=0.0658*lambda
 
 % A = 0.240;
 % B = 0.035;
 % C = 0.010;
 % D = 0.047;
- E = B + C + D
+ E = B + C + D;
 half_A = A/2;
 half_E = E/2;
 gap_width = width * 5;
